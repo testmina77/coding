@@ -114,7 +114,42 @@ async function fetchBytes(url, onProgress) {
   }
   return out;
 }
+async function fetchSplit(baseName, what, onProgress) {
+  const chunks = [];
+  let loaded = 0;
+  let expectedTotal = 0;
 
+  for (let i = 0; ; i++) {
+    const url = `bin/${baseName}.part-${String(i).padStart(2, "0")}`;
+    let bytes;
+    try {
+      bytes = await fetchBytes(url, (l, t) => {
+        if (t) expectedTotal = loaded + t;
+        if (onProgress) onProgress(loaded + l, expectedTotal);
+      });
+    } catch (e) {
+      if (i === 0) {
+        throw new Error(`missing first part: ${url} (${e.message})`);
+      }
+      break;
+    }
+    chunks.push(bytes);
+    loaded += bytes.length;
+    post({ type: "status", m: `${what}: part ${i} (${bytes.length} B)` });
+  }
+
+  const out = new Uint8Array(loaded);
+  let off = 0;
+  for (const c of chunks) {
+    out.set(c, off);
+    off += c.length;
+  }
+  post({
+    type: "status",
+    m: `${what}: ${chunks.length} parts → ${out.length} B`,
+  });
+  return out;
+}
 async function loadPackIndex(name) {
   try {
     const res = await fetch(`sysroot/${name}.index.json`);
@@ -441,12 +476,12 @@ function fetchDllSync(pkgId, entry) {
 }
 
 async function loadAssets() {
-  post({ type: "status", m: "Loading clang.wasm…" });
-  clangBytes = await fetchBytes("bin/clang.wasm", (loaded, total) =>
+  post({ type: "status", m: "Loading clang.wasm (split)…" });
+  clangBytes = await fetchSplit("clang.wasm", "clang", (loaded, total) =>
     post({ type: "progress", what: "clang", loaded, total }),
   );
-  post({ type: "status", m: "Loading lld.wasm…" });
-  lldBytes = await fetchBytes("bin/lld.wasm", (loaded, total) =>
+  post({ type: "status", m: "Loading lld.wasm (split)…" });
+  lldBytes = await fetchSplit("lld.wasm", "lld", (loaded, total) =>
     post({ type: "progress", what: "lld", loaded, total }),
   );
   await loadPackIndexes();
