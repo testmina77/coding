@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/FLAC/flac-config-version.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 702,
+      "size": 1904,
+      "sha256": "55ea91700f6a8572c6663f4522b06e5a9430c008306f5da0b00534cf443b3406"
+    },
+    "lib/cmake/FLAC/flac-config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 702,
+      "compressedSize": 571,
+      "size": 1215,
+      "sha256": "cda2001ec59aecd2335d88ced10416d26e2485d24f3cbe675c8c6924ccd3640e"
+    },
+    "lib/cmake/FLAC/targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1273,
+      "compressedSize": 488,
+      "size": 2258,
+      "sha256": "627438a1ea480bf4b42e7b620fd11e07d3b27399c8e03cd4c56db1165cd390c6"
+    },
+    "lib/cmake/FLAC/targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1761,
+      "compressedSize": 1520,
+      "size": 4878,
+      "sha256": "a71f7aeb7b5a6e0cbdaaddd40576fba92b1ea1c5fc6d96b2a47d89136433f18c"
+    },
+    "lib/libFLAC++.a": {
+      "pack": "lib-000.pack",
+      "offset": 3281,
+      "compressedSize": 26754,
+      "size": 136744,
+      "sha256": "26cec46cdc7f995e9b87a9303e7136295cb05ae60da2096e662f3673ae16c6f0"
+    },
+    "lib/libFLAC++.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 30035,
+      "compressedSize": 16552,
+      "size": 152016,
+      "sha256": "c38d660fdc18d4578c7f7040e80748d069f9844879de4fc743757ef391786223"
+    },
+    "lib/libFLAC.a": {
+      "pack": "lib-000.pack",
+      "offset": 46587,
+      "compressedSize": 193928,
+      "size": 534104,
+      "sha256": "d35af6d24a8d4222709ccb23ae808b5f963e01f5dfde60fe7e88b475c7a6ae1f"
+    },
+    "lib/libFLAC.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 240515,
+      "compressedSize": 10351,
+      "size": 91986,
+      "sha256": "aa9ee4099613dfcf56aafca46ed5d1c390a4f5826b60fba858e8acdaa1983759"
+    },
+    "lib/pkgconfig/flac++.pc": {
+      "pack": "lib-000.pack",
+      "offset": 250866,
+      "compressedSize": 193,
+      "size": 248,
+      "sha256": "a1e37db9323cc8b2185c6d9a83609fbc195cc61189353661ef92e153a5d9a39a"
+    },
+    "lib/pkgconfig/flac.pc": {
+      "pack": "lib-000.pack",
+      "offset": 251059,
+      "compressedSize": 199,
+      "size": 266,
+      "sha256": "b9c7ccf92c3d7089d2bed7af0d586785dcc5744b21361e2e6f78f3160429d332"
+    }
+  }
+}

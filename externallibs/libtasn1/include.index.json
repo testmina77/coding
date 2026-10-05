@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/libtasn1.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 4159,
+      "size": 18034,
+      "sha256": "bc559605c9937a397057cbdac3c8237b46fab0d75bb0b73d09e4cd28917bceab"
+    }
+  }
+}

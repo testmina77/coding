@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/libssh2.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 13046,
+      "size": 60665,
+      "sha256": "86cc9fcfd0daa10ba25442e5ecea23db618027362bc85fdc591ec7f5d9d39a91"
+    },
+    "include/libssh2_publickey.h": {
+      "pack": "include-000.pack",
+      "offset": 13046,
+      "compressedSize": 1699,
+      "size": 4942,
+      "sha256": "f1cd086f3950e65635827ee3332c1c6ca62887c0f84369ec58e31974debb36e9"
+    },
+    "include/libssh2_sftp.h": {
+      "pack": "include-000.pack",
+      "offset": 14745,
+      "compressedSize": 3961,
+      "size": 17369,
+      "sha256": "b5d864f19af69521278ed953b20b76a32cfdc08014da81d38f59964e7e2e2575"
+    }
+  }
+}

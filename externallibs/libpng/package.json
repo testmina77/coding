@@ -1,0 +1,36 @@
+{
+  "id": "libpng",
+  "version": "1.6.59-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "libpng16/",
+    "png.h",
+    "pngconf.h",
+    "pnglibconf.h"
+  ],
+  "libraries": [
+    "png",
+    "png16"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libpng"
+    ],
+    "versions": [
+      "1.6.59-1"
+    ],
+    "msys2Dependencies": [
+      "zlib"
+    ],
+    "version": "1.6.59-1"
+  }
+}

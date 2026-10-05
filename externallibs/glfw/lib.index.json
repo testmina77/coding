@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/glfw3/glfw3Config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 121,
+      "size": 118,
+      "sha256": "61954bf45d80ef4079d5d356d16fbe49cbfd81addc6f26588e5b1a0c2b3ecc79"
+    },
+    "lib/cmake/glfw3/glfw3ConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 121,
+      "compressedSize": 913,
+      "size": 2827,
+      "sha256": "362ed56e34060970f2dd3e7863cbe4b2b9f27724deffefe88377771fe81b949a"
+    },
+    "lib/cmake/glfw3/glfw3Targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1034,
+      "compressedSize": 373,
+      "size": 862,
+      "sha256": "7e4892d7025a3babea8f23db185d4726f0221d67acb75333d12f2434d9df5274"
+    },
+    "lib/cmake/glfw3/glfw3Targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1407,
+      "compressedSize": 1382,
+      "size": 4224,
+      "sha256": "47f32605b9c950c0c6562303a16a4a7117427b7ac221c8a802803092e204a288"
+    },
+    "lib/libglfw3.a": {
+      "pack": "lib-000.pack",
+      "offset": 2789,
+      "compressedSize": 91776,
+      "size": 357682,
+      "sha256": "8e138fcb613e3ca09e42d74cd45f53498a3e8f6f2b2310c2eee9dd8a9d374e01"
+    },
+    "lib/libglfw3.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 94565,
+      "compressedSize": 4311,
+      "size": 31220,
+      "sha256": "1852b59b61cfb6d32c9c988c87cb7f70fa19074518918255b22d6fa3540836f2"
+    },
+    "lib/pkgconfig/glfw3.pc": {
+      "pack": "lib-000.pack",
+      "offset": 98876,
+      "compressedSize": 241,
+      "size": 311,
+      "sha256": "8551531bc63bd239f61c14f8477733e61d063900297bc9d2ba83c0f24fc079e4"
+    }
+  }
+}

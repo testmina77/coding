@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libasprintf.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 28783,
+      "size": 147954,
+      "sha256": "7d1fb5c8c59c4e879f9b9b45f2e5af8b9d34a35204f2d9f88aecc4b3c8e484a2"
+    },
+    "lib/libasprintf.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 28783,
+      "compressedSize": 2863,
+      "size": 19634,
+      "sha256": "675b53dfd257483bdc3632a326f28ba788fcb5da80d5fe4e4834970c0af678fb"
+    },
+    "lib/libintl.a": {
+      "pack": "lib-000.pack",
+      "offset": 31646,
+      "compressedSize": 120805,
+      "size": 408882,
+      "sha256": "74194d3deecdd8b86318776153a16996fca4c47f55ad7eee8b024666dc307a7c"
+    },
+    "lib/libintl.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 152451,
+      "compressedSize": 3288,
+      "size": 22608,
+      "sha256": "9c58463e15a98b341e741609bc03704aa1c1198530fbffbb672ef23749e32766"
+    }
+  }
+}

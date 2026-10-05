@@ -1,0 +1,30 @@
+{
+  "id": "zlib",
+  "version": "1.3.2-2",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "zconf.h",
+    "zlib.h"
+  ],
+  "libraries": [
+    "z"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-zlib"
+    ],
+    "versions": [
+      "1.3.2-2"
+    ],
+    "msys2Dependencies": [],
+    "version": "1.3.2-2"
+  }
+}

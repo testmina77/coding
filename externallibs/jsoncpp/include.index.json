@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/json/allocator.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 1122,
+      "size": 2687,
+      "sha256": "500a24a92dfbf8e8c8699e4eb654511e62619bd8d7f29bca4c62c24ca66c4101"
+    },
+    "include/json/assertions.h": {
+      "pack": "include-000.pack",
+      "offset": 1122,
+      "compressedSize": 779,
+      "size": 2817,
+      "sha256": "ea30b8fb30ef70a52a6435f6e6efbc37de03555fa192b33832e65cbd159b68bb"
+    },
+    "include/json/config.h": {
+      "pack": "include-000.pack",
+      "offset": 1901,
+      "compressedSize": 1907,
+      "size": 5357,
+      "sha256": "7479aba8631e81d9a450ff3dd1ad8a18ef913656caac6555ce6c5fd507d51622"
+    },
+    "include/json/forwards.h": {
+      "pack": "include-000.pack",
+      "offset": 3808,
+      "compressedSize": 480,
+      "size": 970,
+      "sha256": "92a8bfce5303164fb3620e2dd053333c22ab9a775e4da3817fb3e89cf547a299"
+    },
+    "include/json/json.h": {
+      "pack": "include-000.pack",
+      "offset": 4288,
+      "compressedSize": 292,
+      "size": 447,
+      "sha256": "05ccb35afa55a068f8cc2a195db46d89a7f6a458d1943ae009465834c6404a67"
+    },
+    "include/json/json_features.h": {
+      "pack": "include-000.pack",
+      "offset": 4580,
+      "compressedSize": 801,
+      "size": 1805,
+      "sha256": "9a3a209af311356da182e0b768c7c1f5993863df9d2d0f9dfa8f96d492282494"
+    },
+    "include/json/reader.h": {
+      "pack": "include-000.pack",
+      "offset": 5381,
+      "compressedSize": 4378,
+      "size": 15322,
+      "sha256": "c29e5a46b6204c6e166c31880be2483067cad5a851da3b07b06b8f46c1f583d0"
+    },
+    "include/json/value.h": {
+      "pack": "include-000.pack",
+      "offset": 9759,
+      "compressedSize": 9822,
+      "size": 38066,
+      "sha256": "735bc075cbc8ac106e1fcb2e3aada2ee4da09feebf9d005c9b1486690293abe7"
+    },
+    "include/json/version.h": {
+      "pack": "include-000.pack",
+      "offset": 19581,
+      "compressedSize": 463,
+      "size": 919,
+      "sha256": "c0a115d83a96ebfac02f4df50509b96619d2af4b639920cfe310a9ca99e040d0"
+    },
+    "include/json/writer.h": {
+      "pack": "include-000.pack",
+      "offset": 20044,
+      "compressedSize": 3571,
+      "size": 12166,
+      "sha256": "1828e708ae2f28207b0b0c618aa14038c3e223af9d25de2efab0fcf4fbd25591"
+    }
+  }
+}

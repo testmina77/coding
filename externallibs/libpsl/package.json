@@ -1,0 +1,37 @@
+{
+  "id": "libpsl",
+  "version": "0.21.5-3",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "libpsl.h"
+  ],
+  "libraries": [
+    "psl"
+  ],
+  "dependencies": [
+    "libidn2",
+    "libunistring"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libpsl"
+    ],
+    "versions": [
+      "0.21.5-3"
+    ],
+    "msys2Dependencies": [
+      "gettext-runtime",
+      "libiconv",
+      "libidn2",
+      "libunistring"
+    ],
+    "version": "0.21.5-3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/zconf.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 4560,
+      "size": 16970,
+      "sha256": "6f3a8f18eaa62f482d00e4d5b083afe4bbe4ace0864d2b88a78e262680788183"
+    },
+    "include/zlib.h": {
+      "pack": "include-000.pack",
+      "offset": 4560,
+      "compressedSize": 27922,
+      "size": 103848,
+      "sha256": "818667d6ab6a37fe7469cb06a7f0cb2c2cb2f2c948a03e5accf1a4a74bf3020a"
+    }
+  }
+}

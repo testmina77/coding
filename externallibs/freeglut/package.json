@@ -1,0 +1,32 @@
+{
+  "id": "freeglut",
+  "version": "3.8.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "GL/"
+  ],
+  "libraries": [
+    "freeglut"
+  ],
+  "dependencies": [],
+  "systemLibraries": [
+    "glu32",
+    "opengl32"
+  ],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-freeglut"
+    ],
+    "versions": [
+      "3.8.0-1"
+    ],
+    "msys2Dependencies": [],
+    "version": "3.8.0-1"
+  }
+}

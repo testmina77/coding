@@ -1,0 +1,37 @@
+{
+  "id": "p11-kit",
+  "version": "0.26.5-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "p11-kit-1/"
+  ],
+  "libraries": [
+    "p11-kit"
+  ],
+  "dependencies": [
+    "libffi",
+    "libtasn1"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-p11-kit"
+    ],
+    "versions": [
+      "0.26.5-1"
+    ],
+    "msys2Dependencies": [
+      "gettext-runtime",
+      "libffi",
+      "libtasn1"
+    ],
+    "version": "0.26.5-1"
+  }
+}

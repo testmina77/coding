@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libbz2.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 40095,
+      "size": 92602,
+      "sha256": "c564bf63310d8b06c0f85c6dd3c4b51e78adc375cfd7c47153f4d73e584b195e"
+    },
+    "lib/libbz2.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 40095,
+      "compressedSize": 1432,
+      "size": 8254,
+      "sha256": "44b2b587452f6d0c3c2c17ee8aeb8f29986e7af18f9c42985428ffc797bc3d2e"
+    },
+    "lib/pkgconfig/bzip2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 41527,
+      "compressedSize": 185,
+      "size": 249,
+      "sha256": "5b70aa1467793f193dd9e1b44d6bfff4f7d81b2434117a7de3a444bb647234cc"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libhogweed-7.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 193664,
+      "size": 282112,
+      "sha256": "da7c406d5fa63ab93a0ce130749667b88c7ff009ef1e0c2c0ceca8a931f97338"
+    },
+    "bin/libnettle-9.dll": {
+      "pack": "bin-000.pack",
+      "offset": 193664,
+      "compressedSize": 174824,
+      "size": 363520,
+      "sha256": "454c31b734c2ed3d50e5b1e6c147ed8e015c0bbe35d199a41647ab9ada1da5ef"
+    },
+    "bin/nettle-hash.exe": {
+      "pack": "bin-000.pack",
+      "offset": 368488,
+      "compressedSize": 26256,
+      "size": 54272,
+      "sha256": "290a5306db6952aa9ed2c84aa59b2c3498b27916c2717dd7acac3a27c4a41ec7"
+    },
+    "bin/nettle-lfib-stream.exe": {
+      "pack": "bin-000.pack",
+      "offset": 394744,
+      "compressedSize": 21551,
+      "size": 44544,
+      "sha256": "3be7c792663a0257be23403d49557e2edf3b9cbddbaaaac6d2cf0758acbae4b2"
+    },
+    "bin/nettle-pbkdf2.exe": {
+      "pack": "bin-000.pack",
+      "offset": 416295,
+      "compressedSize": 26032,
+      "size": 53760,
+      "sha256": "10cb24c780efef3cf26bbfa4e8cbdbb065777efe889a1b27c52fe7c0f90bde01"
+    },
+    "bin/pkcs1-conv.exe": {
+      "pack": "bin-000.pack",
+      "offset": 442327,
+      "compressedSize": 27897,
+      "size": 58880,
+      "sha256": "f867e6dec3e8b347f37f569b7a7b68af7165fddd61012c7288e4c0dfe40e3d8f"
+    },
+    "bin/sexp-conv.exe": {
+      "pack": "bin-000.pack",
+      "offset": 470224,
+      "compressedSize": 30998,
+      "size": 66048,
+      "sha256": "d3ee081dee7a7fa550bfc13340f61c2e1886757279f21d4354e26e80a12b800b"
+    }
+  }
+}

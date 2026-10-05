@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/derb.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 27160,
+      "size": 58368,
+      "sha256": "0199a50a3739ab3e52476d0f4a4d552d6c573d1007eb82a8b847f166419caa1e"
+    },
+    "bin/escapesrc.exe": {
+      "pack": "bin-000.pack",
+      "offset": 27160,
+      "compressedSize": 50997,
+      "size": 111104,
+      "sha256": "7e43b009bc03c379ab9547518250eda7b8a6dd37dfb7a2a671669edc4a17b70c"
+    },
+    "bin/genbrk.exe": {
+      "pack": "bin-000.pack",
+      "offset": 78157,
+      "compressedSize": 23683,
+      "size": 49664,
+      "sha256": "c4ff40823d9044849162f8a5a260f1da69c8e6f273543646dc9fc28111c95ea4"
+    },
+    "bin/genccode.exe": {
+      "pack": "bin-000.pack",
+      "offset": 101840,
+      "compressedSize": 22166,
+      "size": 46080,
+      "sha256": "4e392578ce575fe5a384055dcab5c989253867667fe115ba16a6734a0aff02d3"
+    },
+    "bin/gencfu.exe": {
+      "pack": "bin-000.pack",
+      "offset": 124006,
+      "compressedSize": 23050,
+      "size": 48640,
+      "sha256": "7f670f0051f2923b400656bcdbf6793a7ccb7abe1d95c7693e660817cd82f61e"
+    },
+    "bin/gencmn.exe": {
+      "pack": "bin-000.pack",
+      "offset": 147056,
+      "compressedSize": 21720,
+      "size": 45568,
+      "sha256": "087d427d737ac0357238edd26163c7037736e77401227888a111254c563f6330"
+    },
+    "bin/gencnval.exe": {
+      "pack": "bin-000.pack",
+      "offset": 168776,
+      "compressedSize": 27516,
+      "size": 57344,
+      "sha256": "d51b56979623d9c82cb8b151b6c703ca794921d3a801b952adcde47bd4620ee6"
+    },
+    "bin/gendict.exe": {
+      "pack": "bin-000.pack",
+      "offset": 196292,
+      "compressedSize": 26832,
+      "size": 58368,
+      "sha256": "b84e9b13c0f28c2948943505a5b1c2f7d3b0a82433c05556e42b1ff3a7199d01"
+    },
+    "bin/gennorm2.exe": {
+      "pack": "bin-000.pack",
+      "offset": 223124,
+      "compressedSize": 48719,
+      "size": 110592,
+      "sha256": "ef8c27453d6dc611faab11e8755d0647fdbe1bc138180f6b526abb40fb8258aa"
+    },
+    "bin/genrb.exe": {
+      "pack": "bin-000.pack",
+      "offset": 271843,
+      "compressedSize": 100255,
+      "size": 225280,
+      "sha256": "4745d696d5f76661c16fae68c33a2ea025e4ca6d2aedc98485cf07863f395120"
+    },
+    "bin/gensprep.exe": {
+      "pack": "bin-000.pack",
+      "offset": 372098,
+      "compressedSize": 26763,
+      "size": 57344,
+      "sha256": "529782037523ca5eab3f9d884db5d36a4853d2a08d2cb2ff262e91f5c1cf06e1"
+    },
+    "bin/icu-config": {
+      "pack": "bin-000.pack",
+      "offset": 398861,
+      "compressedSize": 7669,
+      "size": 25428,
+      "sha256": "374e732f7cd06663fff1f9a117f27596f9abba1d943a8572a9eceda901c8ec76"
+    },
+    "bin/icuexportdata.exe": {
+      "pack": "bin-000.pack",
+      "offset": 406530,
+      "compressedSize": 41866,
+      "size": 94208,
+      "sha256": "93e91db3eaa1d48707e1442bf6e8669c8f40676e06d68c903304916362b69ffb"
+    },
+    "bin/icuinfo.exe": {
+      "pack": "bin-000.pack",
+      "offset": 448396,
+      "compressedSize": 22057,
+      "size": 45568,
+      "sha256": "975980f22558dc73cd3883f90f59da2c443645296ea67713482ab935e9fe9c26"
+    },
+    "bin/icupkg.exe": {
+      "pack": "bin-000.pack",
+      "offset": 470453,
+      "compressedSize": 25690,
+      "size": 55808,
+      "sha256": "57d0023948723b44547fa2254c14cd0397ad338e4e5a6d8019d750951ea18c6c"
+    },
+    "bin/libicudt78.dll": {
+      "pack": "bin-000.pack",
+      "offset": 496143,
+      "compressedSize": 12756258,
+      "size": 33122816,
+      "sha256": "ce587a3b63388205605be9af0509cf6ba2a3e552bc06d54c1098e020f1340d82"
+    },
+    "bin/libicuin78.dll": {
+      "pack": "bin-000.pack",
+      "offset": 13252401,
+      "compressedSize": 1366703,
+      "size": 3747840,
+      "sha256": "4624985b8a3595b2b883410be561446af5810fd8c9a6755e9bcc8cdf36411603"
+    },
+    "bin/libicuio78.dll": {
+      "pack": "bin-000.pack",
+      "offset": 14619104,
+      "compressedSize": 27801,
+      "size": 67584,
+      "sha256": "c6102a63329ad32e3a89ced197ae57a0b7474fa3699c897f6ecff0e48adfdd41"
+    },
+    "bin/libicutest78.dll": {
+      "pack": "bin-000.pack",
+      "offset": 14646905,
+      "compressedSize": 44290,
+      "size": 101888,
+      "sha256": "ff947a7d8943efd9e3144d1f9695b30e272caed3e0112d88288e9ec2d924d9f6"
+    },
+    "bin/libicutu78.dll": {
+      "pack": "bin-000.pack",
+      "offset": 14691195,
+      "compressedSize": 132036,
+      "size": 297984,
+      "sha256": "be34cf0c36a9dd0b47ce2c2305b6a2ee9367d75173f2aa608fbd516b2bdb41c8"
+    },
+    "bin/libicuuc78.dll": {
+      "pack": "bin-000.pack",
+      "offset": 14823231,
+      "compressedSize": 876025,
+      "size": 2121216,
+      "sha256": "686220faeee8f31078616d3667b3759cb7bceb6439d307db79cae0f5d52e0551"
+    },
+    "bin/makeconv.exe": {
+      "pack": "bin-000.pack",
+      "offset": 15699256,
+      "compressedSize": 40399,
+      "size": 82944,
+      "sha256": "44c6ab651d73a86a717f635fd769699e3e9d0417137040454227d90c313a3202"
+    },
+    "bin/pkgdata.exe": {
+      "pack": "bin-000.pack",
+      "offset": 15739655,
+      "compressedSize": 32424,
+      "size": 74752,
+      "sha256": "3f09f7682658a82395e2542964ee938825beabc511bb2476841ec3cd820bc13d"
+    },
+    "bin/uconv.exe": {
+      "pack": "bin-000.pack",
+      "offset": 15772079,
+      "compressedSize": 36028,
+      "size": 87552,
+      "sha256": "16387e7caa17302e7ef4095ab29df191ac094aad6c95b09c44b35cc7bb9d4ffc"
+    }
+  }
+}

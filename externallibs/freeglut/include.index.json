@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/GL/freeglut.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 412,
+      "size": 681,
+      "sha256": "e5a823629d7b4ed8f3ec9497161ae2765bf5f13e32bb7928f6f1bf8eef2a3109"
+    },
+    "include/GL/freeglut_ext.h": {
+      "pack": "include-000.pack",
+      "offset": 412,
+      "compressedSize": 3615,
+      "size": 11258,
+      "sha256": "cffcc34977dbf57ba8d66cf8eff8c53c2138666dc9ff2214169a409ba0880212"
+    },
+    "include/GL/freeglut_std.h": {
+      "pack": "include-000.pack",
+      "offset": 4027,
+      "compressedSize": 6615,
+      "size": 27807,
+      "sha256": "2f2f077b294fbcec330e233de001245185bf415ace92c4d530740d0c14bd698d"
+    },
+    "include/GL/freeglut_ucall.h": {
+      "pack": "include-000.pack",
+      "offset": 10642,
+      "compressedSize": 1347,
+      "size": 5871,
+      "sha256": "27ddc012acc455901262a9b5edeffff39d5109da17f3d445b006549b47882d53"
+    },
+    "include/GL/glut.h": {
+      "pack": "include-000.pack",
+      "offset": 11989,
+      "compressedSize": 402,
+      "size": 639,
+      "sha256": "e3ffcfd1147cd45a9ddb49ab9791e8fc6269f52732f0c02f10f2daf9cc0e730b"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "gettext-runtime",
+  "version": "1.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "autosprintf.h",
+    "libintl.h"
+  ],
+  "libraries": [
+    "intl"
+  ],
+  "dependencies": [
+    "libiconv"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-gettext-runtime"
+    ],
+    "versions": [
+      "1.0-1"
+    ],
+    "msys2Dependencies": [
+      "cc-libs",
+      "libiconv"
+    ],
+    "version": "1.0-1"
+  }
+}

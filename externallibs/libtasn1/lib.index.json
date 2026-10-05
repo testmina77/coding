@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libtasn1.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 46246,
+      "size": 114094,
+      "sha256": "600d39dc21e3511d77dba9e491f0e6e271312fcfa00d78ca13f18fcd4750ece3"
+    },
+    "lib/libtasn1.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 46246,
+      "compressedSize": 1639,
+      "size": 10222,
+      "sha256": "7f7db1cada376c0e77d9c9b2dfb996f00b9376ab1593cf17d03b625d94a52fdd"
+    },
+    "lib/pkgconfig/libtasn1.pc": {
+      "pack": "lib-000.pack",
+      "offset": 47885,
+      "compressedSize": 603,
+      "size": 1033,
+      "sha256": "bc3e348b6accf0ae94f28ded5130dcc58d15bcd0046f0216493ea12d2a53cb3b"
+    }
+  }
+}

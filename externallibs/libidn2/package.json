@@ -1,0 +1,35 @@
+{
+  "id": "libidn2",
+  "version": "2.3.8-4",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "idn2.h"
+  ],
+  "libraries": [
+    "idn2"
+  ],
+  "dependencies": [
+    "libunistring"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libidn2"
+    ],
+    "versions": [
+      "2.3.8-4"
+    ],
+    "msys2Dependencies": [
+      "gettext-runtime",
+      "libiconv",
+      "libunistring"
+    ],
+    "version": "2.3.8-4"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/CURL/CURLConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 2371,
+      "size": 7404,
+      "sha256": "b2750fe309ff09c9d8fe955fff08393b77933aadff6fbe588858eb8eb2d4b6c3"
+    },
+    "lib/cmake/CURL/CURLConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 2371,
+      "compressedSize": 983,
+      "size": 3070,
+      "sha256": "5b1856fc529d8c6b9081d194d318e5dcb8b74df978fe0c3fcbce651e2c95da44"
+    },
+    "lib/cmake/CURL/CURLTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3354,
+      "compressedSize": 430,
+      "size": 1346,
+      "sha256": "ff34d7ad456548ea281a65982739be6627291401c309c63efaf71425112dbafc"
+    },
+    "lib/cmake/CURL/CURLTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3784,
+      "compressedSize": 1393,
+      "size": 4330,
+      "sha256": "2aad34d164f66b087aec452dd83174146a8e9e5607c0d1dc5f8a810bba65dcde"
+    },
+    "lib/cmake/CURL/FindBrotli.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 5177,
+      "compressedSize": 1301,
+      "size": 3639,
+      "sha256": "9da4fe7d85daa8c4e112f40e223f9ed91232f56d2a5f3193db92b876d6aa228c"
+    },
+    "lib/cmake/CURL/FindCares.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 6478,
+      "compressedSize": 1579,
+      "size": 4942,
+      "sha256": "efe18ffee340e85761735ede3cd0b3f6da984f2895914478873a94e9cc71616e"
+    },
+    "lib/cmake/CURL/FindGSS.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 8057,
+      "compressedSize": 3258,
+      "size": 10609,
+      "sha256": "89a3e0cf6dbbbae85805e9bc01b504c73a14d94f21a48336ba00759747a5d13c"
+    },
+    "lib/cmake/CURL/FindGnuTLS.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 11315,
+      "compressedSize": 1272,
+      "size": 3229,
+      "sha256": "67f4bc407729bf5212147ce301b8d639c37cba7f1d61b4f7b53444f5aa559516"
+    },
+    "lib/cmake/CURL/FindLDAP.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 12587,
+      "compressedSize": 1678,
+      "size": 4612,
+      "sha256": "54c6d6c9c4d61f95bfbd2d24a365a3bcef86a311ba5a8e61115e12197a7e53e7"
+    },
+    "lib/cmake/CURL/FindLibbacktrace.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 14265,
+      "compressedSize": 944,
+      "size": 2344,
+      "sha256": "de69e72d0e4c2e379b18f88343a5e8951fb5f00da9674778c26f58776813cef7"
+    },
+    "lib/cmake/CURL/FindLibgsasl.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 15209,
+      "compressedSize": 1275,
+      "size": 3312,
+      "sha256": "7cde118bd61ebf7de69dd833c1bf3d59e74ae327b9c94ab14b11fb755fc1afc4"
+    },
+    "lib/cmake/CURL/FindLibidn2.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 16484,
+      "compressedSize": 1268,
+      "size": 3248,
+      "sha256": "e27d84bd30f0952dd9c618a1d4c27d2bd0baa47edd770ad3664ace224ce15c21"
+    },
+    "lib/cmake/CURL/FindLibpsl.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 17752,
+      "compressedSize": 1269,
+      "size": 3224,
+      "sha256": "58a6742a73094ab11616f94d230fd55831981d159ce0f11dbafabc65f244ac3f"
+    },
+    "lib/cmake/CURL/FindLibssh.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 19021,
+      "compressedSize": 1499,
+      "size": 4580,
+      "sha256": "7bd72fb682bbebd37beca3fdbf138e731812d4a92207913f7c6eeae14d5b237f"
+    },
+    "lib/cmake/CURL/FindLibssh2.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 20520,
+      "compressedSize": 1440,
+      "size": 4294,
+      "sha256": "aa3a1d0dab7cde5bf5f7ce93bd027d22da1c4daf708c04948117a3c8478fcec1"
+    },
+    "lib/cmake/CURL/FindLibuv.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 21960,
+      "compressedSize": 1348,
+      "size": 3819,
+      "sha256": "5ef38b45a0e52a9014fdb119d3616b22918224bb2e27aa3354cd87ea1239a704"
+    },
+    "lib/cmake/CURL/FindMbedTLS.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 23308,
+      "compressedSize": 1736,
+      "size": 5582,
+      "sha256": "6db155b7f0ba1010aefaadd638743e8fae23c5a647d4e0a6a84ac63ac4c31e76"
+    },
+    "lib/cmake/CURL/FindNGHTTP2.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 25044,
+      "compressedSize": 1452,
+      "size": 4316,
+      "sha256": "eb0a35e84b18c36ecf7ea76591159082a8ccdc69e2da438fb9fa9963c26202e5"
+    },
+    "lib/cmake/CURL/FindNGHTTP3.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 26496,
+      "compressedSize": 1449,
+      "size": 4293,
+      "sha256": "ca8f4c35db6c0d39f254951c92e35d5fc564fbe847e8379b0979605575fa377b"
+    },
+    "lib/cmake/CURL/FindNGTCP2.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 27945,
+      "compressedSize": 2280,
+      "size": 7515,
+      "sha256": "2fcdaf14d3309fa95629830cd361cd28eec4fa692785a4ec9295effc3074c609"
+    },
+    "lib/cmake/CURL/FindNettle.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 30225,
+      "compressedSize": 1369,
+      "size": 3847,
+      "sha256": "2f113a0f1c792213e034e7cfd998864cc6b6a02fb54d2151dc864b04b8a3959b"
+    },
+    "lib/cmake/CURL/FindQuiche.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 31594,
+      "compressedSize": 1113,
+      "size": 2706,
+      "sha256": "ffdc026bed227d986cc42b29d757a92dbdc2a07f89a4b29b63ef8a197e1cb933"
+    },
+    "lib/cmake/CURL/FindRustls.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 32707,
+      "compressedSize": 1367,
+      "size": 3853,
+      "sha256": "a381006f86e85520a56fb545dd210c7a4a042a8c6ba54aac13106c77e897cf4a"
+    },
+    "lib/cmake/CURL/FindWolfSSL.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 34074,
+      "compressedSize": 1635,
+      "size": 4898,
+      "sha256": "dd388dd3ba3d016767694df25bb9fa186cb5de62488fbbdbed928366b3797667"
+    },
+    "lib/cmake/CURL/FindZstd.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 35709,
+      "compressedSize": 1663,
+      "size": 5285,
+      "sha256": "2e6f3cf0515cd114178f90329ce0ff5b40bdaff6ea071092fc80812791730ed7"
+    },
+    "lib/libcurl.a": {
+      "pack": "lib-000.pack",
+      "offset": 37372,
+      "compressedSize": 686915,
+      "size": 1736760,
+      "sha256": "a4994914037465c0c740f169830a51fa9aefd6b03e82c1aacb721e11fd5cf426"
+    },
+    "lib/libcurl.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 724287,
+      "compressedSize": 3091,
+      "size": 22122,
+      "sha256": "c4bede7fd6fcb697e836c2cef3e43c5f07b218b512c3e33e9d4b1c6b2427668b"
+    },
+    "lib/pkgconfig/libcurl.pc": {
+      "pack": "lib-000.pack",
+      "offset": 727378,
+      "compressedSize": 1031,
+      "size": 2128,
+      "sha256": "fa50df541a8f198881a52a0c89a6c1a2f08fbe1902bddca7a30085f3aea5a8ae"
+    }
+  }
+}

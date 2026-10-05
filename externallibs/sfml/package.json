@@ -1,0 +1,43 @@
+{
+  "id": "sfml",
+  "version": "3.0.2-3",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "SFML/"
+  ],
+  "libraries": [
+    "sfml-graphics",
+    "sfml-window",
+    "sfml-system",
+    "sfml-audio",
+    "sfml-network"
+  ],
+  "dependencies": [],
+  "systemLibraries": [
+    "gdi32",
+    "opengl32",
+    "winmm"
+  ],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-sfml"
+    ],
+    "versions": [
+      "3.0.2-3"
+    ],
+    "msys2Dependencies": [
+      "flac",
+      "freetype",
+      "libjpeg",
+      "libvorbis",
+      "openal"
+    ],
+    "version": "3.0.2-3"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/ngtcp2/ngtcp2Config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 141,
+      "size": 146,
+      "sha256": "fda07f516a245abfde7be407a2f05115e2669ef4dd8ca473003b6f4a9b58fce0"
+    },
+    "lib/cmake/ngtcp2/ngtcp2ConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 141,
+      "compressedSize": 914,
+      "size": 2830,
+      "sha256": "83a3be9629401f52db822aae16b208c93026a6b4a9007334ae490564d401ce06"
+    },
+    "lib/cmake/ngtcp2/ngtcp2Targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1055,
+      "compressedSize": 435,
+      "size": 1575,
+      "sha256": "8ea53e34976f6ca02972a83e6c90a16dc8addbdc60470bfc233dbe8e3af1b99a"
+    },
+    "lib/cmake/ngtcp2/ngtcp2Targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1490,
+      "compressedSize": 1421,
+      "size": 4488,
+      "sha256": "fdda2efd64c1314a4bab4dad89422a4abeed8e0e5fe70593dd59dcb93a230e54"
+    },
+    "lib/libngtcp2.a": {
+      "pack": "lib-000.pack",
+      "offset": 2911,
+      "compressedSize": 192855,
+      "size": 599822,
+      "sha256": "cebbfc49aa3e4204becbd6365945cf027b19f0c154b445278cd3e0124c6c7b7c"
+    },
+    "lib/libngtcp2.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 195766,
+      "compressedSize": 5352,
+      "size": 48502,
+      "sha256": "5d1158a98a76bd3c1e0d1fa849cb6bc2a9825024634d89a840a470a53a78e8c5"
+    },
+    "lib/libngtcp2_crypto_gnutls.a": {
+      "pack": "lib-000.pack",
+      "offset": 201118,
+      "compressedSize": 14183,
+      "size": 46506,
+      "sha256": "e2a64a675445587adc2c5b473a2d9a1048ca46cbdeaef4664a6ac64e4cc92131"
+    },
+    "lib/libngtcp2_crypto_gnutls.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 215301,
+      "compressedSize": 2003,
+      "size": 16024,
+      "sha256": "08b3ed1cff806b00766166c69e7a7c430392e38384e38eb231fc682fd9ff08e7"
+    },
+    "lib/libngtcp2_crypto_ossl.a": {
+      "pack": "lib-000.pack",
+      "offset": 217304,
+      "compressedSize": 16519,
+      "size": 54308,
+      "sha256": "7687adba41b1b3806fa4118fe32de548f76de2c51f8787bcf557ee0d2b4c741e"
+    },
+    "lib/libngtcp2_crypto_ossl.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 233823,
+      "compressedSize": 2139,
+      "size": 17464,
+      "sha256": "34002b6fc92c558111faabbb5b8203af5d791e1cb171cc5940cb005ec69f06f7"
+    },
+    "lib/pkgconfig/libngtcp2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 235962,
+      "compressedSize": 837,
+      "size": 1419,
+      "sha256": "bc5f58aa204b1db720f912e08a4a239ac8fc5704f17a7b13142c12c7ac377749"
+    },
+    "lib/pkgconfig/libngtcp2_crypto_gnutls.pc": {
+      "pack": "lib-000.pack",
+      "offset": 236799,
+      "compressedSize": 874,
+      "size": 1498,
+      "sha256": "ffbcf381191614e8259cf342f3b0ac8e9326744f472abea87f1fa8fe278bfea3"
+    },
+    "lib/pkgconfig/libngtcp2_crypto_ossl.pc": {
+      "pack": "lib-000.pack",
+      "offset": 237673,
+      "compressedSize": 853,
+      "size": 1457,
+      "sha256": "ba7a0de9273b1c50650482dbcc738700e99746dd176f6ef927c296d392410a1d"
+    }
+  }
+}

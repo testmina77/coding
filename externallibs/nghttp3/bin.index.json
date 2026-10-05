@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libnghttp3-9.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 92595,
+      "size": 204800,
+      "sha256": "9ea42311815771e4622441ecd3045ea1054dd2b26dccb77506465677fbe5b1fd"
+    }
+  }
+}

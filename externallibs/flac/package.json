@@ -1,0 +1,36 @@
+{
+  "id": "flac",
+  "version": "1.5.0-2",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "FLAC++/",
+    "FLAC/"
+  ],
+  "libraries": [
+    "FLAC",
+    "FLAC++"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-flac"
+    ],
+    "versions": [
+      "1.5.0-2"
+    ],
+    "msys2Dependencies": [
+      "cc-libs",
+      "libogg",
+      "libwinpthread"
+    ],
+    "version": "1.5.0-2"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/FreeGLUT/FreeGLUTConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 80,
+      "size": 60,
+      "sha256": "27800d5fe85e51dc9ad2c7ab2aaccb5cc180b6d640c2232916e8181c9c5697ca"
+    },
+    "lib/cmake/FreeGLUT/FreeGLUTConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 80,
+      "compressedSize": 703,
+      "size": 1904,
+      "sha256": "8b5fe20ffe6db6bd748b5f199360f2bfb458ff819feb51fc4e95807a7c96186e"
+    },
+    "lib/cmake/FreeGLUT/FreeGLUTTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 783,
+      "compressedSize": 452,
+      "size": 1485,
+      "sha256": "fd0a328484f1ffa1f0a9e7a02acc992a5f053483cfa48df01949df7080222bb3"
+    },
+    "lib/cmake/FreeGLUT/FreeGLUTTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1235,
+      "compressedSize": 1461,
+      "size": 4663,
+      "sha256": "0d75ff49d44706050306405860300b928cbc1a028be95346f56c727bbd12e112"
+    },
+    "lib/libfreeglut.a": {
+      "pack": "lib-000.pack",
+      "offset": 2696,
+      "compressedSize": 159978,
+      "size": 938204,
+      "sha256": "e493cd2846a689d3e7f62c414e90a05d0f0094a15df02978c7decf1618a82427"
+    },
+    "lib/libfreeglut.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 162674,
+      "compressedSize": 6023,
+      "size": 46308,
+      "sha256": "5f83df65a3daea1b363383570074ca88f058cab158a1ca83038e0b3dea3a521f"
+    },
+    "lib/pkgconfig/freeglut.pc": {
+      "pack": "lib-000.pack",
+      "offset": 168697,
+      "compressedSize": 242,
+      "size": 308,
+      "sha256": "a388c45451b57c24c172cdbe482cf69c4674d98e1aeb40a230afc6fed9cae93e"
+    }
+  }
+}

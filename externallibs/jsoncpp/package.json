@@ -1,0 +1,31 @@
+{
+  "id": "jsoncpp",
+  "version": "1.9.8-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "json/"
+  ],
+  "libraries": [
+    "jsoncpp"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-jsoncpp"
+    ],
+    "versions": [
+      "1.9.8-1"
+    ],
+    "msys2Dependencies": [
+      "cc-libs"
+    ],
+    "version": "1.9.8-1"
+  }
+}

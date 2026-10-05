@@ -1,0 +1,36 @@
+{
+  "id": "c-ares",
+  "version": "1.34.8-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "ares.h",
+    "ares_build.h",
+    "ares_dns.h",
+    "ares_dns_record.h",
+    "ares_nameser.h",
+    "ares_version.h"
+  ],
+  "libraries": [
+    "cares"
+  ],
+  "dependencies": [],
+  "systemLibraries": [
+    "ws2_32"
+  ],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-c-ares"
+    ],
+    "versions": [
+      "1.34.8-1"
+    ],
+    "msys2Dependencies": [],
+    "version": "1.34.8-1"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "nettle",
+  "version": "4.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "nettle/"
+  ],
+  "libraries": [
+    "nettle",
+    "hogweed"
+  ],
+  "dependencies": [
+    "gmp"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-nettle"
+    ],
+    "versions": [
+      "4.0-1"
+    ],
+    "msys2Dependencies": [
+      "cc-libs",
+      "gmp"
+    ],
+    "version": "4.0-1"
+  }
+}

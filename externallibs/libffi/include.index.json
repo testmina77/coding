@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/ffi.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 4969,
+      "size": 16192,
+      "sha256": "8cf63fa728a0a88b4a2e5541837977dd31016d3632c572c617f32f05b7878d7b"
+    },
+    "include/ffitarget.h": {
+      "pack": "include-000.pack",
+      "offset": 4969,
+      "compressedSize": 2288,
+      "size": 5830,
+      "sha256": "0fbd9298a33dddf98467d739c6245a5415d9ec6132564cb36b7ae4069ff04a1b"
+    }
+  }
+}

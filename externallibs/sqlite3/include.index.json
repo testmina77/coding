@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/sqlite3.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 177253,
+      "size": 690838,
+      "sha256": "068f6e5a74f493589d53db85ae489c9e29793e39a4a6d6777f0b109a2fd73a5e"
+    },
+    "include/sqlite3ext.h": {
+      "pack": "include-000.pack",
+      "offset": 177253,
+      "compressedSize": 6774,
+      "size": 39175,
+      "sha256": "ac9645e5c9ff0cf176efdd6e75cb5e98f46295d38e02db5c4d208826a39ab4be"
+    }
+  }
+}

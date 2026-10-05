@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/SDL2/SDL2Config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 1217,
+      "size": 3407,
+      "sha256": "d6159313db99a360eca86ce73d4ccd3fcfdc67a435ad17e0b5e9651d9fec7a5a"
+    },
+    "lib/cmake/SDL2/SDL2ConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1217,
+      "compressedSize": 705,
+      "size": 1906,
+      "sha256": "69fb3087e546c4349f339f78b75c4e5f5a4616285104817da97ba76d751afc1a"
+    },
+    "lib/cmake/SDL2/SDL2Targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1922,
+      "compressedSize": 378,
+      "size": 888,
+      "sha256": "37d9676caa0276c35530625bae8c75da0e2130bd2887d281a00039de0ffb6672"
+    },
+    "lib/cmake/SDL2/SDL2Targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 2300,
+      "compressedSize": 1417,
+      "size": 4387,
+      "sha256": "8e4ba8478428e4997be4674d5a0a57f516f9ad2886743ce302a1e89090f1e8a8"
+    },
+    "lib/cmake/SDL2/SDL2mainTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3717,
+      "compressedSize": 382,
+      "size": 864,
+      "sha256": "19964215fcc79318a3fd56613a2a113098f8bf72e6999e0857b1acd79c3226bc"
+    },
+    "lib/cmake/SDL2/SDL2mainTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 4099,
+      "compressedSize": 1483,
+      "size": 4465,
+      "sha256": "931e251cc0ec325c41659a474c1731c71070567e92f0e3385ac4dd34ff83c6b7"
+    },
+    "lib/cmake/SDL2/SDL2staticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 5582,
+      "compressedSize": 386,
+      "size": 871,
+      "sha256": "90b5ea472b57d64e63a4eda5a4aa81a9d0f7a4bf5fe2a84c2733a07fef85f86a"
+    },
+    "lib/cmake/SDL2/SDL2staticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 5968,
+      "compressedSize": 1533,
+      "size": 4765,
+      "sha256": "b41e801fea73703d3331b162c66924dba100910295dcee112b7c7d5e53ce123f"
+    },
+    "lib/cmake/SDL2/SDL2testTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 7501,
+      "compressedSize": 385,
+      "size": 866,
+      "sha256": "30ff99424ec741e9b91b4291a09b4cc6a25a163d1a049981316c76ea86347e69"
+    },
+    "lib/cmake/SDL2/SDL2testTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 7886,
+      "compressedSize": 1401,
+      "size": 4332,
+      "sha256": "c25accafdd2e82af4d565223b518c2045e913663c69359ba65b074909bfc203a"
+    },
+    "lib/cmake/SDL2/sdlfind.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 9287,
+      "compressedSize": 229,
+      "size": 342,
+      "sha256": "80152b52da2ac50a3323beaaec0fc1e3aa3c3b5a66d382fdb47736b313df9a75"
+    },
+    "lib/libSDL2.a": {
+      "pack": "lib-000.pack",
+      "offset": 9516,
+      "compressedSize": 989924,
+      "size": 3181036,
+      "sha256": "e55a7608788daba9fa6f10f5dc88d85bc542a0a818a54839981ca24b1d70ae14"
+    },
+    "lib/libSDL2.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 999440,
+      "compressedSize": 27025,
+      "size": 183464,
+      "sha256": "1c57a5af191634361ac31c203f85971a2a8b1e772b0a118886ee932d26623d38"
+    },
+    "lib/libSDL2_test.a": {
+      "pack": "lib-000.pack",
+      "offset": 1026465,
+      "compressedSize": 55275,
+      "size": 268202,
+      "sha256": "720dd2226eb2698c46b9b21eef40d2e5a8e6195a1a84803bac1ee2a11a6f0698"
+    },
+    "lib/libSDL2main.a": {
+      "pack": "lib-000.pack",
+      "offset": 1081740,
+      "compressedSize": 1319,
+      "size": 3000,
+      "sha256": "f327d08b07e7bcf2ebe10bff23355096ceeafc3ced87052a33b2458d595b30d4"
+    },
+    "lib/pkgconfig/sdl2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1083059,
+      "compressedSize": 428,
+      "size": 661,
+      "sha256": "f0c65838d631df640532379805e791488d35db5d7fbde23fa8abbcd7e605eb87"
+    }
+  }
+}

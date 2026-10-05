@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/freetype2/freetype/config/ftconfig.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 752,
+      "size": 1614,
+      "sha256": "9731d71090d0181237b27f9b2db8fb96c904aa07da35aad51baad6ad2d8115ea"
+    },
+    "include/freetype2/freetype/config/ftheader.h": {
+      "pack": "include-000.pack",
+      "offset": 752,
+      "compressedSize": 3833,
+      "size": 23919,
+      "sha256": "0b099b85a787ef6a20774dad096bb74e6cbb89e244f198baad8b135709123d0b"
+    },
+    "include/freetype2/freetype/config/ftmodule.h": {
+      "pack": "include-000.pack",
+      "offset": 4585,
+      "compressedSize": 246,
+      "size": 1231,
+      "sha256": "31c9c2b6b2891515076f33cd872094055363923c1f73b1c8621469048a92eea1"
+    },
+    "include/freetype2/freetype/config/ftoption.h": {
+      "pack": "include-000.pack",
+      "offset": 4831,
+      "compressedSize": 10695,
+      "size": 42715,
+      "sha256": "1866dfdcc841a14f0ae2bb5cb36c0b8776dfff2673a160f776383c1f6525fe3a"
+    },
+    "include/freetype2/freetype/config/ftstdlib.h": {
+      "pack": "include-000.pack",
+      "offset": 15526,
+      "compressedSize": 1543,
+      "size": 4576,
+      "sha256": "de81744697b6f9f7fe3a49ca320f2a7ea8f2ae905bb96ff161b5b2d1eed25fe2"
+    },
+    "include/freetype2/freetype/config/integer-types.h": {
+      "pack": "include-000.pack",
+      "offset": 17069,
+      "compressedSize": 1905,
+      "size": 7450,
+      "sha256": "0aeaf74f638d1584ccae37f580076a7ac24ef89049749839c3c90dcdda148d5b"
+    },
+    "include/freetype2/freetype/config/mac-support.h": {
+      "pack": "include-000.pack",
+      "offset": 18974,
+      "compressedSize": 772,
+      "size": 1645,
+      "sha256": "be37d3886a1a1ab1bcf894259d6a50d90b5fc71e3284b12e818c57710a9c945d"
+    },
+    "include/freetype2/freetype/config/public-macros.h": {
+      "pack": "include-000.pack",
+      "offset": 19746,
+      "compressedSize": 1654,
+      "size": 4240,
+      "sha256": "7557630cb407f98fbc003300c507ae444b0f7449cab99d80c13f5c343710d06e"
+    },
+    "include/freetype2/freetype/freetype.h": {
+      "pack": "include-000.pack",
+      "offset": 21400,
+      "compressedSize": 42427,
+      "size": 177129,
+      "sha256": "fd45e7ee01c8f0f2419186d3fc9dd58e25cd866ef0c49f0b347c2d141665a364"
+    },
+    "include/freetype2/freetype/ftadvanc.h": {
+      "pack": "include-000.pack",
+      "offset": 63827,
+      "compressedSize": 1661,
+      "size": 5470,
+      "sha256": "6f0c22af9c16eb0459736db8c60e27269db6b774addd196a845e417c851d3813"
+    },
+    "include/freetype2/freetype/ftbbox.h": {
+      "pack": "include-000.pack",
+      "offset": 65488,
+      "compressedSize": 1161,
+      "size": 2638,
+      "sha256": "4389ec87328ba568415fe4919b9399ff38fa766956b0940e494fbccd1427a6da"
+    },
+    "include/freetype2/freetype/ftbdf.h": {
+      "pack": "include-000.pack",
+      "offset": 66649,
+      "compressedSize": 1742,
+      "size": 5654,
+      "sha256": "d394c0d427d75efbb04ee06d55e2793bfab969d6ca94dba9f743707b109adbcd"
+    },
+    "include/freetype2/freetype/ftbitmap.h": {
+      "pack": "include-000.pack",
+      "offset": 68391,
+      "compressedSize": 2363,
+      "size": 9051,
+      "sha256": "92b63e93b151d96fd985cfaba4ec60e47204bbc922f3bee82412ae2fc426fb03"
+    },
+    "include/freetype2/freetype/ftbzip2.h": {
+      "pack": "include-000.pack",
+      "offset": 70754,
+      "compressedSize": 1162,
+      "size": 2786,
+      "sha256": "be324bc70ad4b355d7a2ae78a540019db17146a140cdcc59676079afc174ca38"
+    },
+    "include/freetype2/freetype/ftcache.h": {
+      "pack": "include-000.pack",
+      "offset": 71916,
+      "compressedSize": 6932,
+      "size": 34179,
+      "sha256": "ba20c0391cc39373474ce3d57adb65559e3954d413d98c2100d77d40bf82bf07"
+    },
+    "include/freetype2/freetype/ftchapters.h": {
+      "pack": "include-000.pack",
+      "offset": 78848,
+      "compressedSize": 744,
+      "size": 2933,
+      "sha256": "c7d1c2ca13903fb6d0b3b37850344d805280856fb87c7597087ce2352573f752"
+    },
+    "include/freetype2/freetype/ftcid.h": {
+      "pack": "include-000.pack",
+      "offset": 79592,
+      "compressedSize": 1136,
+      "size": 4022,
+      "sha256": "e71180811abd5f87bb9c5eb058904b32c037ed29f8666e8a9b3561936b5b6ecc"
+    },
+    "include/freetype2/freetype/ftcolor.h": {
+      "pack": "include-000.pack",
+      "offset": 80728,
+      "compressedSize": 10613,
+      "size": 50791,
+      "sha256": "217af290dc25ceba7b77ed62bf7710e17d6396d6a20438072ab3a0685f4b2137"
+    },
+    "include/freetype2/freetype/ftdriver.h": {
+      "pack": "include-000.pack",
+      "offset": 91341,
+      "compressedSize": 14069,
+      "size": 50570,
+      "sha256": "459e4688340c8fc66545768e360b7fa126a4939c8de33d729181ca23572cf695"
+    },
+    "include/freetype2/freetype/fterrdef.h": {
+      "pack": "include-000.pack",
+      "offset": 105410,
+      "compressedSize": 2816,
+      "size": 12559,
+      "sha256": "376e05cbda2fe270031ef19722c6f9d76b9c4c444ff9e0e9c97cf9e3a016111f"
+    },
+    "include/freetype2/freetype/fterrors.h": {
+      "pack": "include-000.pack",
+      "offset": 108226,
+      "compressedSize": 2564,
+      "size": 9301,
+      "sha256": "a7547172143ce6309f89492b47ab0e6e69c7fb7f7caa8c81635811fd42673050"
+    },
+    "include/freetype2/freetype/ftfntfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 110790,
+      "compressedSize": 972,
+      "size": 2213,
+      "sha256": "54f23d9c103f0c485e837ea1a9db5f0736372b7d781d1adafb8cff6aa950d4d1"
+    },
+    "include/freetype2/freetype/ftgasp.h": {
+      "pack": "include-000.pack",
+      "offset": 111762,
+      "compressedSize": 1587,
+      "size": 4138,
+      "sha256": "a1453a8faeba8845c7b35bcdbbfc43afcc51bfaea89470f813e344a5c9fb06af"
+    },
+    "include/freetype2/freetype/ftglyph.h": {
+      "pack": "include-000.pack",
+      "offset": 113349,
+      "compressedSize": 5351,
+      "size": 20912,
+      "sha256": "79a94788388fee750f7cb1deac0c2dfe23d6a6232f29eb9bc056ca4d5a74f137"
+    },
+    "include/freetype2/freetype/ftgxval.h": {
+      "pack": "include-000.pack",
+      "offset": 118700,
+      "compressedSize": 2553,
+      "size": 10625,
+      "sha256": "06bb3bd9450ac2534f738849df72de6e618313a61d4b4866bc0bdf44ecefdbcf"
+    },
+    "include/freetype2/freetype/ftgzip.h": {
+      "pack": "include-000.pack",
+      "offset": 121253,
+      "compressedSize": 1497,
+      "size": 4211,
+      "sha256": "75f54dfef82233d9a9a1f9d4b4560a258b052784aff9859137cc232f468805df"
+    },
+    "include/freetype2/freetype/ftimage.h": {
+      "pack": "include-000.pack",
+      "offset": 122750,
+      "compressedSize": 10561,
+      "size": 42337,
+      "sha256": "30fb302298e418986d12107f856aca8f6e290cf88fe51b6186171ca21a65d824"
+    },
+    "include/freetype2/freetype/ftincrem.h": {
+      "pack": "include-000.pack",
+      "offset": 133311,
+      "compressedSize": 2919,
+      "size": 10696,
+      "sha256": "073a9dd3b7585989ee68540b3688a1e11bbd3498dd8210809b0869529861df05"
+    },
+    "include/freetype2/freetype/ftlcdfil.h": {
+      "pack": "include-000.pack",
+      "offset": 136230,
+      "compressedSize": 3756,
+      "size": 11257,
+      "sha256": "462073b97096be0c7e485d802fee6e6046f1aa36050c14f7771c31b99bab30fa"
+    },
+    "include/freetype2/freetype/ftlist.h": {
+      "pack": "include-000.pack",
+      "offset": 139986,
+      "compressedSize": 1747,
+      "size": 7100,
+      "sha256": "fea6f521193148308630725ae5de0ec736c135910704239967c541c8ab3e0cd1"
+    },
+    "include/freetype2/freetype/ftlogging.h": {
+      "pack": "include-000.pack",
+      "offset": 141733,
+      "compressedSize": 1172,
+      "size": 4130,
+      "sha256": "3c353c71c09de36f847cdc209f6e7d92dd92304b1d11c1d8d7300d439a24ef88"
+    },
+    "include/freetype2/freetype/ftlzw.h": {
+      "pack": "include-000.pack",
+      "offset": 142905,
+      "compressedSize": 1173,
+      "size": 2768,
+      "sha256": "fd8b72704427c0d8d4c6f2efdd30fdbfc55a7d1246a3c627dcb82661b324aae3"
+    },
+    "include/freetype2/freetype/ftmac.h": {
+      "pack": "include-000.pack",
+      "offset": 144078,
+      "compressedSize": 1736,
+      "size": 7771,
+      "sha256": "4203c770c57d3f09ea16e1dd6535da3a1bda62673cb9bedaacab90ac4b736bad"
+    },
+    "include/freetype2/freetype/ftmm.h": {
+      "pack": "include-000.pack",
+      "offset": 145814,
+      "compressedSize": 5379,
+      "size": 27783,
+      "sha256": "5d134d486b89d9a3dbaa54e581168be3868d04951c1ec3260542d852a14dddb1"
+    },
+    "include/freetype2/freetype/ftmodapi.h": {
+      "pack": "include-000.pack",
+      "offset": 151193,
+      "compressedSize": 5431,
+      "size": 22544,
+      "sha256": "1e526ff1f741cce96bf8d5e935bd9f1ba8db4afdd5c76f387ac54964b25d3fde"
+    },
+    "include/freetype2/freetype/ftmoderr.h": {
+      "pack": "include-000.pack",
+      "offset": 156624,
+      "compressedSize": 1814,
+      "size": 6675,
+      "sha256": "b9f667a0487217b12de1390cbf08622aae39966d1ef7c0578cfdd44d7328ddb9"
+    },
+    "include/freetype2/freetype/ftotval.h": {
+      "pack": "include-000.pack",
+      "offset": 158438,
+      "compressedSize": 1569,
+      "size": 5346,
+      "sha256": "da5bfb9e509556bfc16ce899a161ea26555cc3ff019cdcc67e6b3af3723f6361"
+    },
+    "include/freetype2/freetype/ftoutln.h": {
+      "pack": "include-000.pack",
+      "offset": 160007,
+      "compressedSize": 4558,
+      "size": 17403,
+      "sha256": "db0585ea338debdb9b721adc5f6d138ec7f88df30ff44cf6fb3cac79a70982f8"
+    },
+    "include/freetype2/freetype/ftparams.h": {
+      "pack": "include-000.pack",
+      "offset": 164565,
+      "compressedSize": 1722,
+      "size": 5847,
+      "sha256": "4db8f53c9b62aa5adfd2f89877a96c522198e9a780402be7aafba9fdace5f485"
+    },
+    "include/freetype2/freetype/ftpfr.h": {
+      "pack": "include-000.pack",
+      "offset": 166287,
+      "compressedSize": 1483,
+      "size": 4908,
+      "sha256": "dd40f7a041f345c8ae12664f52d2def53ec5dd2a49e65aba2b95bdef5b63a1d0"
+    },
+    "include/freetype2/freetype/ftrender.h": {
+      "pack": "include-000.pack",
+      "offset": 167770,
+      "compressedSize": 1800,
+      "size": 6625,
+      "sha256": "9579d3d9ff09e98ee09a49c8588d97a910c8fe698fe465a3f33965921fea77ec"
+    },
+    "include/freetype2/freetype/ftsizes.h": {
+      "pack": "include-000.pack",
+      "offset": 169570,
+      "compressedSize": 1474,
+      "size": 4288,
+      "sha256": "2afecd7a4dabbf89e9f76d373829b4e8e70a5c593ecccb7646e190c47a2b398e"
+    },
+    "include/freetype2/freetype/ftsnames.h": {
+      "pack": "include-000.pack",
+      "offset": 171044,
+      "compressedSize": 2212,
+      "size": 7730,
+      "sha256": "621faad855dfd4cc5e9a90b5a4554b706767653c5c2d41acd1b03d2e118b52dd"
+    },
+    "include/freetype2/freetype/ftstroke.h": {
+      "pack": "include-000.pack",
+      "offset": 173256,
+      "compressedSize": 4166,
+      "size": 21773,
+      "sha256": "ba4ed8f81ac66e9e6a2cdf772b69da02a0085fc5576cd233e4da661c6fb1967c"
+    },
+    "include/freetype2/freetype/ftsynth.h": {
+      "pack": "include-000.pack",
+      "offset": 177422,
+      "compressedSize": 1480,
+      "size": 4483,
+      "sha256": "f75aa75f8cb754c37db6ac16e1c9648997e06d280d8b28490d502838e6c649ca"
+    },
+    "include/freetype2/freetype/ftsystem.h": {
+      "pack": "include-000.pack",
+      "offset": 178902,
+      "compressedSize": 2180,
+      "size": 8502,
+      "sha256": "9a41ef1877a9f5f7e5debbf0d701bd393e53e2ae36fb6c34faebf26b8cbc43f2"
+    },
+    "include/freetype2/freetype/fttrigon.h": {
+      "pack": "include-000.pack",
+      "offset": 181082,
+      "compressedSize": 1517,
+      "size": 7411,
+      "sha256": "924526c9b662973f64eb5b4f5034ae897684cb08b9cca7262aba097e49471ade"
+    },
+    "include/freetype2/freetype/fttypes.h": {
+      "pack": "include-000.pack",
+      "offset": 182599,
+      "compressedSize": 3352,
+      "size": 14735,
+      "sha256": "27663e885fdb62982c221cbe1dba3e2f0d2730f5aa54aec333613bc60e05d1fe"
+    },
+    "include/freetype2/freetype/ftwinfnt.h": {
+      "pack": "include-000.pack",
+      "offset": 185951,
+      "compressedSize": 2598,
+      "size": 7949,
+      "sha256": "a2d77ef372f2c874d61179687b71a2d034e1d51430266c46ec0854593d02b779"
+    },
+    "include/freetype2/freetype/otsvg.h": {
+      "pack": "include-000.pack",
+      "offset": 188549,
+      "compressedSize": 3004,
+      "size": 10457,
+      "sha256": "3f7b2484cf4980c5dfb568e8f57b687d3add3b7cc499054f46164ca6d2690e53"
+    },
+    "include/freetype2/freetype/t1tables.h": {
+      "pack": "include-000.pack",
+      "offset": 191553,
+      "compressedSize": 5025,
+      "size": 21529,
+      "sha256": "3bf63affe3fd88daa017ee7fcd894e37e961be9abdcd168b39a328ad3e6db3ba"
+    },
+    "include/freetype2/freetype/ttnameid.h": {
+      "pack": "include-000.pack",
+      "offset": 196578,
+      "compressedSize": 12277,
+      "size": 58844,
+      "sha256": "c7f9f5b9d7f90bb77f0b5e5fb643039f47ded753130b9c4521d6070fe7dcd7ce"
+    },
+    "include/freetype2/freetype/tttables.h": {
+      "pack": "include-000.pack",
+      "offset": 208855,
+      "compressedSize": 5825,
+      "size": 25422,
+      "sha256": "7fd1ce25de661e802dbff67ad5e9927bcdef1730527a5d453120586f13698280"
+    },
+    "include/freetype2/freetype/tttags.h": {
+      "pack": "include-000.pack",
+      "offset": 214680,
+      "compressedSize": 1351,
+      "size": 5145,
+      "sha256": "7ded67566c32f76903938b53dc849c97cc1c2f25abe14357f7258928df4c3f1f"
+    },
+    "include/freetype2/ft2build.h": {
+      "pack": "include-000.pack",
+      "offset": 216031,
+      "compressedSize": 472,
+      "size": 990,
+      "sha256": "1e8028d455a85db4dd19b2019a721d56409f802c2223e78ab5199c22f8b33397"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/brotli/decode.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 4758,
+      "size": 16913,
+      "sha256": "027b91e62e85de6955e6334628b2ba0c77901a449e169fd9f95d6ea1cc91f980"
+    },
+    "include/brotli/encode.h": {
+      "pack": "include-000.pack",
+      "offset": 4758,
+      "compressedSize": 5798,
+      "size": 20068,
+      "sha256": "f1842e38da557efac517a35f1b27d288d464a723ef50316d3d20fe03f6046c06"
+    },
+    "include/brotli/port.h": {
+      "pack": "include-000.pack",
+      "offset": 10556,
+      "compressedSize": 1876,
+      "size": 11439,
+      "sha256": "72b484d7a2561f3a9ad35ebd0d4f97f7a2d9863b619782ada5b083a4b6f40df5"
+    },
+    "include/brotli/shared_dictionary.h": {
+      "pack": "include-000.pack",
+      "offset": 12432,
+      "compressedSize": 1373,
+      "size": 3535,
+      "sha256": "86230f0aaf533044d85d92f84b5aec8b7e4e231d4b64b098604083e7866e8097"
+    },
+    "include/brotli/types.h": {
+      "pack": "include-000.pack",
+      "offset": 13805,
+      "compressedSize": 1134,
+      "size": 2651,
+      "sha256": "ebbd136dc411cc8167636d6f54b66ad0c234dc18989265c37a28c242eaae2efd"
+    }
+  }
+}

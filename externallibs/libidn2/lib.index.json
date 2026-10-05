@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libidn2.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 121365,
+      "size": 268350,
+      "sha256": "292c4aef3bc3cbc1ad8438712d52f7733c1aaa9997a6ab2680dc2dde40857a05"
+    },
+    "lib/libidn2.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 121365,
+      "compressedSize": 1022,
+      "size": 6122,
+      "sha256": "53739a09c54d2645bba21a550b7e5c90568644d069b3e3632c5555bd2a9b9efb"
+    },
+    "lib/pkgconfig/libidn2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 122387,
+      "compressedSize": 207,
+      "size": 288,
+      "sha256": "4c9890626a01136eda35581192f1d9dc63ea5e7849ae87bc36d96d9e37c44ac7"
+    }
+  }
+}

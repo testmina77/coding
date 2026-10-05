@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/curl/curl.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 35192,
+      "size": 136595,
+      "sha256": "9ec2e9040d8d95545a4c331461c54748651edc3852a6ceca0672f858103e0528"
+    },
+    "include/curl/curlver.h": {
+      "pack": "include-000.pack",
+      "offset": 35192,
+      "compressedSize": 1361,
+      "size": 3052,
+      "sha256": "c4ed114da4eca953a328fa2efa8128308fc32879f15b58c245b2592f4bfaf9dc"
+    },
+    "include/curl/easy.h": {
+      "pack": "include-000.pack",
+      "offset": 36553,
+      "compressedSize": 1545,
+      "size": 4000,
+      "sha256": "f101da02dd373151ea7b00082cb62c9d6e482361ab26b6d430ee96aab1b71565"
+    },
+    "include/curl/header.h": {
+      "pack": "include-000.pack",
+      "offset": 38098,
+      "compressedSize": 1154,
+      "size": 2922,
+      "sha256": "e92525a91bb1119034dd45dd42d255ff9b6a49d964ca7105964e0107671b3395"
+    },
+    "include/curl/mprintf.h": {
+      "pack": "include-000.pack",
+      "offset": 39252,
+      "compressedSize": 1007,
+      "size": 3078,
+      "sha256": "a79657fa15db71e732bcb58bc4645ab65bdb3222767f34be5bab56aa0d4f4cc9"
+    },
+    "include/curl/multi.h": {
+      "pack": "include-000.pack",
+      "offset": 40259,
+      "compressedSize": 6047,
+      "size": 21154,
+      "sha256": "0466a7c91067cb11c98f37e16103b992b66e84221467c2a70ef951877502f77a"
+    },
+    "include/curl/options.h": {
+      "pack": "include-000.pack",
+      "offset": 46306,
+      "compressedSize": 1044,
+      "size": 2402,
+      "sha256": "32fe87f843367d25a9db91a47386652402f08c9668617b4c51295ef31d93f8b0"
+    },
+    "include/curl/stdcheaders.h": {
+      "pack": "include-000.pack",
+      "offset": 47350,
+      "compressedSize": 609,
+      "size": 1362,
+      "sha256": "d7588b86814a35ffc3766ff6242e6f6705e04401fc9c208a195caff3503af81c"
+    },
+    "include/curl/system.h": {
+      "pack": "include-000.pack",
+      "offset": 47959,
+      "compressedSize": 2469,
+      "size": 14943,
+      "sha256": "edb2c507a084448a5e3c7e2b9c65c408e22ffeaca5ab0c1ee2e76d82a21113fa"
+    },
+    "include/curl/typecheck-gcc.h": {
+      "pack": "include-000.pack",
+      "offset": 50428,
+      "compressedSize": 7223,
+      "size": 58092,
+      "sha256": "62bf346ae4dc33bc61cd99a9e935c62dfbcd8120399cdbd5874d15897a57e681"
+    },
+    "include/curl/urlapi.h": {
+      "pack": "include-000.pack",
+      "offset": 57651,
+      "compressedSize": 2047,
+      "size": 5870,
+      "sha256": "d888326d5bdebb84b5fe133d7ef7703d4e88732757ce4d6b0476f0c668d38a6e"
+    },
+    "include/curl/websockets.h": {
+      "pack": "include-000.pack",
+      "offset": 59698,
+      "compressedSize": 1205,
+      "size": 3197,
+      "sha256": "05b70dbce5274aa6e360703bb17d67a0390fea18bf4437745a25b08b55d6962b"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/c-ares/c-ares-config-version.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 912,
+      "size": 2830,
+      "sha256": "5e979ee3543022a18bbddc09e972507b1b11ce8fa967ab28ab8234ab6a034313"
+    },
+    "lib/cmake/c-ares/c-ares-config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 912,
+      "compressedSize": 639,
+      "size": 1518,
+      "sha256": "8a5d707cc16c61c30bdb5b29ac99c5d354d500215e7f44777e7a66ae130d3f86"
+    },
+    "lib/cmake/c-ares/c-ares-targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1551,
+      "compressedSize": 383,
+      "size": 917,
+      "sha256": "4656d70897afd1b8a667e3c3e457188cad74e04a0984935a2fa5693a710e0b9d"
+    },
+    "lib/cmake/c-ares/c-ares-targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1934,
+      "compressedSize": 1398,
+      "size": 4277,
+      "sha256": "0773003f94c35b861dbe6951598a66f6833de3d8aa1b5f885f71aaaa076af198"
+    },
+    "lib/libcares.a": {
+      "pack": "lib-000.pack",
+      "offset": 3332,
+      "compressedSize": 137246,
+      "size": 426120,
+      "sha256": "ffca1b9be0c1bdb9f62d91be81a79234cf6b7408a0185822b9fcdaffa10f660c"
+    },
+    "lib/libcares.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 140578,
+      "compressedSize": 8912,
+      "size": 72034,
+      "sha256": "682c34664469c9e6786629c5e4a0af24c905c48fde3be3984c816327d904ae13"
+    },
+    "lib/pkgconfig/libcares.pc": {
+      "pack": "lib-000.pack",
+      "offset": 149490,
+      "compressedSize": 403,
+      "size": 729,
+      "sha256": "eb2a65610a23a64030cf91437f720a92f4999db56505a9a5c4c425833ec9b00e"
+    }
+  }
+}

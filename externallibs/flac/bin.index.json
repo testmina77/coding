@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/flac.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 125061,
+      "size": 279040,
+      "sha256": "1841ebf6aa5fb88e7dcc583c6c786f7f0d40d00119e4ad1516c63a9fd56cd773"
+    },
+    "bin/libFLAC++.dll": {
+      "pack": "bin-000.pack",
+      "offset": 125061,
+      "compressedSize": 30275,
+      "size": 121856,
+      "sha256": "8b6fe9f950838487376b92852012f60de17a84919c1350d67d693a657fc5d60f"
+    },
+    "bin/libFLAC.dll": {
+      "pack": "bin-000.pack",
+      "offset": 155336,
+      "compressedSize": 189770,
+      "size": 414720,
+      "sha256": "e6659c4a301f2a88a1cd317a0113083ddb6adf5925bc448b01806fa21c1d63ab"
+    },
+    "bin/metaflac.exe": {
+      "pack": "bin-000.pack",
+      "offset": 345106,
+      "compressedSize": 83165,
+      "size": 181248,
+      "sha256": "71694ec29dbed3239ed1400348db4fc8764cb094d5922dc87dee428f405828fc"
+    }
+  }
+}

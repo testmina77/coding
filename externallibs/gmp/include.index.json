@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/gmp.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 17316,
+      "size": 84404,
+      "sha256": "749679971adcd5a6313a0c605487a5d8250e0c5cb62427f78e6c953ef3e53de4"
+    },
+    "include/gmpxx.h": {
+      "pack": "include-000.pack",
+      "offset": 17316,
+      "compressedSize": 15395,
+      "size": 129502,
+      "sha256": "b287e1197a745582acb9c4aa0d2f2ffa16fabaeeabd0dee836553771556a00ea"
+    }
+  }
+}

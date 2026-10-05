@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libp11-kit.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 3338,
+      "size": 26708,
+      "sha256": "1cc08519046a76fb78d6691cc67baf08a9259f9e48a9ba25d6eec04ce859fa64"
+    },
+    "lib/p11-kit/p11-kit-remote.exe": {
+      "pack": "lib-000.pack",
+      "offset": 3338,
+      "compressedSize": 30850,
+      "size": 64000,
+      "sha256": "0c195ed1c77c81d1439f5785d002d4acd40b918b21379416599d5d215493cb4d"
+    },
+    "lib/p11-kit/p11-kit-server.exe": {
+      "pack": "lib-000.pack",
+      "offset": 34188,
+      "compressedSize": 38113,
+      "size": 79872,
+      "sha256": "7db4759be6979ebe4e40c7d23d87a81f39995daa1c378cb4938c2b2a296f6ec9"
+    },
+    "lib/p11-kit/trust-extract-compat": {
+      "pack": "lib-000.pack",
+      "offset": 72301,
+      "compressedSize": 543,
+      "size": 1153,
+      "sha256": "ff7524d0900fd799f4e2f91c2cc8c889dca16ad28f5fc7f0dd0bad9b856157b2"
+    },
+    "lib/pkcs11/p11-kit-trust.dll": {
+      "pack": "lib-000.pack",
+      "offset": 72844,
+      "compressedSize": 110240,
+      "size": 286208,
+      "sha256": "e016b0e80807abb4dc98e9daddc9d47532338963b5da99f89ab15ab9b1cc4518"
+    },
+    "lib/pkcs11/p11-kit-trust.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 183084,
+      "compressedSize": 434,
+      "size": 1510,
+      "sha256": "cf905f8cf8542f2c898167332833a4dc188b658f5418fb2cf4813a6cd5db2fd9"
+    },
+    "lib/pkgconfig/p11-kit-1.pc": {
+      "pack": "lib-000.pack",
+      "offset": 183518,
+      "compressedSize": 293,
+      "size": 534,
+      "sha256": "7f048939edaaf18adbc111fea202f8e15aa35fcdb709c64ea0a7702c90a3177e"
+    }
+  }
+}

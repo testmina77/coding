@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/fmt/fmt-config-version.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 704,
+      "size": 1905,
+      "sha256": "59ade1af364b54bb9f0eb12e09eae57f614a94ce7e058031d7b49c044075c507"
+    },
+    "lib/cmake/fmt/fmt-config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 704,
+      "compressedSize": 871,
+      "size": 2758,
+      "sha256": "0f725ef0e76f07ec67474fb1e98dd9451bd7b023b646c62452c386c026b3290c"
+    },
+    "lib/cmake/fmt/fmt-shared-targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1575,
+      "compressedSize": 442,
+      "size": 1339,
+      "sha256": "d300b08b358362724580438cff41e8ad8213bccf24baab8bc54b4418e9b0b6dd"
+    },
+    "lib/cmake/fmt/fmt-shared-targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 2017,
+      "compressedSize": 1494,
+      "size": 4853,
+      "sha256": "18fde1fb32ed526b1d982a4cd0e797505550b12ba58fef369884fcb2067e53c6"
+    },
+    "lib/cmake/fmt/fmt-static-targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3511,
+      "compressedSize": 410,
+      "size": 1279,
+      "sha256": "0b1321cf1a035b6294eeb363621679404765ee1e52031fb9448753b9b1da8f1e"
+    },
+    "lib/cmake/fmt/fmt-static-targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3921,
+      "compressedSize": 1486,
+      "size": 4807,
+      "sha256": "a5e4da1786be76e90ed25037b5d533213621c0912e18210136a9114049416c56"
+    },
+    "lib/libfmt-c.a": {
+      "pack": "lib-000.pack",
+      "offset": 5407,
+      "compressedSize": 1840,
+      "size": 4566,
+      "sha256": "0d38d120ad5de4018b95f222cafdf577ac01067d459a575569fed581b3178b7e"
+    },
+    "lib/libfmt.a": {
+      "pack": "lib-000.pack",
+      "offset": 7247,
+      "compressedSize": 101229,
+      "size": 356002,
+      "sha256": "0bc4a7e02e5fe36cbea2ec79d81aed7056884650618044e0cf0d10a42dd3390b"
+    },
+    "lib/libfmt.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 108476,
+      "compressedSize": 3022,
+      "size": 27906,
+      "sha256": "1ae60485210b1e2d7ef5a24064a381f9822d422988c0a7ddb8ee8bc5540a5df6"
+    },
+    "lib/pkgconfig/fmt.pc": {
+      "pack": "lib-000.pack",
+      "offset": 111498,
+      "compressedSize": 174,
+      "size": 220,
+      "sha256": "db2c5e882327816fa162272701282134c176d17d9b85a81d0457529b7774374d"
+    }
+  }
+}

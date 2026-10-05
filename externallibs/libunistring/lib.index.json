@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libunistring.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 931755,
+      "size": 3040296,
+      "sha256": "411fab8a1a002f44211fdbdc126be14b216b8713a5de16259ab48ac52abb4ea8"
+    },
+    "lib/libunistring.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 931755,
+      "compressedSize": 24086,
+      "size": 177098,
+      "sha256": "96be4acc9d328d69fafc0b9d2496dfe1d1a68e6ad2c5e1de0abd6a11c505974f"
+    }
+  }
+}

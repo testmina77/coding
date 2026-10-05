@@ -1,0 +1,44 @@
+{
+  "id": "libunistring",
+  "version": "1.4.2-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "unicase.h",
+    "uniconv.h",
+    "unictype.h",
+    "unigbrk.h",
+    "unilbrk.h",
+    "unimetadata.h",
+    "uniname.h",
+    "uninorm.h",
+    "unistdio.h",
+    "unistr.h",
+    "unistring/",
+    "unitypes.h",
+    "uniwbrk.h",
+    "uniwidth.h"
+  ],
+  "libraries": [
+    "unistring"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libunistring"
+    ],
+    "versions": [
+      "1.4.2-1"
+    ],
+    "msys2Dependencies": [
+      "libiconv"
+    ],
+    "version": "1.4.2-1"
+  }
+}

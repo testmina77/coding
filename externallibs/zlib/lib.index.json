@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libz.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 56589,
+      "size": 117794,
+      "sha256": "a47a942c0a4ab92711668b9a808aca728597f32e89f31913d407ef1ec327befc"
+    },
+    "lib/libz.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 56589,
+      "compressedSize": 2906,
+      "size": 18776,
+      "sha256": "bc962e3d8122f09578b32f9fa7de9c3e510b532b7ae979df4c73223e16539e2e"
+    },
+    "lib/pkgconfig/zlib.pc": {
+      "pack": "lib-000.pack",
+      "offset": 59495,
+      "compressedSize": 187,
+      "size": 261,
+      "sha256": "8704cf55c9e4692cd3ae8d8e5f79b43e5266445089218c5db752db56ec892074"
+    }
+  }
+}

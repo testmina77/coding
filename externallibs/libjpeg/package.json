@@ -1,0 +1,39 @@
+{
+  "id": "libjpeg",
+  "version": "3.2.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "jconfig.h",
+    "jerror.h",
+    "jinclude.h",
+    "jmorecfg.h",
+    "jpeglib.h",
+    "transupp.h",
+    "turbojpeg.h"
+  ],
+  "libraries": [
+    "jpeg",
+    "turbojpeg"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libjpeg-turbo"
+    ],
+    "versions": [
+      "3.2.0-1"
+    ],
+    "msys2Dependencies": [
+      "cc-libs"
+    ],
+    "version": "3.2.0-1"
+  }
+}

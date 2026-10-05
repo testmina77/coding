@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/ncurses/curses.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 20939,
+      "size": 105276,
+      "sha256": "35000d5eaad28b8c24da2aef5141294fcf8caa684690dbb74325c2ec5ebfff45"
+    },
+    "include/ncurses/cursesapp.h": {
+      "pack": "include-000.pack",
+      "offset": 20939,
+      "compressedSize": 2458,
+      "size": 7234,
+      "sha256": "2176e1dd2f3a5a6c4736f09020df3066743383228dd4d1a5fbc17e7fb2189404"
+    },
+    "include/ncurses/cursesf.h": {
+      "pack": "include-000.pack",
+      "offset": 23397,
+      "compressedSize": 6572,
+      "size": 28297,
+      "sha256": "c3855b39fc9a5344ae95293fc881177f6639d7a43f68ecd66920109d233ed1c6"
+    },
+    "include/ncurses/cursesm.h": {
+      "pack": "include-000.pack",
+      "offset": 29969,
+      "compressedSize": 5229,
+      "size": 20061,
+      "sha256": "ebad2a9d56c5bce0a49c6f4ff28d8ef00fe3777d8b9ab32f5a91f15d972b0ca4"
+    },
+    "include/ncurses/cursesp.h": {
+      "pack": "include-000.pack",
+      "offset": 35198,
+      "compressedSize": 3135,
+      "size": 8838,
+      "sha256": "b65d72f477c4328ee46ac086540d3cac2357264f716cdd8b114fc9977f8b682b"
+    },
+    "include/ncurses/cursesw.h": {
+      "pack": "include-000.pack",
+      "offset": 38333,
+      "compressedSize": 11165,
+      "size": 50393,
+      "sha256": "e5bfbadb6ef723bba58c4f38336511a3aaee5c10d641071c6adb86215f331083"
+    },
+    "include/ncurses/cursslk.h": {
+      "pack": "include-000.pack",
+      "offset": 49498,
+      "compressedSize": 2469,
+      "size": 7336,
+      "sha256": "f3493364185fc46e26db5f1e94cf36992fb830ca118a224b6c0470ac7cc3cfc5"
+    },
+    "include/ncurses/eti.h": {
+      "pack": "include-000.pack",
+      "offset": 51967,
+      "compressedSize": 1136,
+      "size": 2969,
+      "sha256": "43ad9607033a45272cfdf3dd864889661720b88f0f59f91f9a6f5a1261d0ec72"
+    },
+    "include/ncurses/etip.h": {
+      "pack": "include-000.pack",
+      "offset": 53103,
+      "compressedSize": 2878,
+      "size": 10610,
+      "sha256": "20d911347e0f98b0da1ed860beb2a4252f1cc6714933ee16467841304208a30a"
+    },
+    "include/ncurses/form.h": {
+      "pack": "include-000.pack",
+      "offset": 55981,
+      "compressedSize": 4743,
+      "size": 18917,
+      "sha256": "39c735c0e6371b8e34155f03318af771ff88e9a0158f036d142a9d5252c064ec"
+    },
+    "include/ncurses/menu.h": {
+      "pack": "include-000.pack",
+      "offset": 60724,
+      "compressedSize": 3133,
+      "size": 11893,
+      "sha256": "f6e77052064163a14516f8d09bf10b23e67f2f1a3c5ce30d848102b90e467410"
+    },
+    "include/ncurses/ncurses.h": {
+      "pack": "include-000.pack",
+      "offset": 63857,
+      "compressedSize": 20939,
+      "size": 105276,
+      "sha256": "35000d5eaad28b8c24da2aef5141294fcf8caa684690dbb74325c2ec5ebfff45"
+    },
+    "include/ncurses/ncurses_dll.h": {
+      "pack": "include-000.pack",
+      "offset": 84796,
+      "compressedSize": 1657,
+      "size": 4183,
+      "sha256": "8ce112a66482f18fa5e0378b46a4f028b21a80f8e6c43815c562ad0d6b7ed727"
+    },
+    "include/ncurses/panel.h": {
+      "pack": "include-000.pack",
+      "offset": 86453,
+      "compressedSize": 1560,
+      "size": 4521,
+      "sha256": "08511870b7da8bc2c206932fb659e9e8e93d8ca63921e42e6f76dbe622c2b681"
+    },
+    "include/ncurses/term.h": {
+      "pack": "include-000.pack",
+      "offset": 88013,
+      "compressedSize": 8218,
+      "size": 42222,
+      "sha256": "e482ed9e6bf7ddf68b6e69e0f37d61fa0e56679082d189ebc2d1a6f3b943a87c"
+    },
+    "include/ncurses/term_entry.h": {
+      "pack": "include-000.pack",
+      "offset": 96231,
+      "compressedSize": 2929,
+      "size": 8703,
+      "sha256": "b49445e11cf843949cfa14095abbea197650666ecbec92b01bb66c84439c8c7f"
+    },
+    "include/ncurses/termcap.h": {
+      "pack": "include-000.pack",
+      "offset": 99160,
+      "compressedSize": 1281,
+      "size": 3477,
+      "sha256": "4c5ea583c1cd3808dc1c1f6ffd39f680e3752269209bc366d0a1ea03e239a55b"
+    },
+    "include/ncurses/unctrl.h": {
+      "pack": "include-000.pack",
+      "offset": 100441,
+      "compressedSize": 1278,
+      "size": 3223,
+      "sha256": "9db3d9ef728f5ce90433d52667946be6c0685861910ec5337d0fe1308752d366"
+    },
+    "include/ncursesw/curses.h": {
+      "pack": "include-000.pack",
+      "offset": 101719,
+      "compressedSize": 20939,
+      "size": 105276,
+      "sha256": "35000d5eaad28b8c24da2aef5141294fcf8caa684690dbb74325c2ec5ebfff45"
+    },
+    "include/ncursesw/cursesapp.h": {
+      "pack": "include-000.pack",
+      "offset": 122658,
+      "compressedSize": 2458,
+      "size": 7234,
+      "sha256": "2176e1dd2f3a5a6c4736f09020df3066743383228dd4d1a5fbc17e7fb2189404"
+    },
+    "include/ncursesw/cursesf.h": {
+      "pack": "include-000.pack",
+      "offset": 125116,
+      "compressedSize": 6572,
+      "size": 28297,
+      "sha256": "c3855b39fc9a5344ae95293fc881177f6639d7a43f68ecd66920109d233ed1c6"
+    },
+    "include/ncursesw/cursesm.h": {
+      "pack": "include-000.pack",
+      "offset": 131688,
+      "compressedSize": 5229,
+      "size": 20061,
+      "sha256": "ebad2a9d56c5bce0a49c6f4ff28d8ef00fe3777d8b9ab32f5a91f15d972b0ca4"
+    },
+    "include/ncursesw/cursesp.h": {
+      "pack": "include-000.pack",
+      "offset": 136917,
+      "compressedSize": 3135,
+      "size": 8838,
+      "sha256": "b65d72f477c4328ee46ac086540d3cac2357264f716cdd8b114fc9977f8b682b"
+    },
+    "include/ncursesw/cursesw.h": {
+      "pack": "include-000.pack",
+      "offset": 140052,
+      "compressedSize": 11165,
+      "size": 50393,
+      "sha256": "e5bfbadb6ef723bba58c4f38336511a3aaee5c10d641071c6adb86215f331083"
+    },
+    "include/ncursesw/cursslk.h": {
+      "pack": "include-000.pack",
+      "offset": 151217,
+      "compressedSize": 2469,
+      "size": 7336,
+      "sha256": "f3493364185fc46e26db5f1e94cf36992fb830ca118a224b6c0470ac7cc3cfc5"
+    },
+    "include/ncursesw/eti.h": {
+      "pack": "include-000.pack",
+      "offset": 153686,
+      "compressedSize": 1136,
+      "size": 2969,
+      "sha256": "43ad9607033a45272cfdf3dd864889661720b88f0f59f91f9a6f5a1261d0ec72"
+    },
+    "include/ncursesw/etip.h": {
+      "pack": "include-000.pack",
+      "offset": 154822,
+      "compressedSize": 2878,
+      "size": 10610,
+      "sha256": "20d911347e0f98b0da1ed860beb2a4252f1cc6714933ee16467841304208a30a"
+    },
+    "include/ncursesw/form.h": {
+      "pack": "include-000.pack",
+      "offset": 157700,
+      "compressedSize": 4743,
+      "size": 18917,
+      "sha256": "39c735c0e6371b8e34155f03318af771ff88e9a0158f036d142a9d5252c064ec"
+    },
+    "include/ncursesw/menu.h": {
+      "pack": "include-000.pack",
+      "offset": 162443,
+      "compressedSize": 3133,
+      "size": 11893,
+      "sha256": "f6e77052064163a14516f8d09bf10b23e67f2f1a3c5ce30d848102b90e467410"
+    },
+    "include/ncursesw/ncurses.h": {
+      "pack": "include-000.pack",
+      "offset": 165576,
+      "compressedSize": 20939,
+      "size": 105276,
+      "sha256": "35000d5eaad28b8c24da2aef5141294fcf8caa684690dbb74325c2ec5ebfff45"
+    },
+    "include/ncursesw/ncurses_dll.h": {
+      "pack": "include-000.pack",
+      "offset": 186515,
+      "compressedSize": 1657,
+      "size": 4183,
+      "sha256": "8ce112a66482f18fa5e0378b46a4f028b21a80f8e6c43815c562ad0d6b7ed727"
+    },
+    "include/ncursesw/panel.h": {
+      "pack": "include-000.pack",
+      "offset": 188172,
+      "compressedSize": 1560,
+      "size": 4521,
+      "sha256": "08511870b7da8bc2c206932fb659e9e8e93d8ca63921e42e6f76dbe622c2b681"
+    },
+    "include/ncursesw/term.h": {
+      "pack": "include-000.pack",
+      "offset": 189732,
+      "compressedSize": 8218,
+      "size": 42222,
+      "sha256": "e482ed9e6bf7ddf68b6e69e0f37d61fa0e56679082d189ebc2d1a6f3b943a87c"
+    },
+    "include/ncursesw/term_entry.h": {
+      "pack": "include-000.pack",
+      "offset": 197950,
+      "compressedSize": 2929,
+      "size": 8703,
+      "sha256": "b49445e11cf843949cfa14095abbea197650666ecbec92b01bb66c84439c8c7f"
+    },
+    "include/ncursesw/termcap.h": {
+      "pack": "include-000.pack",
+      "offset": 200879,
+      "compressedSize": 1281,
+      "size": 3477,
+      "sha256": "4c5ea583c1cd3808dc1c1f6ffd39f680e3752269209bc366d0a1ea03e239a55b"
+    },
+    "include/ncursesw/unctrl.h": {
+      "pack": "include-000.pack",
+      "offset": 202160,
+      "compressedSize": 1278,
+      "size": 3223,
+      "sha256": "9db3d9ef728f5ce90433d52667946be6c0685861910ec5337d0fe1308752d366"
+    }
+  }
+}

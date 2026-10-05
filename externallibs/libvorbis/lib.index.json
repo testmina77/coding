@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libvorbis.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 135257,
+      "size": 262170,
+      "sha256": "1cd496420b03f86b7033f71cc123988dc99c766d60432c7c894693a59a05fd04"
+    },
+    "lib/libvorbis.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 135257,
+      "compressedSize": 3668,
+      "size": 26176,
+      "sha256": "e9dbd9c7deded0fcaddaaa2b5b70c20de37c538229f153be99f9bbdfd64f9329"
+    },
+    "lib/libvorbisenc.a": {
+      "pack": "lib-000.pack",
+      "offset": 138925,
+      "compressedSize": 116688,
+      "size": 677596,
+      "sha256": "dc34b6b72b755f73f22a7b9c3f0df0e8ecffe3b66e21d2981c7bb5a378a3bbde"
+    },
+    "lib/libvorbisenc.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 255613,
+      "compressedSize": 604,
+      "size": 2754,
+      "sha256": "dbb2ac1f531d372cf0d95c4e05f282bac102c6467fa5d2aa9c17b101f1ecf625"
+    },
+    "lib/libvorbisfile.a": {
+      "pack": "lib-000.pack",
+      "offset": 256217,
+      "compressedSize": 14795,
+      "size": 32812,
+      "sha256": "ff30f29bb417562f6d944b8ff4e2ecc141655db124f3350af61225f8e487e89a"
+    },
+    "lib/libvorbisfile.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 271012,
+      "compressedSize": 1415,
+      "size": 8370,
+      "sha256": "468954d62309c993e5da734344f9c6ca7e6e34e4e4defead95941706fa961d44"
+    },
+    "lib/pkgconfig/vorbis.pc": {
+      "pack": "lib-000.pack",
+      "offset": 272427,
+      "compressedSize": 225,
+      "size": 315,
+      "sha256": "cae6cc64ecaa1d7718de76f66c4141edf9cd89711192f44a841adab81fd03a84"
+    },
+    "lib/pkgconfig/vorbisenc.pc": {
+      "pack": "lib-000.pack",
+      "offset": 272652,
+      "compressedSize": 256,
+      "size": 376,
+      "sha256": "3ce9b5f251a8bac588f654a3dc3beaa827ad3ea22d7012c493cd809058fcc9aa"
+    },
+    "lib/pkgconfig/vorbisfile.pc": {
+      "pack": "lib-000.pack",
+      "offset": 272908,
+      "compressedSize": 274,
+      "size": 402,
+      "sha256": "201e3eae663724b55954109fb58d1f48b36f4d0bd85b4a4c86623d3905814f0f"
+    }
+  }
+}

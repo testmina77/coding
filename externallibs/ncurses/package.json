@@ -1,0 +1,41 @@
+{
+  "id": "ncurses",
+  "version": "6.6-4",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "ncurses/",
+    "ncursesw/"
+  ],
+  "libraries": [
+    "ncurses",
+    "ncursesw",
+    "form",
+    "formw",
+    "menu",
+    "menuw",
+    "panel",
+    "panelw"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-ncurses"
+    ],
+    "versions": [
+      "6.6-4"
+    ],
+    "msys2Dependencies": [
+      "cc-libs",
+      "libsystre",
+      "pcre2"
+    ],
+    "version": "6.6-4"
+  }
+}

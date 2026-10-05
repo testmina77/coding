@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/ogg/config_types.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 241,
+      "size": 564,
+      "sha256": "2200f7d8664cdf27cd7d007f22fc70d1168e842f2af4d541b2ddaf7659375e95"
+    },
+    "include/ogg/ogg.h": {
+      "pack": "include-000.pack",
+      "offset": 241,
+      "compressedSize": 1872,
+      "size": 8373,
+      "sha256": "aad86109c1fdb377738675a63e0b19859e06ada25ae5c59c290ca7263d1dc4ca"
+    },
+    "include/ogg/os_types.h": {
+      "pack": "include-000.pack",
+      "offset": 2113,
+      "compressedSize": 1061,
+      "size": 4781,
+      "sha256": "3bbab6a5d31e3c25c6080252b042afb87028e3ffff100e3e0285648b250b70f4"
+    }
+  }
+}

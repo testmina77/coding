@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libffi-8.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 19681,
+      "size": 39936,
+      "sha256": "ded1b2d4ae65458afcc9241c014018d73ca4920879fdc66a952e85e5ec012226"
+    }
+  }
+}

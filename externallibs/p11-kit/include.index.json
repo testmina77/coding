@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/p11-kit-1/p11-kit/deprecated.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 1358,
+      "size": 3731,
+      "sha256": "5335bb02985dedf8300c291a565413b44da7eef1ac2a1aa299f6048bf1eea98f"
+    },
+    "include/p11-kit-1/p11-kit/iter.h": {
+      "pack": "include-000.pack",
+      "offset": 1358,
+      "compressedSize": 1587,
+      "size": 5592,
+      "sha256": "3194d3feeaaf469da6ca8ad6dc144619d0cc07459ab7fc9136bc3a0869e4ec5b"
+    },
+    "include/p11-kit-1/p11-kit/p11-kit.h": {
+      "pack": "include-000.pack",
+      "offset": 2945,
+      "compressedSize": 1828,
+      "size": 5855,
+      "sha256": "51b6e23700921d9b822e88225364c9efdeeaaacb7eba164de8931db6e6f94e24"
+    },
+    "include/p11-kit-1/p11-kit/pin.h": {
+      "pack": "include-000.pack",
+      "offset": 4773,
+      "compressedSize": 1406,
+      "size": 4936,
+      "sha256": "1d089df520f4f442b8a8c5e39e0d314775595efb67b5dbee4db04fc347d8c54c"
+    },
+    "include/p11-kit-1/p11-kit/pkcs11.h": {
+      "pack": "include-000.pack",
+      "offset": 6179,
+      "compressedSize": 23645,
+      "size": 141736,
+      "sha256": "669d76b12dfdb36001a31685f21f94d8c51d108db6487f5af3724dfbd486699b"
+    },
+    "include/p11-kit-1/p11-kit/pkcs11x.h": {
+      "pack": "include-000.pack",
+      "offset": 29824,
+      "compressedSize": 3852,
+      "size": 14900,
+      "sha256": "8349b0b923eec09e14799184330a7caa65b9c6ccb3021238c584781abfb1f459"
+    },
+    "include/p11-kit-1/p11-kit/remote.h": {
+      "pack": "include-000.pack",
+      "offset": 33676,
+      "compressedSize": 1120,
+      "size": 2437,
+      "sha256": "39480beb059df14f9d6d3717552ef8a09506ca777d811b5ecbf0512f814a6e56"
+    },
+    "include/p11-kit-1/p11-kit/uri.h": {
+      "pack": "include-000.pack",
+      "offset": 34796,
+      "compressedSize": 1863,
+      "size": 7865,
+      "sha256": "51b6c4a3fa5f8116ce9310711de4a87c4457ec206c014725ade7822e6433a14b"
+    },
+    "include/p11-kit-1/p11-kit/version.h": {
+      "pack": "include-000.pack",
+      "offset": 36659,
+      "compressedSize": 1050,
+      "size": 2235,
+      "sha256": "12b89e44a0a0e73cfdae8ef97a39ebb8862462edbed41d3e31fe8c0c389c5ce3"
+    }
+  }
+}

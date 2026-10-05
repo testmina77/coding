@@ -1,0 +1,37 @@
+{
+  "id": "libssh2",
+  "version": "1.11.1-2",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "libssh2.h",
+    "libssh2_publickey.h",
+    "libssh2_sftp.h"
+  ],
+  "libraries": [
+    "ssh2"
+  ],
+  "dependencies": [
+    "openssl",
+    "zlib"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libssh2"
+    ],
+    "versions": [
+      "1.11.1-2"
+    ],
+    "msys2Dependencies": [
+      "openssl",
+      "zlib"
+    ],
+    "version": "1.11.1-2"
+  }
+}

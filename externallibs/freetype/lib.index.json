@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libfreetype.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 498910,
+      "size": 1115284,
+      "sha256": "33f21c47e56899590b14749a911921e9fa8978c412663f508371a7928e4e7c21"
+    },
+    "lib/libfreetype.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 498910,
+      "compressedSize": 6845,
+      "size": 50482,
+      "sha256": "8b1e0899f06be6e40538216f3e4c3261dd642ab5aac81e088d42886285f0de94"
+    },
+    "lib/pkgconfig/freetype2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 505755,
+      "compressedSize": 259,
+      "size": 334,
+      "sha256": "590cb48ee21c01a251267c4d9a5913205e189beac8994e7d130a2b293fda3659"
+    }
+  }
+}

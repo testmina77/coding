@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/libpsl.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 2132,
+      "size": 5792,
+      "sha256": "c18414f8fbcf2c16ce4cf4038dd27a0e8b64d8dc9c117d5b982016d830852f4e"
+    }
+  }
+}

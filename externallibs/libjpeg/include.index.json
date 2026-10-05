@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/jconfig.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 958,
+      "size": 2125,
+      "sha256": "90adfebf9891e65ef692fd350ab4e7a0b1fcceb22fbe8083394d9666e1e2aa6b"
+    },
+    "include/jerror.h": {
+      "pack": "include-000.pack",
+      "offset": 958,
+      "compressedSize": 4369,
+      "size": 16163,
+      "sha256": "b4e8697b3d2e06071f23a3f32c50f62f782cdee03f7b82e4595eed5e33d67288"
+    },
+    "include/jinclude.h": {
+      "pack": "include-000.pack",
+      "offset": 5327,
+      "compressedSize": 1359,
+      "size": 3188,
+      "sha256": "5b9f31bb7fb5bee3b7c8717ec801f2afe6e813272b502bc3bc96f6324fcfa3e2"
+    },
+    "include/jmorecfg.h": {
+      "pack": "include-000.pack",
+      "offset": 6686,
+      "compressedSize": 5434,
+      "size": 14848,
+      "sha256": "2fa0bc914a87be8479c208dc03fee0080b806145bc6de9dcd3e7b112bf34aa6f"
+    },
+    "include/jpeglib.h": {
+      "pack": "include-000.pack",
+      "offset": 12120,
+      "compressedSize": 14892,
+      "size": 55813,
+      "sha256": "e189e7bcb7c4462a92447b84e16542d178fef5a581970ef68aced080c8dc3ba5"
+    },
+    "include/transupp.h": {
+      "pack": "include-000.pack",
+      "offset": 27012,
+      "compressedSize": 3997,
+      "size": 11329,
+      "sha256": "42c45ea2a584da3d32e6aaa15113691df0c8ff88954977e949e0dde52641633b"
+    },
+    "include/turbojpeg.h": {
+      "pack": "include-000.pack",
+      "offset": 31009,
+      "compressedSize": 21959,
+      "size": 124890,
+      "sha256": "a852cfffe09fc1e0d942dd375755ba3a65bd11d6bb7f2e7b45ab08ae80d6758a"
+    }
+  }
+}

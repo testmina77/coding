@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libgmp-10.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 350091,
+      "size": 723968,
+      "sha256": "3f3482cc32744fbdfa8f816e9345ab29f75db0b14ee50fb0f429b6b7f85310e8"
+    },
+    "bin/libgmpxx-4.dll": {
+      "pack": "bin-000.pack",
+      "offset": 350091,
+      "compressedSize": 12263,
+      "size": 41984,
+      "sha256": "6b80c59b50b0e8bb5a028c134fff99272bf9d282ef1e28853d4610498ac15c52"
+    }
+  }
+}

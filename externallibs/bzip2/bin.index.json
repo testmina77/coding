@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/bunzip2.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 33655,
+      "size": 70656,
+      "sha256": "2f5a566d5b6e89db93122e3c4b379cee4186912c6161c23bede9a8731a456d26"
+    },
+    "bin/bzcat.exe": {
+      "pack": "bin-000.pack",
+      "offset": 33655,
+      "compressedSize": 33655,
+      "size": 70656,
+      "sha256": "2f5a566d5b6e89db93122e3c4b379cee4186912c6161c23bede9a8731a456d26"
+    },
+    "bin/bzcmp": {
+      "pack": "bin-000.pack",
+      "offset": 67310,
+      "compressedSize": 907,
+      "size": 2140,
+      "sha256": "1c1f96193cdf14b85ea65f140a7557a07ece8783a53ec5ba6b5c30644a9d3012"
+    },
+    "bin/bzdiff": {
+      "pack": "bin-000.pack",
+      "offset": 68217,
+      "compressedSize": 907,
+      "size": 2140,
+      "sha256": "1c1f96193cdf14b85ea65f140a7557a07ece8783a53ec5ba6b5c30644a9d3012"
+    },
+    "bin/bzegrep": {
+      "pack": "bin-000.pack",
+      "offset": 69124,
+      "compressedSize": 1002,
+      "size": 2054,
+      "sha256": "a8e368a31766c7862b8d0feeffe274c3bb43b969e3ccb4f9e77d13bfa447a5c9"
+    },
+    "bin/bzfgrep": {
+      "pack": "bin-000.pack",
+      "offset": 70126,
+      "compressedSize": 1002,
+      "size": 2054,
+      "sha256": "a8e368a31766c7862b8d0feeffe274c3bb43b969e3ccb4f9e77d13bfa447a5c9"
+    },
+    "bin/bzgrep": {
+      "pack": "bin-000.pack",
+      "offset": 71128,
+      "compressedSize": 1002,
+      "size": 2054,
+      "sha256": "a8e368a31766c7862b8d0feeffe274c3bb43b969e3ccb4f9e77d13bfa447a5c9"
+    },
+    "bin/bzip2.exe": {
+      "pack": "bin-000.pack",
+      "offset": 72130,
+      "compressedSize": 33655,
+      "size": 70656,
+      "sha256": "2f5a566d5b6e89db93122e3c4b379cee4186912c6161c23bede9a8731a456d26"
+    },
+    "bin/bzip2recover.exe": {
+      "pack": "bin-000.pack",
+      "offset": 105785,
+      "compressedSize": 23003,
+      "size": 48128,
+      "sha256": "825bbcf92ac2cee6c2508ae58b3711d0261e14a71a5e887c5c04d7e6afe11a99"
+    },
+    "bin/bzless": {
+      "pack": "bin-000.pack",
+      "offset": 128788,
+      "compressedSize": 671,
+      "size": 1297,
+      "sha256": "0e7ca63849eebc9ea476ea1fefab05e60b0ac8066f73c7d58e8ff607c941f212"
+    },
+    "bin/bzmore": {
+      "pack": "bin-000.pack",
+      "offset": 129459,
+      "compressedSize": 671,
+      "size": 1297,
+      "sha256": "0e7ca63849eebc9ea476ea1fefab05e60b0ac8066f73c7d58e8ff607c941f212"
+    },
+    "bin/libbz2-1.dll": {
+      "pack": "bin-000.pack",
+      "offset": 130130,
+      "compressedSize": 55839,
+      "size": 119296,
+      "sha256": "9423d22ac6e6ea4cedec5f63c194fe9809acbb8e56669e48982551313c69e3ff"
+    }
+  }
+}

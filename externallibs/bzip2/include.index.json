@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/bzlib.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 2082,
+      "size": 7187,
+      "sha256": "c72c62e34c8bba1b329d289178a99ff1a82e79f3ac55ab6d73c51eb31b2be7e8"
+    }
+  }
+}

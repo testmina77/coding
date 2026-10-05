@@ -1,0 +1,35 @@
+{
+  "id": "ngtcp2",
+  "version": "1.25.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "ngtcp2/"
+  ],
+  "libraries": [
+    "ngtcp2",
+    "ngtcp2_crypto_gnutls",
+    "ngtcp2_crypto_ossl"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-ngtcp2"
+    ],
+    "versions": [
+      "1.25.0-1"
+    ],
+    "msys2Dependencies": [
+      "gnutls",
+      "openssl"
+    ],
+    "version": "1.25.0-1"
+  }
+}

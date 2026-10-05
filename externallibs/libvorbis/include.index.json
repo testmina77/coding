@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/vorbis/codec.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 2525,
+      "size": 8387,
+      "sha256": "1d031e3cbae7defe966426e33802450a56388a1323eec1ec629e6d4095c676c5"
+    },
+    "include/vorbis/vorbisenc.h": {
+      "pack": "include-000.pack",
+      "offset": 2525,
+      "compressedSize": 3960,
+      "size": 16990,
+      "sha256": "d2aba0527252dc265ffc40bc9b1955d5ac0dc8d5e16d9376fa366c05fa27dc7f"
+    },
+    "include/vorbis/vorbisfile.h": {
+      "pack": "include-000.pack",
+      "offset": 6485,
+      "compressedSize": 2347,
+      "size": 7990,
+      "sha256": "7d98264e57b0190ef0a2701a0bea5f982e82fc1bedd93cd9408a2fff7790f803"
+    }
+  }
+}

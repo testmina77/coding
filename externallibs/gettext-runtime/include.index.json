@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/autosprintf.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 1156,
+      "size": 2531,
+      "sha256": "c45fb731c237def66e868d80be95186fe90c6e1504bb8fedc8e80a7510f9c260"
+    },
+    "include/libintl.h": {
+      "pack": "include-000.pack",
+      "offset": 1156,
+      "compressedSize": 7055,
+      "size": 41603,
+      "sha256": "7b5e3af3f2d50f3b59b268b9007e0c80de3fe44dc7a5dd74a900ccfd6d5b4bea"
+    }
+  }
+}

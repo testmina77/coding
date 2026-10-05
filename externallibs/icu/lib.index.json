@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/icu/78.3/Makefile.inc": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 3436,
+      "size": 9689,
+      "sha256": "1fac95cce620a4af4c00671eb787bc4526b8b32de296f68965a20b8e01c8c107"
+    },
+    "lib/icu/78.3/pkgdata.inc": {
+      "pack": "lib-000.pack",
+      "offset": 3436,
+      "compressedSize": 522,
+      "size": 993,
+      "sha256": "952fdbe37ffa27d043ec8bd55f2a84a93209bfe5b367a88084c726f6db277719"
+    },
+    "lib/icu/Makefile.inc": {
+      "pack": "lib-000.pack",
+      "offset": 3958,
+      "compressedSize": 3436,
+      "size": 9689,
+      "sha256": "1fac95cce620a4af4c00671eb787bc4526b8b32de296f68965a20b8e01c8c107"
+    },
+    "lib/icu/current/Makefile.inc": {
+      "pack": "lib-000.pack",
+      "offset": 7394,
+      "compressedSize": 3436,
+      "size": 9689,
+      "sha256": "1fac95cce620a4af4c00671eb787bc4526b8b32de296f68965a20b8e01c8c107"
+    },
+    "lib/icu/current/pkgdata.inc": {
+      "pack": "lib-000.pack",
+      "offset": 10830,
+      "compressedSize": 522,
+      "size": 993,
+      "sha256": "952fdbe37ffa27d043ec8bd55f2a84a93209bfe5b367a88084c726f6db277719"
+    },
+    "lib/icu/pkgdata.inc": {
+      "pack": "lib-000.pack",
+      "offset": 11352,
+      "compressedSize": 522,
+      "size": 993,
+      "sha256": "952fdbe37ffa27d043ec8bd55f2a84a93209bfe5b367a88084c726f6db277719"
+    },
+    "lib/libicudt.a": {
+      "pack": "lib-000.pack",
+      "offset": 11874,
+      "compressedSize": 12748716,
+      "size": 33107824,
+      "sha256": "befa3e3d7efa6c7b646f00696126471c26207be7c4b9dc208e9120a8544c2814"
+    },
+    "lib/libicudt.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 12760590,
+      "compressedSize": 403,
+      "size": 1346,
+      "sha256": "7e6859227e326a9c92ce96c1a2e7c6e4dbf42b4b21a7650c680e2d8663ba8e69"
+    },
+    "lib/libicuin.a": {
+      "pack": "lib-000.pack",
+      "offset": 12760993,
+      "compressedSize": 2112445,
+      "size": 7656006,
+      "sha256": "022ad1309d7fcb14a1a3eaab2c345330944bebd587df29d291bf17669a87cf87"
+    },
+    "lib/libicuin.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 14873438,
+      "compressedSize": 238982,
+      "size": 2168832,
+      "sha256": "88b91d94bcbc38d0cd7ae5d1771447308beb996231ec88ccf4ab97920bd0ddf7"
+    },
+    "lib/libicuio.a": {
+      "pack": "lib-000.pack",
+      "offset": 15112420,
+      "compressedSize": 27390,
+      "size": 80886,
+      "sha256": "32604606f2158ae87738e9949f5019c26f5a1caecac9dbcb0dc77d505b119078"
+    },
+    "lib/libicuio.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 15139810,
+      "compressedSize": 1878,
+      "size": 12310,
+      "sha256": "66fc98346a5e91c940d01ce0482fe8954156b5a9b8d6db5a39ae8017b20c2325"
+    },
+    "lib/libicutest.a": {
+      "pack": "lib-000.pack",
+      "offset": 15141688,
+      "compressedSize": 32790,
+      "size": 619328,
+      "sha256": "1b29ec1a23d79a95b34bf18f7bd75c20151e4b4222bbbbea409d98b894dbae75"
+    },
+    "lib/libicutest.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 15174478,
+      "compressedSize": 4435,
+      "size": 37088,
+      "sha256": "dc4979c159388d71e07fdaec29f8d1411c6be83afb7399477f3efe3bc6b637bf"
+    },
+    "lib/libicutu.a": {
+      "pack": "lib-000.pack",
+      "offset": 15178913,
+      "compressedSize": 120005,
+      "size": 549758,
+      "sha256": "5dc349ec8431a053b95c2baacaea3b1f09190a17597c6f134ad0fd51e2f9f8ad"
+    },
+    "lib/libicutu.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 15298918,
+      "compressedSize": 8624,
+      "size": 68718,
+      "sha256": "68d9f71ac080f6a7defe9be767eedb206a389e6b4b02809c7eaec7a6dbc18180"
+    },
+    "lib/libicuuc.a": {
+      "pack": "lib-000.pack",
+      "offset": 15307542,
+      "compressedSize": 1141616,
+      "size": 3400656,
+      "sha256": "333364af70e431a0531326a7e31501a554e89eb1910dd536fabf7d493c0dfdfd"
+    },
+    "lib/libicuuc.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 16449158,
+      "compressedSize": 106729,
+      "size": 832526,
+      "sha256": "dba69e56b121c040a2e4fb527e45e7336bcaaf9fb14a881853ea4d5c268d5255"
+    },
+    "lib/pkgconfig/icu-i18n.pc": {
+      "pack": "lib-000.pack",
+      "offset": 16555887,
+      "compressedSize": 681,
+      "size": 1299,
+      "sha256": "f492e3e49c7bc9237ba1d06974b7fbbdb8ef1bf6da0f964828cf3075daeb000b"
+    },
+    "lib/pkgconfig/icu-io.pc": {
+      "pack": "lib-000.pack",
+      "offset": 16556568,
+      "compressedSize": 685,
+      "size": 1293,
+      "sha256": "4742b91a66a608eb2f5115cd11912778da09d6594b985c2217c05c8d7f6d95db"
+    },
+    "lib/pkgconfig/icu-uc.pc": {
+      "pack": "lib-000.pack",
+      "offset": 16557253,
+      "compressedSize": 692,
+      "size": 1323,
+      "sha256": "cc896dedc0927623309206091ab288bfae19685556af6fc3dfe7c7669d49148c"
+    }
+  }
+}

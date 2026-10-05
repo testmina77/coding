@@ -1,0 +1,30 @@
+{
+  "id": "nghttp3",
+  "version": "1.18.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "nghttp3/"
+  ],
+  "libraries": [
+    "nghttp3"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-nghttp3"
+    ],
+    "versions": [
+      "1.18.0-1"
+    ],
+    "msys2Dependencies": [],
+    "version": "1.18.0-1"
+  }
+}

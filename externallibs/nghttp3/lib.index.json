@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/nghttp3/nghttp3Config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 109,
+      "size": 96,
+      "sha256": "7bdc275d20c2c4ddea3b8b4b8f48411c6e275d0e70f5792e03ceee1411a387da"
+    },
+    "lib/cmake/nghttp3/nghttp3ConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 109,
+      "compressedSize": 914,
+      "size": 2830,
+      "sha256": "8972403e522c6bc71bed687b389faaab3020616351ae74636e3caeac38586af0"
+    },
+    "lib/cmake/nghttp3/nghttp3Targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1023,
+      "compressedSize": 448,
+      "size": 1460,
+      "sha256": "e5b1fe268510039cd9195e5466daf66c3ebc4556d2941146e58ac5ae2e212956"
+    },
+    "lib/cmake/nghttp3/nghttp3Targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1471,
+      "compressedSize": 1424,
+      "size": 4537,
+      "sha256": "91dd174533fe69f05231c7bc18b807d16cca15b85f1a40aac94bee9cc77c6480"
+    },
+    "lib/libnghttp3.a": {
+      "pack": "lib-000.pack",
+      "offset": 2895,
+      "compressedSize": 91222,
+      "size": 259076,
+      "sha256": "28e3626ee59010e671a0e100d49ed9737e78f170428e8ca7f6146c60edc5e210"
+    },
+    "lib/libnghttp3.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 94117,
+      "compressedSize": 3252,
+      "size": 26676,
+      "sha256": "6d9adba5350579c4c1c716947e0b1c5ce34815104ec89ea2080c34c9fb492f81"
+    },
+    "lib/pkgconfig/libnghttp3.pc": {
+      "pack": "lib-000.pack",
+      "offset": 97369,
+      "compressedSize": 850,
+      "size": 1472,
+      "sha256": "ac4409122a9bf5337ec7728db98ecc9c4bd41f7164ec6eec757478e2bdc02282"
+    }
+  }
+}

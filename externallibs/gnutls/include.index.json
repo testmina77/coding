@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/gnutls/abstract.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 5220,
+      "size": 26277,
+      "sha256": "3854e085de5fe83991173648c3d114f238d05483a4b4d38c688a1bd7fb9828c0"
+    },
+    "include/gnutls/compat.h": {
+      "pack": "include-000.pack",
+      "offset": 5220,
+      "compressedSize": 2333,
+      "size": 9237,
+      "sha256": "74514d5dcfdd40598d5c2c63c1d4afa1bfcc7acac745c0fdb493886ff709c0b1"
+    },
+    "include/gnutls/crypto.h": {
+      "pack": "include-000.pack",
+      "offset": 7553,
+      "compressedSize": 2648,
+      "size": 11976,
+      "sha256": "7ff7c90b487905003c06353dcd41953a52c1dd8d7e85b9178785ed13ce422308"
+    },
+    "include/gnutls/dtls.h": {
+      "pack": "include-000.pack",
+      "offset": 10201,
+      "compressedSize": 1071,
+      "size": 2698,
+      "sha256": "e2ce062cf599dc13d9be1907d2908294065fd75bcf819dae5ad8456da9f98758"
+    },
+    "include/gnutls/gnutls.h": {
+      "pack": "include-000.pack",
+      "offset": 11272,
+      "compressedSize": 31871,
+      "size": 147466,
+      "sha256": "fa7685785ce2f9313219f3deb2028ca0bc0149aefe8b6f7e9c6bed8b870223f8"
+    },
+    "include/gnutls/gnutlsxx.h": {
+      "pack": "include-000.pack",
+      "offset": 43143,
+      "compressedSize": 6213,
+      "size": 31698,
+      "sha256": "7b08b98f5c56435ffb8d164782d9b55c98af8ec909f5136cb31bebeaabddc247"
+    },
+    "include/gnutls/hpke.h": {
+      "pack": "include-000.pack",
+      "offset": 49356,
+      "compressedSize": 1391,
+      "size": 4596,
+      "sha256": "6143c0a6bead89819cf5f2a6bfe856a60df978b5ea1b47cceba2fbdf6eb58ed2"
+    },
+    "include/gnutls/ocsp.h": {
+      "pack": "include-000.pack",
+      "offset": 50747,
+      "compressedSize": 2607,
+      "size": 10123,
+      "sha256": "8adaadbfd8f8482978c12ffdeda2c14220a7386e700a7ed055cd963f9e75c0c8"
+    },
+    "include/gnutls/openpgp.h": {
+      "pack": "include-000.pack",
+      "offset": 53354,
+      "compressedSize": 2533,
+      "size": 14123,
+      "sha256": "2e700674ddba6081c649de8e6c7c4a4cacd45f4afef05d8a4d0209f6b0f78de8"
+    },
+    "include/gnutls/openssl.h": {
+      "pack": "include-000.pack",
+      "offset": 55887,
+      "compressedSize": 2837,
+      "size": 8963,
+      "sha256": "ea192c48dc420449203511d4b70f2ba6e5370d424154161137177b925f6a9298"
+    },
+    "include/gnutls/pkcs11.h": {
+      "pack": "include-000.pack",
+      "offset": 58724,
+      "compressedSize": 4803,
+      "size": 20973,
+      "sha256": "0cb189f1680e8f8de3bfc322ab8915e8a155dfad5da799b06a7798de443560b0"
+    },
+    "include/gnutls/pkcs12.h": {
+      "pack": "include-000.pack",
+      "offset": 63527,
+      "compressedSize": 1586,
+      "size": 5385,
+      "sha256": "726d1dadab84994043bc50c792f1764a306866885952ab070a815c45e8ded0e1"
+    },
+    "include/gnutls/pkcs7.h": {
+      "pack": "include-000.pack",
+      "offset": 65113,
+      "compressedSize": 1593,
+      "size": 5437,
+      "sha256": "9cb5c52b9fa16436e07159a18666c0f0334c705ee0f9606993e77501a165b667"
+    },
+    "include/gnutls/self-test.h": {
+      "pack": "include-000.pack",
+      "offset": 66706,
+      "compressedSize": 689,
+      "size": 1552,
+      "sha256": "52edb58a874ebb7c78f06a4fe9a358b76050604584fc459c76780102889a42b0"
+    },
+    "include/gnutls/socket.h": {
+      "pack": "include-000.pack",
+      "offset": 67395,
+      "compressedSize": 698,
+      "size": 1259,
+      "sha256": "a511b4dbbb7d415c7a87c2740dd16098acc0bb0c2ab2c7200a0a6a3a92cb9a25"
+    },
+    "include/gnutls/system-keys.h": {
+      "pack": "include-000.pack",
+      "offset": 68093,
+      "compressedSize": 885,
+      "size": 1838,
+      "sha256": "d958661473709961933ceb52a1ef10921f04c809cc3151a18ecf4a5e76c9f310"
+    },
+    "include/gnutls/tpm.h": {
+      "pack": "include-000.pack",
+      "offset": 68978,
+      "compressedSize": 1003,
+      "size": 2223,
+      "sha256": "c2994177ad7cc5b45d5ff6f7972e7751fe58425e37737dbafbf248e8c744bc23"
+    },
+    "include/gnutls/urls.h": {
+      "pack": "include-000.pack",
+      "offset": 69981,
+      "compressedSize": 1075,
+      "size": 2440,
+      "sha256": "5d23fc23e7582cf32872c575f25dd9579d889261dd910f939277579e648c0a24"
+    },
+    "include/gnutls/x509-ext.h": {
+      "pack": "include-000.pack",
+      "offset": 71056,
+      "compressedSize": 1795,
+      "size": 8555,
+      "sha256": "5ffeae33b6cbd6da539a470787505cc37babb82477f1d55cd31926e0a6252d3c"
+    },
+    "include/gnutls/x509.h": {
+      "pack": "include-000.pack",
+      "offset": 72851,
+      "compressedSize": 11747,
+      "size": 63681,
+      "sha256": "4850c1f1fd1032aa55380789e5e6424fe509827d05a1bcff3bad587218ebe4cb"
+    }
+  }
+}

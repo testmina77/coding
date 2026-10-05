@@ -1,0 +1,33 @@
+{
+  "id": "zstd",
+  "version": "1.5.7-2",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "zdict.h",
+    "zstd.h",
+    "zstd_errors.h"
+  ],
+  "libraries": [
+    "zstd"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-zstd"
+    ],
+    "versions": [
+      "1.5.7-2"
+    ],
+    "msys2Dependencies": [
+      "cc-libs"
+    ],
+    "version": "1.5.7-2"
+  }
+}

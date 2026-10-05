@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/ares.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 12254,
+      "size": 48602,
+      "sha256": "25a857a3ee9c683b6d1243df37704602cbc3a049808aa1d61a84594472433544"
+    },
+    "include/ares_build.h": {
+      "pack": "include-000.pack",
+      "offset": 12254,
+      "compressedSize": 476,
+      "size": 1143,
+      "sha256": "2867fddf7049f5834d54ad2c62605c66cfd5ba45bdf58661248cf3290ef86535"
+    },
+    "include/ares_dns.h": {
+      "pack": "include-000.pack",
+      "offset": 12730,
+      "compressedSize": 1786,
+      "size": 5802,
+      "sha256": "608b695de7b23dce0af356ca0cc3ea6f626a2d630de7444ead6e013c9b23aea2"
+    },
+    "include/ares_dns_record.h": {
+      "pack": "include-000.pack",
+      "offset": 14516,
+      "compressedSize": 10069,
+      "size": 47775,
+      "sha256": "cc41de979a7aa4c976edf831b7f3ff3481c56486f597adff730af498ffa0a51e"
+    },
+    "include/ares_nameser.h": {
+      "pack": "include-000.pack",
+      "offset": 24585,
+      "compressedSize": 4207,
+      "size": 13359,
+      "sha256": "cbfd9edb0bad63cf7ec9d763f20b72417a266e0c70c00991bf3d975bf187c2c3"
+    },
+    "include/ares_version.h": {
+      "pack": "include-000.pack",
+      "offset": 28792,
+      "compressedSize": 1024,
+      "size": 1904,
+      "sha256": "c4665f4216d425e4bf506eec6c24223c936489518c89661bd8832690e190d025"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/FLAC++/all.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 1029,
+      "size": 1976,
+      "sha256": "14f2c68f790199cac206309179fcd1ad81090122e99f558778b51141f12cd963"
+    },
+    "include/FLAC++/decoder.h": {
+      "pack": "include-000.pack",
+      "offset": 1029,
+      "compressedSize": 3551,
+      "size": 13547,
+      "sha256": "502ec12f5c8da8aa83d983ba00975b6ea2e62a120942bf5d341cbb4c25f7b331"
+    },
+    "include/FLAC++/encoder.h": {
+      "pack": "include-000.pack",
+      "offset": 4580,
+      "compressedSize": 3930,
+      "size": 15901,
+      "sha256": "20ae45ad4602e2e445caecad60b2110b301bb2d58adca292a0b7098358a52eea"
+    },
+    "include/FLAC++/export.h": {
+      "pack": "include-000.pack",
+      "offset": 8510,
+      "compressedSize": 1778,
+      "size": 3932,
+      "sha256": "c42e467a6dd11cbf0ca64fb573f03b15cae0f16f5267ff9451b9a850acac0136"
+    },
+    "include/FLAC++/metadata.h": {
+      "pack": "include-000.pack",
+      "offset": 10288,
+      "compressedSize": 8138,
+      "size": 51649,
+      "sha256": "32b08559e9106fca0c96c8a73ca0443cb15b277f43271fd288163e990f2367d6"
+    },
+    "include/FLAC/all.h": {
+      "pack": "include-000.pack",
+      "offset": 18426,
+      "compressedSize": 7369,
+      "size": 22074,
+      "sha256": "ff88842fac3d3a79223df3cb2f80af926cd73cbeb32fb925e82d26c6ca65d9eb"
+    },
+    "include/FLAC/assert.h": {
+      "pack": "include-000.pack",
+      "offset": 25795,
+      "compressedSize": 1094,
+      "size": 2153,
+      "sha256": "f819c5f88e7b6ea1efbcf5476faf4042db65915b519231449b7895e5d16ac539"
+    },
+    "include/FLAC/callback.h": {
+      "pack": "include-000.pack",
+      "offset": 26889,
+      "compressedSize": 2635,
+      "size": 7649,
+      "sha256": "72340f12ab7197b0492eb7ce0b3d465e6ac359e976dcd222759034f82e56a992"
+    },
+    "include/FLAC/export.h": {
+      "pack": "include-000.pack",
+      "offset": 29524,
+      "compressedSize": 1857,
+      "size": 4102,
+      "sha256": "0020243b53cafd9a9f7f5185c02984e450b74d9318a02e717f8071cebb240a26"
+    },
+    "include/FLAC/format.h": {
+      "pack": "include-000.pack",
+      "offset": 31381,
+      "compressedSize": 9468,
+      "size": 41367,
+      "sha256": "7311a9c8e5be7aa44b3f48c0d98c96a6fde937a009ac9d4311d82f01b1b6d512"
+    },
+    "include/FLAC/metadata.h": {
+      "pack": "include-000.pack",
+      "offset": 40849,
+      "compressedSize": 16801,
+      "size": 102906,
+      "sha256": "ed54ca45d24c4e3d18a8ba867ef7e66d7ed510a3b87f3cb1a14d0efb517bce8f"
+    },
+    "include/FLAC/ordinals.h": {
+      "pack": "include-000.pack",
+      "offset": 57650,
+      "compressedSize": 1029,
+      "size": 2081,
+      "sha256": "206c45b8573fd50fec359028e4d69c626a5dfbeb75a53027195704d5f9a60c63"
+    },
+    "include/FLAC/stream_decoder.h": {
+      "pack": "include-000.pack",
+      "offset": 58679,
+      "compressedSize": 14044,
+      "size": 80537,
+      "sha256": "375f08a6983ce0f75a00169b114d753965d0176fd95c620ecf265244e61be5f3"
+    },
+    "include/FLAC/stream_encoder.h": {
+      "pack": "include-000.pack",
+      "offset": 72723,
+      "compressedSize": 17314,
+      "size": 87898,
+      "sha256": "5aedffc9654871ed89055155b92ce3e784f3d059837b6d4d972a489d85f8dbb7"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/ngtcp2/ngtcp2.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 43303,
+      "size": 249703,
+      "sha256": "7ce1c48908e52b0769207e761d4ba5ac4b8741f900ac6849ae2e44b2f9c1163e"
+    },
+    "include/ngtcp2/ngtcp2_crypto.h": {
+      "pack": "include-000.pack",
+      "offset": 43303,
+      "compressedSize": 7110,
+      "size": 41001,
+      "sha256": "b1080676523d3106baad3cd402ad124a26e8d8d771b5b55b7c3cc8d91b0ab988"
+    },
+    "include/ngtcp2/ngtcp2_crypto_gnutls.h": {
+      "pack": "include-000.pack",
+      "offset": 50413,
+      "compressedSize": 1260,
+      "size": 3723,
+      "sha256": "c353876e09f7bbf83fa7309ebf93f8b6c23078198bfdb7cf65d76e233728f18a"
+    },
+    "include/ngtcp2/ngtcp2_crypto_ossl.h": {
+      "pack": "include-000.pack",
+      "offset": 51673,
+      "compressedSize": 2115,
+      "size": 6615,
+      "sha256": "2c506d46176e47dd3865bcf8145f9e321b517974dedee02230c89a7c3c78a406"
+    },
+    "include/ngtcp2/version.h": {
+      "pack": "include-000.pack",
+      "offset": 53788,
+      "compressedSize": 900,
+      "size": 1713,
+      "sha256": "24fa28de2bce31d0bb0323668c0dcb8c637ad5f5b7f72aa1e2cdcc57afe8ed37"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "curl",
+  "version": "8.22.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "curl/"
+  ],
+  "libraries": [
+    "curl"
+  ],
+  "dependencies": [
+    "brotli",
+    "libidn2",
+    "libpsl",
+    "libssh2",
+    "libunistring",
+    "nghttp2",
+    "nghttp3",
+    "ngtcp2",
+    "openssl",
+    "zlib",
+    "zstd"
+  ],
+  "systemLibraries": [
+    "bcrypt",
+    "crypt32",
+    "iphlpapi",
+    "normaliz",
+    "wldap32",
+    "ws2_32"
+  ],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-curl"
+    ],
+    "versions": [
+      "8.22.0-1"
+    ],
+    "msys2Dependencies": [
+      "brotli",
+      "c-ares",
+      "ca-certificates",
+      "cc-libs",
+      "libidn2",
+      "libpsl",
+      "libssh2",
+      "nghttp2",
+      "nghttp3",
+      "ngtcp2",
+      "openssl",
+      "zlib",
+      "zstd"
+    ],
+    "version": "8.22.0-1"
+  }
+}

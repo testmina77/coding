@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ForgeIDE</title>
+    <link rel="stylesheet" href="css/vs.css" />
+  </head>
+  <body>
+    <div id="workbench">
+      <!-- MENU BAR -->
+      <div id="menubar">
+        <div class="menu-item" data-menu="file">
+          File
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="new-project">
+              New Project…<span class="shortcut">Ctrl+Shift+N</span>
+            </div>
+            <div class="dd-item" data-cmd="open-project">
+              Open Project…<span class="shortcut">Ctrl+O</span>
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="save">
+              Save<span class="shortcut">Ctrl+S</span>
+            </div>
+            <div class="dd-item" data-cmd="save-all">
+              Save All<span class="shortcut">Ctrl+Shift+S</span>
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="export-zip">
+              Export Project as ZIP…
+            </div>
+            <div class="dd-item" data-cmd="import-zip">
+              Import Project from ZIP…
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="reset-project">Reset Project</div>
+          </div>
+        </div>
+        <div class="menu-item" data-menu="edit">
+          Edit
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="undo">
+              Undo<span class="shortcut">Ctrl+Z</span>
+            </div>
+            <div class="dd-item" data-cmd="redo">
+              Redo<span class="shortcut">Ctrl+Y</span>
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="cut">
+              Cut<span class="shortcut">Ctrl+X</span>
+            </div>
+            <div class="dd-item" data-cmd="copy">
+              Copy<span class="shortcut">Ctrl+C</span>
+            </div>
+            <div class="dd-item" data-cmd="paste">
+              Paste<span class="shortcut">Ctrl+V</span>
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="find">
+              Find…<span class="shortcut">Ctrl+F</span>
+            </div>
+            <div class="dd-item" data-cmd="replace">
+              Replace…<span class="shortcut">Ctrl+H</span>
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="format-document">
+              Format Document<span class="shortcut">Shift+Alt+F</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item" data-menu="view">
+          View
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="view-explorer">
+              Explorer<span class="shortcut">Ctrl+Shift+E</span>
+            </div>
+            <div class="dd-item" data-cmd="view-search">
+              Search<span class="shortcut">Ctrl+Shift+F</span>
+            </div>
+            <div class="dd-item" data-cmd="view-source">
+              Source Control<span class="shortcut">Ctrl+Shift+G</span>
+            </div>
+            <div class="dd-item" data-cmd="view-extensions">
+              Extensions<span class="shortcut">Ctrl+Shift+X</span>
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="toggle-sidebar">
+              Toggle Sidebar<span class="shortcut">Ctrl+B</span>
+            </div>
+            <div class="dd-item" data-cmd="toggle-panel">
+              Toggle Panel<span class="shortcut">Ctrl+J</span>
+            </div>
+            <div class="dd-item" data-cmd="toggle-properties">
+              Toggle Properties
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="toggle-minimap">Toggle Minimap</div>
+            <div class="dd-item" data-cmd="toggle-wordwrap">
+              Toggle Word Wrap<span class="shortcut">Alt+Z</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item" data-menu="project">
+          Project
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="add-file">Add New File…</div>
+            <div class="dd-item" data-cmd="add-folder">Add Folder…</div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="add-binary-resource">
+              Add Binary Resource…
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="project-properties">
+              Properties…<span class="shortcut">Alt+Enter</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item" data-menu="build">
+          Build
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="build">
+              Build Solution<span class="shortcut">Ctrl+Shift+B</span>
+            </div>
+            <div class="dd-item" data-cmd="rebuild">Rebuild Solution</div>
+            <div class="dd-item" data-cmd="clean">Clean Solution</div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="compile-file">
+              Compile Current File
+            </div>
+          </div>
+        </div>
+        <div class="menu-item" data-menu="terminal">
+          Terminal
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="terminal">
+              New Terminal<span class="shortcut">Ctrl+`</span>
+            </div>
+            <div class="dd-item" data-cmd="clear-output">Clear Output</div>
+          </div>
+        </div>
+        <div class="menu-item" data-menu="help">
+          Help
+          <div class="dropdown">
+            <div class="dd-item" data-cmd="cmd-palette">
+              Command Palette…<span class="shortcut">Ctrl+Shift+P</span>
+            </div>
+            <div class="dd-item" data-cmd="show-shortcuts">
+              Keyboard Shortcuts
+            </div>
+            <div class="dd-sep"></div>
+            <div class="dd-item" data-cmd="about">About ForgeIDE</div>
+          </div>
+        </div>
+        <div class="menu-spacer"></div>
+        <div class="config-selector">
+          <select id="cfg-config">
+            <option>Debug</option>
+            <option>Release</option>
+          </select>
+          <select id="cfg-platform">
+            <option>x64</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="workbench-body">
+        <div id="activitybar">
+          <div
+            class="ab-item active"
+            data-view="explorer"
+            title="Explorer (Ctrl+Shift+E)"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M17.5 0h-9L7 1.5V6H2.5L1 7.5v15.07L2.5 24h12.07L16 22.57V18h4.7l1.3-1.43V4.5L17.5 0zm0 2.12l2.38 2.38H17.5V2.12zm-3 20.38h-12v-15H7v9.07L8.5 18h6v4.5zm6-6h-12v-15H16V6h4.5v10.5z"
+              />
+            </svg>
+          </div>
+          <div class="ab-item" data-view="search" title="Search (Ctrl+Shift+F)">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M15.25 0a8.25 8.25 0 0 0-6.18 13.72L1 22.88l1.12 1 8.05-9.12A8.251 8.251 0 1 0 15.25.01V0zm0 15a6.75 6.75 0 1 1 0-13.5 6.75 6.75 0 0 1 0 13.5z"
+              />
+            </svg>
+          </div>
+          <div
+            class="ab-item"
+            data-view="source"
+            title="Source Control (Ctrl+Shift+G)"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M21.007 8.222A3.738 3.738 0 0 0 15.045 5.2a3.737 3.737 0 0 0 1.156 6.583 2.988 2.988 0 0 1-2.668 1.67h-2.99a4.456 4.456 0 0 0-2.989 1.165V7.4a3.737 3.737 0 1 0-1.494 0v9.117a3.776 3.776 0 1 0 1.816.099 2.99 2.99 0 0 1 2.668-1.667h2.99a4.484 4.484 0 0 0 4.223-3.039 3.736 3.736 0 0 0 3.25-3.687zM4.565 3.738a2.242 2.242 0 1 1 4.484 0 2.242 2.242 0 0 1-4.484 0zm4.484 16.441a2.242 2.242 0 1 1-4.484 0 2.242 2.242 0 0 1 4.484 0zm8.221-9.715a2.242 2.242 0 1 1 0-4.485 2.242 2.242 0 0 1 0 4.485z"
+              />
+            </svg>
+          </div>
+          <div
+            class="ab-item"
+            data-view="run"
+            title="Run and Debug (Ctrl+Shift+D)"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18.999 2.5a.998.998 0 0 0-1.5-.865L5.5 8.941a1 1 0 0 0 0 1.732l11.999 7.306a1 1 0 0 0 1.5-.866V2.5zM14.5 10.5l-6 3.5v-7l6 3.5z"
+              />
+              <path d="M3 5.5v13h1.5v-13H3z" />
+            </svg>
+          </div>
+          <div
+            class="ab-item"
+            data-view="extensions"
+            title="Extensions (Ctrl+Shift+X)"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M13.5 1.5v5.5H19v7h-5.5v6.5h-6v-6.5H1.5v-7H7.5V1.5h6zm-1.5 1.5h-3v6.5H3v4h6v6.5h3v-6.5h6v-4h-6V3z"
+              />
+            </svg>
+          </div>
+          <div class="ab-spacer"></div>
+          <div class="ab-item" data-view="settings" title="Manage">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19.85 8.75l4.15.83v4.84l-4.15.83 1.59 3.92-3.42 3.42-3.92-1.59-.83 4.15h-4.84l-.83-4.15-3.92 1.59-3.42-3.42 1.59-3.92L1.99 14.42v-4.84l4.15-.83-1.59-3.92 3.42-3.42 3.92 1.59.83-4.15h4.84l.83 4.15 3.92-1.59 3.42 3.42-1.59 3.92zM12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+          <div class="sidebar-header">
+            <span id="sidebar-title">EXPLORER</span>
+            <div class="panel-tools">
+              <button class="icon-btn" data-cmd="add-file" title="New File">
+                +
+              </button>
+            </div>
+          </div>
+          <div class="sidebar-body" id="sidebar-body">
+            <div class="sidebar-view" id="view-explorer">
+              <div class="sidebar-section">
+                <div class="section-header" data-section="open-editors">
+                  <span class="chevron">▼</span>
+                  <span>Open Editors</span>
+                </div>
+                <div class="section-body" id="open-editors"></div>
+              </div>
+              <div class="sidebar-section">
+                <div class="section-header" data-section="workspace">
+                  <span class="chevron">▼</span>
+                  <span id="workspace-title">MYPROJECT</span>
+                </div>
+                <div class="section-body" id="explorer-tree"></div>
+              </div>
+            </div>
+            <div class="sidebar-view hidden" id="view-search">
+              <div class="search-box">
+                <input
+                  type="text"
+                  id="search-input"
+                  placeholder="Search"
+                  spellcheck="false"
+                />
+              </div>
+              <div class="search-results" id="search-results"></div>
+            </div>
+            <div class="sidebar-view hidden" id="view-source">
+              <div
+                style="
+                  padding: 16px;
+                  color: #6b6b6b;
+                  font-size: 12px;
+                  font-style: italic;
+                "
+              >
+                No source control providers registered.
+              </div>
+            </div>
+            <div class="sidebar-view hidden" id="view-run">
+              <div
+                style="
+                  padding: 16px;
+                  color: #6b6b6b;
+                  font-size: 12px;
+                  font-style: italic;
+                "
+              >
+                Debugger not available.<br />Press
+                <span class="welcome-shortcut">F5</span> to build &amp; run.
+              </div>
+            </div>
+            <div class="sidebar-view hidden" id="view-extensions">
+              <div
+                style="
+                  padding: 16px;
+                  color: #6b6b6b;
+                  font-size: 12px;
+                  font-style: italic;
+                "
+              >
+                No extensions installed.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resizer-v" data-resize="sidebar"></div>
+
+        <div id="editor-area">
+          <div id="editor-tabs"></div>
+          <div id="breadcrumbs"></div>
+          <div id="editor-host">
+            <div id="monaco"></div>
+            <div id="welcome" class="visible">
+              <h1>ForgeIDE</h1>
+              <p>C++ IDE in the browser. Zero backend.</p>
+              <div class="welcome-actions">
+                <button data-cmd="add-file">Add New File…</button>
+                <button data-cmd="add-binary-resource">
+                  Add Binary Resource…
+                </button>
+                <button data-cmd="project-properties">
+                  Project Properties…
+                </button>
+                <button data-cmd="build">Build Solution</button>
+              </div>
+              <div class="welcome-hint">
+                Show all commands with
+                <span class="welcome-shortcut">Ctrl+Shift+P</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resizer-h" data-resize="panel"></div>
+          <div id="panel">
+            <div id="panel-tabs">
+              <div class="panel-tab" data-panel="problems">Problems</div>
+              <div class="panel-tab active" data-panel="output">Output</div>
+              <div class="panel-tab" data-panel="terminal">Terminal</div>
+              <div class="panel-tab" data-panel="debug">Debug Console</div>
+              <div class="panel-actions">
+                <button
+                  id="out-autoscroll"
+                  class="active"
+                  title="Toggle Autoscroll"
+                >
+                  ⇩
+                </button>
+                <button id="out-copy" title="Copy All">⧉</button>
+                <button id="out-clear" title="Clear">🗑</button>
+                <button id="panel-close" title="Close Panel">✕</button>
+              </div>
+            </div>
+            <div class="panel-filter" id="output-filter">
+              <input
+                type="text"
+                id="out-filter-text"
+                placeholder="Filter output…"
+              />
+              <select id="out-filter-level">
+                <option value="all">All</option>
+                <option value="info">Info</option>
+                <option value="warn">Warnings</option>
+                <option value="err">Errors</option>
+              </select>
+            </div>
+            <div id="panel-content">
+              <div class="panel-view" data-panel="problems"></div>
+              <div class="panel-view active" data-panel="output"></div>
+              <div class="panel-view" data-panel="terminal"></div>
+              <div class="panel-view" data-panel="debug"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resizer-v" data-resize="properties"></div>
+
+        <div id="properties-panel">
+          <div class="sidebar-header">
+            <span>PROPERTIES</span>
+          </div>
+          <div id="prop-panel">
+            <div class="prop-empty">Select an item to view its properties.</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="statusbar">
+        <div class="sb-item" id="sb-status" title="Status">Ready</div>
+        <div class="sb-item" data-cmd="build" title="Build">🔨 Build</div>
+        <div class="sb-item static" id="sb-errors" title="Errors">✗ 0</div>
+        <div class="sb-item static" id="sb-warnings" title="Warnings">⚠ 0</div>
+        <div class="sb-spacer"></div>
+        <div class="sb-item static" id="sb-lncol">Ln 1, Col 1</div>
+        <div class="sb-item static" id="sb-spaces">Spaces: 4</div>
+        <div class="sb-item static">UTF-8</div>
+        <div class="sb-item static">LF</div>
+        <div class="sb-item" id="sb-language" title="Language">C++</div>
+        <div class="sb-item" id="sb-minimap" title="Toggle Minimap">
+          Minimap
+        </div>
+        <div class="sb-item" id="sb-wordwrap" title="Toggle Word Wrap">
+          Wrap
+        </div>
+        <div class="sb-item static" id="sb-config">Debug | x64</div>
+      </div>
+    </div>
+
+    <div id="command-palette">
+      <div class="cp-box">
+        <input
+          type="text"
+          class="cp-input"
+          id="cp-input"
+          placeholder="Type a command…"
+          spellcheck="false"
+          autocomplete="off"
+        />
+        <div class="cp-list" id="cp-list"></div>
+      </div>
+    </div>
+
+    <div id="prop-dialog" class="dialog-backdrop hidden">
+      <div class="dialog dialog-lg">
+        <div class="dialog-title">
+          <span id="propdlg-title">MyProject Property Pages</span>
+          <button class="dialog-close" data-cmd="propdlg-close">✕</button>
+        </div>
+        <div class="dialog-toolbar">
+          <label>Configuration:</label>
+          <select id="propdlg-cfg">
+            <option>Debug</option>
+            <option>Release</option>
+          </select>
+          <label>Platform:</label>
+          <select id="propdlg-plat">
+            <option>x64</option>
+          </select>
+          <div class="spacer"></div>
+          <select id="propdlg-cfgname">
+            <option>All Configurations</option>
+          </select>
+        </div>
+        <div class="dialog-body">
+          <nav class="dialog-nav" id="propdlg-nav"></nav>
+          <div class="dialog-grid" id="propdlg-grid"></div>
+        </div>
+        <div class="dialog-actions">
+          <button class="btn-primary" data-cmd="propdlg-ok">OK</button>
+          <button data-cmd="propdlg-cancel">Cancel</button>
+          <button data-cmd="propdlg-apply">Apply</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="newfile-dialog" class="dialog-backdrop hidden">
+      <div class="dialog">
+        <div class="dialog-title">
+          <span>Add New File</span>
+          <button class="dialog-close" data-cmd="newfile-close">✕</button>
+        </div>
+        <div class="dialog-body-col">
+          <label>Path (e.g. src/main.cpp):</label>
+          <input id="newfile-path" type="text" placeholder="src/foo.cpp" />
+          <label>Template:</label>
+          <select id="newfile-template">
+            <option value="empty">Empty</option>
+            <option value="cpp-main">C++ — main.cpp</option>
+            <option value="c-main">C — main.c</option>
+            <option value="header">Header .hpp</option>
+            <option value="rc">Resource .rc</option>
+          </select>
+        </div>
+        <div class="dialog-actions">
+          <button class="btn-primary" data-cmd="newfile-ok">Create</button>
+          <button data-cmd="newfile-cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="res-dialog" class="dialog-backdrop hidden">
+      <div class="dialog">
+        <div class="dialog-title">
+          <span>Add Binary Resource → COFF</span>
+          <button class="dialog-close" id="res-close">✕</button>
+        </div>
+        <div class="dialog-body-col" style="min-width: 480px">
+          <div id="res-drop">
+            <div>Drag a file here, or click to select</div>
+            <div id="res-drop-hint">.wav .png .txt — any binary file</div>
+          </div>
+          <div id="res-file-info" style="display: none"></div>
+          <label>Target directory:</label>
+          <input id="res-target-dir" type="text" value="res" />
+          <label>Base symbol (without _binary_ prefix):</label>
+          <input id="res-symbol" type="text" placeholder="auto from filename" />
+          <div style="font-size: 12px; color: #8a8a8a; margin-top: 4px">
+            Generates: <code>.obj</code> (COFF) + <code>.h</code> with
+            declarations. In C/C++ use:
+            <code>_binary_&lt;symbol&gt;_start</code>, <code>_end</code>,
+            <code>_size</code>.
+          </div>
+        </div>
+        <div class="dialog-actions">
+          <button class="btn-primary" id="res-create" disabled>Create</button>
+          <button id="res-cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <input type="file" id="import-zip-input" accept=".zip" class="hidden" />
+
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

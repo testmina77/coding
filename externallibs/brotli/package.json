@@ -1,0 +1,31 @@
+{
+  "id": "brotli",
+  "version": "1.2.0-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "brotli/"
+  ],
+  "libraries": [
+    "brotlidec",
+    "brotlienc",
+    "brotlicommon"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-brotli"
+    ],
+    "versions": [
+      "1.2.0-1"
+    ],
+    "msys2Dependencies": [],
+    "version": "1.2.0-1"
+  }
+}

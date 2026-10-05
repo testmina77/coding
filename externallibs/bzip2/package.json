@@ -1,0 +1,30 @@
+{
+  "id": "bzip2",
+  "version": "1.0.8-4",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "bzlib.h"
+  ],
+  "libraries": [
+    "bz2"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-bzip2"
+    ],
+    "versions": [
+      "1.0.8-4"
+    ],
+    "msys2Dependencies": [],
+    "version": "1.0.8-4"
+  }
+}

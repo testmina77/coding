@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/zdict.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 6566,
+      "size": 26516,
+      "sha256": "abacadb94e3f79e591f4b1648e839b0160fbf4291211fd01bdba1380269b245c"
+    },
+    "include/zstd.h": {
+      "pack": "include-000.pack",
+      "offset": 6566,
+      "compressedSize": 45865,
+      "size": 181748,
+      "sha256": "9b4bc8245565c98ccfc61c07749928b57e7c0f6fddb0530c4f6aa1971893d88b"
+    },
+    "include/zstd_errors.h": {
+      "pack": "include-000.pack",
+      "offset": 52431,
+      "compressedSize": 1636,
+      "size": 4278,
+      "sha256": "66a8c3f71d12ea6e797e4f622f31f3f8f81c41b36f48cad4f5de7d8bfb6aac0a"
+    }
+  }
+}

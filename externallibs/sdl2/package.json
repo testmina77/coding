@@ -1,0 +1,42 @@
+{
+  "id": "sdl2",
+  "version": "2.32.10-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "SDL2/"
+  ],
+  "libraries": [
+    "SDL2"
+  ],
+  "dependencies": [],
+  "systemLibraries": [
+    "gdi32",
+    "imm32",
+    "ole32",
+    "oleaut32",
+    "setupapi",
+    "user32",
+    "version",
+    "winmm"
+  ],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-SDL2"
+    ],
+    "versions": [
+      "2.32.10-1"
+    ],
+    "msys2Dependencies": [
+      "cc-libs",
+      "libiconv",
+      "vulkan"
+    ],
+    "version": "2.32.10-1"
+  }
+}

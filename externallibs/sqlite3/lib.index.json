@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libsqlite3.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 982709,
+      "size": 2263432,
+      "sha256": "801aeaaf9805192d8385a6191c9b07cf933c1705974469f43f570613623596f6"
+    },
+    "lib/libsqlite3.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 982709,
+      "compressedSize": 10777,
+      "size": 87342,
+      "sha256": "b3492c5a2d57a8641c131d621a43b8b618fcc2e978e6501358245d474269fd33"
+    },
+    "lib/pkgconfig/sqlite3.pc": {
+      "pack": "lib-000.pack",
+      "offset": 993486,
+      "compressedSize": 221,
+      "size": 290,
+      "sha256": "f17f74734f937b7319d59724543a61e1a5d6b2167135df3e48b37c52f68cb0ca"
+    },
+    "lib/sqlite3.53.4/libsqlite3.53.4.dll": {
+      "pack": "lib-000.pack",
+      "offset": 993707,
+      "compressedSize": 962694,
+      "size": 1828352,
+      "sha256": "98f7e382e6f51ae2bd4b6ac1417e8c5e0c3cf93ae3edb03cb434ebfb121f9f62"
+    },
+    "lib/sqlite3.53.4/pkgIndex.tcl": {
+      "pack": "lib-000.pack",
+      "offset": 1956401,
+      "compressedSize": 94,
+      "size": 89,
+      "sha256": "181bfe237df562d8474512978d3b1ec9727e567946b63ec5b030ad04ede9156d"
+    }
+  }
+}

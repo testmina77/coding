@@ -1,0 +1,806 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/SFML/Audio.hpp": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 763,
+      "size": 2078,
+      "sha256": "abc0aa6e5b97eaa9902f0d83492f53412798dc4d80dc2cd44b40249a7a8c7958"
+    },
+    "include/SFML/Audio/AudioResource.hpp": {
+      "pack": "include-000.pack",
+      "offset": 763,
+      "compressedSize": 948,
+      "size": 3230,
+      "sha256": "c40636bb3c4b941f36fb127d507e3190039319e8dfbfca5bd0dc4243e915e982"
+    },
+    "include/SFML/Audio/Export.hpp": {
+      "pack": "include-000.pack",
+      "offset": 1711,
+      "compressedSize": 667,
+      "size": 1566,
+      "sha256": "17d6a5e1387ff25a822ec88e71c937a66a98469e63657a6e1a70ae163dbbd97b"
+    },
+    "include/SFML/Audio/InputSoundFile.hpp": {
+      "pack": "include-000.pack",
+      "offset": 2378,
+      "compressedSize": 3037,
+      "size": 13441,
+      "sha256": "1979594912e86ff2da374102cd6b66a7d848bc5f1c7a4ba1531c1934263ca1f5"
+    },
+    "include/SFML/Audio/Listener.hpp": {
+      "pack": "include-000.pack",
+      "offset": 5415,
+      "compressedSize": 2045,
+      "size": 8385,
+      "sha256": "f266ee14ec8a477ec8376cea86558c288220cf4f7a2ece02a3648cc0dab32ab1"
+    },
+    "include/SFML/Audio/Music.hpp": {
+      "pack": "include-000.pack",
+      "offset": 7460,
+      "compressedSize": 3431,
+      "size": 15039,
+      "sha256": "51914d01bc6386109a1c3a29a47b38ddd28bbea7e8d4ef51d1ca77f401885ab7"
+    },
+    "include/SFML/Audio/OutputSoundFile.hpp": {
+      "pack": "include-000.pack",
+      "offset": 10891,
+      "compressedSize": 1636,
+      "size": 5594,
+      "sha256": "a8a2604f014f8d932980440ba6745a396312769618b9e6cbcf61314e480450b0"
+    },
+    "include/SFML/Audio/PlaybackDevice.hpp": {
+      "pack": "include-000.pack",
+      "offset": 12527,
+      "compressedSize": 1347,
+      "size": 4162,
+      "sha256": "38237ea499969d4e215eee831c80278c2ec3d4223ccc9b11e0445c5a6a35e7cb"
+    },
+    "include/SFML/Audio/Sound.hpp": {
+      "pack": "include-000.pack",
+      "offset": 13874,
+      "compressedSize": 2568,
+      "size": 10385,
+      "sha256": "4101cde6b376f1475a2d8ef56985615a5ae32a38358390c3cb568a57866ec904"
+    },
+    "include/SFML/Audio/SoundBuffer.hpp": {
+      "pack": "include-000.pack",
+      "offset": 16442,
+      "compressedSize": 3654,
+      "size": 18089,
+      "sha256": "11e866d131d5ac651b4454682c254475841cc14480b0719de8ce04831c48f07f"
+    },
+    "include/SFML/Audio/SoundBufferRecorder.hpp": {
+      "pack": "include-000.pack",
+      "offset": 20096,
+      "compressedSize": 1633,
+      "size": 5189,
+      "sha256": "a5a3bd5d0c7aa5c2826693bd7fd8eeb60ff2551a43fa22b6c7d88342de7736f1"
+    },
+    "include/SFML/Audio/SoundChannel.hpp": {
+      "pack": "include-000.pack",
+      "offset": 21729,
+      "compressedSize": 899,
+      "size": 2082,
+      "sha256": "73d3a82205ef60adc8a0b482ccda1b141854aa186ce76b4dee707426e58d097f"
+    },
+    "include/SFML/Audio/SoundFileFactory.hpp": {
+      "pack": "include-000.pack",
+      "offset": 22628,
+      "compressedSize": 1765,
+      "size": 7758,
+      "sha256": "447e298f312965c2dea3b1f4facc1f3724c5cb5b0e5ded51ac85171d136d2815"
+    },
+    "include/SFML/Audio/SoundFileFactory.inl": {
+      "pack": "include-000.pack",
+      "offset": 24393,
+      "compressedSize": 876,
+      "size": 2790,
+      "sha256": "d9338cd81092bab8315535ec49ff1c4e0187ffbbbebfd3a3874480c306e2edc1"
+    },
+    "include/SFML/Audio/SoundFileReader.hpp": {
+      "pack": "include-000.pack",
+      "offset": 25269,
+      "compressedSize": 2078,
+      "size": 6372,
+      "sha256": "698b8a8f436e19226c6c1fa98be17955abfc67e4c0362dedd37ebd46c7f5042c"
+    },
+    "include/SFML/Audio/SoundFileWriter.hpp": {
+      "pack": "include-000.pack",
+      "offset": 27347,
+      "compressedSize": 1586,
+      "size": 4853,
+      "sha256": "c63bed04347a74e582e2a70e33e620a7751a731bc47aa38dc190f2207f285877"
+    },
+    "include/SFML/Audio/SoundRecorder.hpp": {
+      "pack": "include-000.pack",
+      "offset": 28933,
+      "compressedSize": 3568,
+      "size": 13824,
+      "sha256": "219329579c8bad8701d393c07323f0d598cfdab599249502afc1674b9fbcdc1e"
+    },
+    "include/SFML/Audio/SoundSource.hpp": {
+      "pack": "include-000.pack",
+      "offset": 32501,
+      "compressedSize": 5322,
+      "size": 26493,
+      "sha256": "27eb40c4b85c8aa7b8bce47b93e3365f74134b940cc6f106a270c735418f5c43"
+    },
+    "include/SFML/Audio/SoundStream.hpp": {
+      "pack": "include-000.pack",
+      "offset": 37823,
+      "compressedSize": 3686,
+      "size": 14714,
+      "sha256": "71cc7d8965f7ac728eaf3c5336e9d0d17deac25dc1f37f1aaaaa4103ec24bc0d"
+    },
+    "include/SFML/Config.hpp": {
+      "pack": "include-000.pack",
+      "offset": 41509,
+      "compressedSize": 1541,
+      "size": 4319,
+      "sha256": "5940d5b07bd7010de838bcc7a61e36e1bffb0060b140500217fe7dda3f482fed"
+    },
+    "include/SFML/GpuPreference.hpp": {
+      "pack": "include-000.pack",
+      "offset": 43050,
+      "compressedSize": 1042,
+      "size": 2591,
+      "sha256": "75ca058b9c24a1bf54a86a56ca2dc5c4517d3e4f963e946e5d356d52db5d79bc"
+    },
+    "include/SFML/Graphics.hpp": {
+      "pack": "include-000.pack",
+      "offset": 44092,
+      "compressedSize": 815,
+      "size": 2546,
+      "sha256": "eb183bdde478065ea982f4451b65cacc3e9b77072795a05c8b0fbdd16dd9bf82"
+    },
+    "include/SFML/Graphics/BlendMode.hpp": {
+      "pack": "include-000.pack",
+      "offset": 44907,
+      "compressedSize": 2640,
+      "size": 10449,
+      "sha256": "67f8a75cd8421617f1c7dc032e439c09ca86b514f58459f49a0ff61f9ad502a8"
+    },
+    "include/SFML/Graphics/CircleShape.hpp": {
+      "pack": "include-000.pack",
+      "offset": 47547,
+      "compressedSize": 1687,
+      "size": 5867,
+      "sha256": "af34a1b51aad27f922ae1cc713313fba8a7e1f71e37d2b8f2c53f15e43db0556"
+    },
+    "include/SFML/Graphics/Color.hpp": {
+      "pack": "include-000.pack",
+      "offset": 49234,
+      "compressedSize": 2180,
+      "size": 9908,
+      "sha256": "e03c5c222228e23026f68353ccc3d6d486ce2c4511db4a2266dac060551e1fdd"
+    },
+    "include/SFML/Graphics/Color.inl": {
+      "pack": "include-000.pack",
+      "offset": 51414,
+      "compressedSize": 1384,
+      "size": 5125,
+      "sha256": "509b90319318a0312d2cbf414266cfe6512d807abf1e8cf00902deed43d1ced3"
+    },
+    "include/SFML/Graphics/ConvexShape.hpp": {
+      "pack": "include-000.pack",
+      "offset": 52798,
+      "compressedSize": 1762,
+      "size": 5584,
+      "sha256": "2e61da501dc3e9faa1d7d5959a22ea723ea85240daa12e30d7bf076ba6e80809"
+    },
+    "include/SFML/Graphics/CoordinateType.hpp": {
+      "pack": "include-000.pack",
+      "offset": 54560,
+      "compressedSize": 724,
+      "size": 1559,
+      "sha256": "40b998568311460db388cc18dbaa1a1ffb45147c11d9e732ec410e99fb168375"
+    },
+    "include/SFML/Graphics/Drawable.hpp": {
+      "pack": "include-000.pack",
+      "offset": 55284,
+      "compressedSize": 1375,
+      "size": 3751,
+      "sha256": "0cad9bc771138aa30ee2a395272c54f05db176839988cd8017b198943eecadf2"
+    },
+    "include/SFML/Graphics/Export.hpp": {
+      "pack": "include-000.pack",
+      "offset": 56659,
+      "compressedSize": 669,
+      "size": 1575,
+      "sha256": "7affed22268619c34d3aecb46ebaa5c0a91b0ff28fa5075ebdc2924316fa5f98"
+    },
+    "include/SFML/Graphics/Font.hpp": {
+      "pack": "include-000.pack",
+      "offset": 57328,
+      "compressedSize": 4861,
+      "size": 21886,
+      "sha256": "9250c2d9c76f3938e7dca3e9405bc6ed7143c76f6cc3634f7211aedafec17b91"
+    },
+    "include/SFML/Graphics/Glsl.hpp": {
+      "pack": "include-000.pack",
+      "offset": 62189,
+      "compressedSize": 1929,
+      "size": 7093,
+      "sha256": "ff38a16e9723477592e23b8ebf9018d94ace5b52e726924f1397066946659ec5"
+    },
+    "include/SFML/Graphics/Glsl.inl": {
+      "pack": "include-000.pack",
+      "offset": 64118,
+      "compressedSize": 1748,
+      "size": 5965,
+      "sha256": "6e21f9df9ce4043df2fa5f2a072651c1e5118d3bad58109b40d6270bef5879c1"
+    },
+    "include/SFML/Graphics/Glyph.hpp": {
+      "pack": "include-000.pack",
+      "offset": 65866,
+      "compressedSize": 1030,
+      "size": 2539,
+      "sha256": "2524240c3464353b875db25be366b6f03c99117385d0dbcc462725e1c961702c"
+    },
+    "include/SFML/Graphics/Image.hpp": {
+      "pack": "include-000.pack",
+      "offset": 66896,
+      "compressedSize": 3635,
+      "size": 16272,
+      "sha256": "b7f7af8c270b3abf85df3d760239019eff44693d44a05e35b52b02095ee918a5"
+    },
+    "include/SFML/Graphics/PrimitiveType.hpp": {
+      "pack": "include-000.pack",
+      "offset": 70531,
+      "compressedSize": 869,
+      "size": 2019,
+      "sha256": "e1be0d2576fc882a52d56f87303768376c00beaceca9a4bdbfcd9e1d9fdbb3a2"
+    },
+    "include/SFML/Graphics/Rect.hpp": {
+      "pack": "include-000.pack",
+      "offset": 71400,
+      "compressedSize": 2196,
+      "size": 7385,
+      "sha256": "e6a084082af0a92f37d97c8f33abf57496130609d65cb0031bd2ad7bfc7cc6bc"
+    },
+    "include/SFML/Graphics/Rect.inl": {
+      "pack": "include-000.pack",
+      "offset": 73596,
+      "compressedSize": 1421,
+      "size": 5078,
+      "sha256": "5f47dcaccbbfc4bd9d061520acd13afc9b196c0f7c8376d5633b21622821d9ee"
+    },
+    "include/SFML/Graphics/RectangleShape.hpp": {
+      "pack": "include-000.pack",
+      "offset": 75017,
+      "compressedSize": 1428,
+      "size": 4943,
+      "sha256": "1cceee3336e2cc3d86abdfb1583e88593d8f6b099079b50837f0acc4a57d9a5e"
+    },
+    "include/SFML/Graphics/RenderStates.hpp": {
+      "pack": "include-000.pack",
+      "offset": 76445,
+      "compressedSize": 2090,
+      "size": 7738,
+      "sha256": "0245b79cf59b5c88727c293fa3b015cafd6f546bb250111f04c2db368db3a0f0"
+    },
+    "include/SFML/Graphics/RenderTarget.hpp": {
+      "pack": "include-000.pack",
+      "offset": 78535,
+      "compressedSize": 5173,
+      "size": 24897,
+      "sha256": "c02d51364e3e0f2e4c94eb339957c0823bf2c1dac15c137cabefa4f72fb747bd"
+    },
+    "include/SFML/Graphics/RenderTexture.hpp": {
+      "pack": "include-000.pack",
+      "offset": 83708,
+      "compressedSize": 3389,
+      "size": 13325,
+      "sha256": "7e5f49f4c152cce18f76bd7ab824840169b261c2e4ebf79edd2a138394f90ce6"
+    },
+    "include/SFML/Graphics/RenderWindow.hpp": {
+      "pack": "include-000.pack",
+      "offset": 87097,
+      "compressedSize": 3337,
+      "size": 11718,
+      "sha256": "377d80e1d6d640409cce30aff88f0f2c97b8360e7baece893c3f103f2cf795e4"
+    },
+    "include/SFML/Graphics/Shader.hpp": {
+      "pack": "include-000.pack",
+      "offset": 90434,
+      "compressedSize": 6115,
+      "size": 44653,
+      "sha256": "a2495ab6c6c82a22b79ca2d58e4ae808d53f2b75da61f82ae9748033fa581c7f"
+    },
+    "include/SFML/Graphics/Shape.hpp": {
+      "pack": "include-000.pack",
+      "offset": 96549,
+      "compressedSize": 3312,
+      "size": 14185,
+      "sha256": "b4d43e4b392320de096fb82032068f2dcb4639c9c16813a083d726fa7dabe658"
+    },
+    "include/SFML/Graphics/Sprite.hpp": {
+      "pack": "include-000.pack",
+      "offset": 99861,
+      "compressedSize": 2819,
+      "size": 11035,
+      "sha256": "941f0ca733f547521843d6b9ca8768d30f72438274c431d4c5a1a0f127f07ab3"
+    },
+    "include/SFML/Graphics/StencilMode.hpp": {
+      "pack": "include-000.pack",
+      "offset": 102680,
+      "compressedSize": 3324,
+      "size": 11899,
+      "sha256": "5ecd02f07003aa5fc5f6fb5a4409a0ea59c8ee70070ce340ce0a8e735b11f454"
+    },
+    "include/SFML/Graphics/Text.hpp": {
+      "pack": "include-000.pack",
+      "offset": 106004,
+      "compressedSize": 4322,
+      "size": 19026,
+      "sha256": "7497b332d48c56a3451a354a22c9fee416a8eecca3112fd362025a62cf415ea6"
+    },
+    "include/SFML/Graphics/Texture.hpp": {
+      "pack": "include-000.pack",
+      "offset": 110326,
+      "compressedSize": 6544,
+      "size": 36714,
+      "sha256": "f7f411da9d61b798a348c20793f9788de86ebe73cd261ed715cf015286adde27"
+    },
+    "include/SFML/Graphics/Transform.hpp": {
+      "pack": "include-000.pack",
+      "offset": 116870,
+      "compressedSize": 2964,
+      "size": 14341,
+      "sha256": "cd1eb9e9b65490f336c6a26314a0bc8fc6953f8195aa7f31cebed517e860b810"
+    },
+    "include/SFML/Graphics/Transform.inl": {
+      "pack": "include-000.pack",
+      "offset": 119834,
+      "compressedSize": 1978,
+      "size": 8322,
+      "sha256": "28975f13064dc20961e6a49d43fdc069411a1efc074592c0d1a87f18d8d87d58"
+    },
+    "include/SFML/Graphics/Transformable.hpp": {
+      "pack": "include-000.pack",
+      "offset": 121812,
+      "compressedSize": 3389,
+      "size": 13219,
+      "sha256": "0fe3d4f118e90e47db0b767d3f2dc4667e2e089158cc124bc4f6b1a7bf453a0f"
+    },
+    "include/SFML/Graphics/Vertex.hpp": {
+      "pack": "include-000.pack",
+      "offset": 125201,
+      "compressedSize": 1805,
+      "size": 4791,
+      "sha256": "ac9ce75ac58d0b409565164b3617c37f86b6d0f5910d4a36e0f9e7b18e91f92f"
+    },
+    "include/SFML/Graphics/VertexArray.hpp": {
+      "pack": "include-000.pack",
+      "offset": 127006,
+      "compressedSize": 2011,
+      "size": 7903,
+      "sha256": "b4774e205808d5c09c9fb2b0ef52a5a3e8b4ee5a426c75180bb1c4f0883983d5"
+    },
+    "include/SFML/Graphics/VertexBuffer.hpp": {
+      "pack": "include-000.pack",
+      "offset": 129017,
+      "compressedSize": 4029,
+      "size": 16473,
+      "sha256": "5aeb01038f34893bafee18890e8d5477f6f8282455c94625136ed6e06f0ca8db"
+    },
+    "include/SFML/Graphics/View.hpp": {
+      "pack": "include-000.pack",
+      "offset": 133046,
+      "compressedSize": 3531,
+      "size": 14032,
+      "sha256": "5846951162ced5437f9083ecccfb09bc85e585a00bbbfb698919514975d35602"
+    },
+    "include/SFML/Main.hpp": {
+      "pack": "include-000.pack",
+      "offset": 136577,
+      "compressedSize": 691,
+      "size": 1452,
+      "sha256": "5342f06f577f3dfc6aa7005e79e4c4cf20db2411f7700e0d7d1b0c80014f607c"
+    },
+    "include/SFML/Network.hpp": {
+      "pack": "include-000.pack",
+      "offset": 137268,
+      "compressedSize": 739,
+      "size": 1918,
+      "sha256": "8de389c555f494479e2f79417a9a5b71acf93a7d5429bb4dffe2297c7793f4f8"
+    },
+    "include/SFML/Network/Export.hpp": {
+      "pack": "include-000.pack",
+      "offset": 138007,
+      "compressedSize": 669,
+      "size": 1572,
+      "sha256": "66caaee07da91508510757746259abb269abcaa593f34ac4c78366cadf12e423"
+    },
+    "include/SFML/Network/Ftp.hpp": {
+      "pack": "include-000.pack",
+      "offset": 138676,
+      "compressedSize": 5678,
+      "size": 26468,
+      "sha256": "d3d0526540236a0e73ea9c3e822b8bb5f366169b57d0eb4d9cb6c032c4b780a7"
+    },
+    "include/SFML/Network/Http.hpp": {
+      "pack": "include-000.pack",
+      "offset": 144354,
+      "compressedSize": 4751,
+      "size": 20358,
+      "sha256": "f995794f08521d9b17c09d67befe0bd17c9b119c75d0188f807b285555f5642f"
+    },
+    "include/SFML/Network/IpAddress.hpp": {
+      "pack": "include-000.pack",
+      "offset": 149105,
+      "compressedSize": 2887,
+      "size": 12153,
+      "sha256": "1cb21788f283573bbe3865d00fccfa92953e92c9f5807026733bab47ce485ce1"
+    },
+    "include/SFML/Network/Packet.hpp": {
+      "pack": "include-000.pack",
+      "offset": 151992,
+      "compressedSize": 3634,
+      "size": 19127,
+      "sha256": "a0f974a5d7725c861ede4a39e53548db177bba7e4f114403cc81ada8ebba9b4d"
+    },
+    "include/SFML/Network/Socket.hpp": {
+      "pack": "include-000.pack",
+      "offset": 155626,
+      "compressedSize": 2288,
+      "size": 8561,
+      "sha256": "ba2380c719ab8a11585c790002da4893c1a6aff02a5cf63bc843156dc611a374"
+    },
+    "include/SFML/Network/SocketHandle.hpp": {
+      "pack": "include-000.pack",
+      "offset": 157914,
+      "compressedSize": 728,
+      "size": 1666,
+      "sha256": "9df0a03c9073706a2f27c20f77ddb3f475c6392bbcf28467f833be61d9bfe6c2"
+    },
+    "include/SFML/Network/SocketSelector.hpp": {
+      "pack": "include-000.pack",
+      "offset": 158642,
+      "compressedSize": 2592,
+      "size": 9670,
+      "sha256": "8e57ea9db7cd4dfe3f669c9086f16268339cc2a08ea8f4f54187bc740d490665"
+    },
+    "include/SFML/Network/TcpListener.hpp": {
+      "pack": "include-000.pack",
+      "offset": 161234,
+      "compressedSize": 1893,
+      "size": 5816,
+      "sha256": "5d76267a23ad72317b0448f3ccfb858c55fba0288c468a002a5fb5387500ce7e"
+    },
+    "include/SFML/Network/TcpSocket.hpp": {
+      "pack": "include-000.pack",
+      "offset": 163127,
+      "compressedSize": 3003,
+      "size": 11713,
+      "sha256": "72f43d8bd79524900717eabf40aa92b79a6b71540f6560a233738a2686204154"
+    },
+    "include/SFML/Network/UdpSocket.hpp": {
+      "pack": "include-000.pack",
+      "offset": 166130,
+      "compressedSize": 3344,
+      "size": 11812,
+      "sha256": "fae2aa9fbe56ef52fe75f55a969780491606e3f688dcebecc3a977a1b940fbe3"
+    },
+    "include/SFML/OpenGL.hpp": {
+      "pack": "include-000.pack",
+      "offset": 169474,
+      "compressedSize": 975,
+      "size": 2368,
+      "sha256": "cbf5c97a88a9590df90718bf3899951bd5641df312418d88f640cda6897c6549"
+    },
+    "include/SFML/System.hpp": {
+      "pack": "include-000.pack",
+      "offset": 170449,
+      "compressedSize": 795,
+      "size": 2078,
+      "sha256": "668c81f676b0a8d1e8e62ffd1a9f1a1d2eb00b93485a9fe8998ec6097a8b4765"
+    },
+    "include/SFML/System/Angle.hpp": {
+      "pack": "include-000.pack",
+      "offset": 171244,
+      "compressedSize": 2661,
+      "size": 17181,
+      "sha256": "ad9c70a225b250934578e7876d4cb1c3123a2b95a892e51bb694b18d38bb60bf"
+    },
+    "include/SFML/System/Angle.inl": {
+      "pack": "include-000.pack",
+      "offset": 173905,
+      "compressedSize": 1478,
+      "size": 7334,
+      "sha256": "293e8686412da732a7013f73cf5e9f91bcee17d0a79bb5ed702e95dcb9892a2b"
+    },
+    "include/SFML/System/Clock.hpp": {
+      "pack": "include-000.pack",
+      "offset": 175383,
+      "compressedSize": 2124,
+      "size": 6625,
+      "sha256": "904444aa303a68f745f55359b7bf2a5fbd0ff0d855bb533ba05dda5e7c9d924d"
+    },
+    "include/SFML/System/Err.hpp": {
+      "pack": "include-000.pack",
+      "offset": 177507,
+      "compressedSize": 1096,
+      "size": 2621,
+      "sha256": "2973653eb303f7cecc72b6f8c75ef19026308253f9ede40c825f5241662a5743"
+    },
+    "include/SFML/System/Exception.hpp": {
+      "pack": "include-000.pack",
+      "offset": 178603,
+      "compressedSize": 709,
+      "size": 1631,
+      "sha256": "ef8a4c28a4987b5b8045c9dcf19b7f4226f25d886f8bb45be0702badc4d0225d"
+    },
+    "include/SFML/System/Export.hpp": {
+      "pack": "include-000.pack",
+      "offset": 179312,
+      "compressedSize": 667,
+      "size": 1569,
+      "sha256": "96c5077f932c9488ec1a67a278f2e7351bfab2793f8f7dd89e840616e30365a4"
+    },
+    "include/SFML/System/FileInputStream.hpp": {
+      "pack": "include-000.pack",
+      "offset": 179979,
+      "compressedSize": 1883,
+      "size": 7352,
+      "sha256": "0e535873cd6c3cbc1a869aff7f0fc33af63d00633b9f6d4072e0d334fe766d5e"
+    },
+    "include/SFML/System/InputStream.hpp": {
+      "pack": "include-000.pack",
+      "offset": 181862,
+      "compressedSize": 1646,
+      "size": 5378,
+      "sha256": "eb23715da35ab2dfd598d87cb01f95db6acaf08d35edb0ca6566a9060b3d8b72"
+    },
+    "include/SFML/System/MemoryInputStream.hpp": {
+      "pack": "include-000.pack",
+      "offset": 183508,
+      "compressedSize": 1577,
+      "size": 5156,
+      "sha256": "fd37c5ffb7ee36daaf1460a5658d2777588c9e67de6acc555af928906f6fc8d5"
+    },
+    "include/SFML/System/NativeActivity.hpp": {
+      "pack": "include-000.pack",
+      "offset": 185085,
+      "compressedSize": 894,
+      "size": 2020,
+      "sha256": "fd674f8985080d396f0790884d51451cbbb4457f5d6414af5f0e93d4cde2124f"
+    },
+    "include/SFML/System/Sleep.hpp": {
+      "pack": "include-000.pack",
+      "offset": 185979,
+      "compressedSize": 948,
+      "size": 2110,
+      "sha256": "33338b2de47aa203514f28f96dbec1c8e9ed4e554b306d4235f7300b6672f680"
+    },
+    "include/SFML/System/String.hpp": {
+      "pack": "include-000.pack",
+      "offset": 186927,
+      "compressedSize": 4697,
+      "size": 27589,
+      "sha256": "7d453a16f6b850fe6cbd5b5365df11bdacb8d66716b4819e07b901f1f028abca"
+    },
+    "include/SFML/System/String.inl": {
+      "pack": "include-000.pack",
+      "offset": 191624,
+      "compressedSize": 762,
+      "size": 2045,
+      "sha256": "8ef312bcf6e54cd8c0751f8dd466ef259f3fa47f77cde0dd18501711fd27c757"
+    },
+    "include/SFML/System/SuspendAwareClock.hpp": {
+      "pack": "include-000.pack",
+      "offset": 192386,
+      "compressedSize": 1240,
+      "size": 2928,
+      "sha256": "a3cd7e36ab71ea0e8d608ad52dc44f9342c95bdbf1caf9a46da9764adac62878"
+    },
+    "include/SFML/System/Time.hpp": {
+      "pack": "include-000.pack",
+      "offset": 193626,
+      "compressedSize": 2389,
+      "size": 17079,
+      "sha256": "2d9d8ceb1e3d69e08f0196c5587c6e5b51cad8d02310a9b5b8e1c25b2462022b"
+    },
+    "include/SFML/System/Time.inl": {
+      "pack": "include-000.pack",
+      "offset": 196015,
+      "compressedSize": 1377,
+      "size": 7854,
+      "sha256": "03cbfb6e84e1e996b42e18fc10c8ae4930af908a48f417692b77ba0982c99097"
+    },
+    "include/SFML/System/Utf.hpp": {
+      "pack": "include-000.pack",
+      "offset": 197392,
+      "compressedSize": 2787,
+      "size": 35578,
+      "sha256": "940f9bce5d4e38e0fe27bb3d22daf5f1eca55cae4baea640aafd7a702a75f609"
+    },
+    "include/SFML/System/Utf.inl": {
+      "pack": "include-000.pack",
+      "offset": 200179,
+      "compressedSize": 3257,
+      "size": 21301,
+      "sha256": "3607c2d723349682e4cb7b715940651729c51ad84aa993546e954fac48a336e1"
+    },
+    "include/SFML/System/Vector2.hpp": {
+      "pack": "include-000.pack",
+      "offset": 203436,
+      "compressedSize": 3230,
+      "size": 15995,
+      "sha256": "af1c12e0114122094e3fc02c20c87d115058f6bde2de9b24cb412271eadcd57c"
+    },
+    "include/SFML/System/Vector2.inl": {
+      "pack": "include-000.pack",
+      "offset": 206666,
+      "compressedSize": 1219,
+      "size": 5721,
+      "sha256": "882d11422ef03d3e56e5b269c4dfbcc8f1f14e72e65ff3fe4ee4ad8d01caef3d"
+    },
+    "include/SFML/System/Vector3.hpp": {
+      "pack": "include-000.pack",
+      "offset": 207885,
+      "compressedSize": 2471,
+      "size": 12560,
+      "sha256": "66a20a855b8bf7fabb40161cdeb5938daf6d09bb003c0b7cbfc3c3472b066991"
+    },
+    "include/SFML/System/Vector3.inl": {
+      "pack": "include-000.pack",
+      "offset": 210356,
+      "compressedSize": 1292,
+      "size": 6093,
+      "sha256": "6edbed8d8c91c64230bd6f6eb012e686872db7e051f00054a44a4e5569695d18"
+    },
+    "include/SFML/Window.hpp": {
+      "pack": "include-000.pack",
+      "offset": 211648,
+      "compressedSize": 760,
+      "size": 2040,
+      "sha256": "54d09dfb400dd6126e0da82db442bdf17d62da2b5eddc642cc258a3e9affe6d8"
+    },
+    "include/SFML/Window/Clipboard.hpp": {
+      "pack": "include-000.pack",
+      "offset": 212408,
+      "compressedSize": 1360,
+      "size": 4015,
+      "sha256": "e5693db4c0af9c2db1d8fc50439a6ee6349ebdb018b6ce60b3f1757faf523c7f"
+    },
+    "include/SFML/Window/Context.hpp": {
+      "pack": "include-000.pack",
+      "offset": 213768,
+      "compressedSize": 2135,
+      "size": 7803,
+      "sha256": "01401092fe0365ba1fa9b9ee72257ffbb398213987f239bfd6664ad50ec3bf61"
+    },
+    "include/SFML/Window/ContextSettings.hpp": {
+      "pack": "include-000.pack",
+      "offset": 215903,
+      "compressedSize": 2104,
+      "size": 5561,
+      "sha256": "fba1e9b7f387476f6a1785f1a5ae67e3154eca40dafc2923990ebd5fd2f8cf10"
+    },
+    "include/SFML/Window/Cursor.hpp": {
+      "pack": "include-000.pack",
+      "offset": 218007,
+      "compressedSize": 2938,
+      "size": 13328,
+      "sha256": "abca7802558acb0d4b3b188feb7ccf5ed042ece59120044c2d09734205e0a3d6"
+    },
+    "include/SFML/Window/Event.hpp": {
+      "pack": "include-000.pack",
+      "offset": 220945,
+      "compressedSize": 3381,
+      "size": 16753,
+      "sha256": "33fceb5846f5afb347ddec9d6ad6cf3d331552076d18b7236a796139779fd808"
+    },
+    "include/SFML/Window/Event.inl": {
+      "pack": "include-000.pack",
+      "offset": 224326,
+      "compressedSize": 1043,
+      "size": 2985,
+      "sha256": "0f61617032c7c4c0f281fd4aa7daa3bf6776a9f702b857e9a570f6212f05eaca"
+    },
+    "include/SFML/Window/Export.hpp": {
+      "pack": "include-000.pack",
+      "offset": 225369,
+      "compressedSize": 668,
+      "size": 1569,
+      "sha256": "525c927aa6c19b5ffb4b9b30594b52c84abd702d9a46291bb7d53b114eb46217"
+    },
+    "include/SFML/Window/GlResource.hpp": {
+      "pack": "include-000.pack",
+      "offset": 226037,
+      "compressedSize": 1243,
+      "size": 4578,
+      "sha256": "9b95e70abe50cf97c940b3e90146b3654814d176c29bf6519e8d75d01f3f73d0"
+    },
+    "include/SFML/Window/Joystick.hpp": {
+      "pack": "include-000.pack",
+      "offset": 227280,
+      "compressedSize": 2289,
+      "size": 8362,
+      "sha256": "84f74b8891228ab6be1413f5eb4d8846bc5c4135c22ad6c2467590bf46d55e5e"
+    },
+    "include/SFML/Window/Keyboard.hpp": {
+      "pack": "include-000.pack",
+      "offset": 229569,
+      "compressedSize": 4725,
+      "size": 19253,
+      "sha256": "8609ef78437094d824fc71435f36de686d6b36ef1631f047931e123b885315a3"
+    },
+    "include/SFML/Window/Mouse.hpp": {
+      "pack": "include-000.pack",
+      "offset": 234294,
+      "compressedSize": 1963,
+      "size": 6693,
+      "sha256": "4362721c8ed7cb475a869821142510f13b1f75470f0bd762d23b4d9be1eee074"
+    },
+    "include/SFML/Window/Sensor.hpp": {
+      "pack": "include-000.pack",
+      "offset": 236257,
+      "compressedSize": 1997,
+      "size": 5593,
+      "sha256": "61b0736a4519afa4b995d8e534a30b3991c2e59370a10ccd6a014537b9079264"
+    },
+    "include/SFML/Window/Touch.hpp": {
+      "pack": "include-000.pack",
+      "offset": 238254,
+      "compressedSize": 1653,
+      "size": 4864,
+      "sha256": "d046642cd5994e32b2d3c87c612eee2cb136facb8795797bb318d9cd6f322d6c"
+    },
+    "include/SFML/Window/VideoMode.hpp": {
+      "pack": "include-000.pack",
+      "offset": 239907,
+      "compressedSize": 2174,
+      "size": 8693,
+      "sha256": "221f06f621b739cea61e4f8738f08ce750fd8e61f685105a758348222fb25c3a"
+    },
+    "include/SFML/Window/Vulkan.hpp": {
+      "pack": "include-000.pack",
+      "offset": 242081,
+      "compressedSize": 1308,
+      "size": 3683,
+      "sha256": "78285a7f15a5ee94918c269c61cd64a501438d8cab36d180000937ea09dbd3da"
+    },
+    "include/SFML/Window/Window.hpp": {
+      "pack": "include-000.pack",
+      "offset": 243389,
+      "compressedSize": 4051,
+      "size": 18148,
+      "sha256": "d33c7d96328be4ea5a711683026d55154a9c5013645ee7d0d89649db4ee401e8"
+    },
+    "include/SFML/Window/WindowBase.hpp": {
+      "pack": "include-000.pack",
+      "offset": 247440,
+      "compressedSize": 5505,
+      "size": 25092,
+      "sha256": "cb94cfbc361841fdb27955d79b24e5645d5f0b5e864f993649e7a875b87832ca"
+    },
+    "include/SFML/Window/WindowBase.inl": {
+      "pack": "include-000.pack",
+      "offset": 252945,
+      "compressedSize": 1566,
+      "size": 3880,
+      "sha256": "7a992bccc090f661afbc112a200f0a846fea56051ecbcda2d6e729509ed2c807"
+    },
+    "include/SFML/Window/WindowEnums.hpp": {
+      "pack": "include-000.pack",
+      "offset": 254511,
+      "compressedSize": 847,
+      "size": 2030,
+      "sha256": "74974134beadb94de72ec8d8bb03d3ed56ea715ed893e97e82ba189d47c3414b"
+    },
+    "include/SFML/Window/WindowHandle.hpp": {
+      "pack": "include-000.pack",
+      "offset": 255358,
+      "compressedSize": 1280,
+      "size": 3270,
+      "sha256": "b122614994d891980bb0c7fe80dc4540d7acaebbb38aef669b2e067c8e648b04"
+    }
+  }
+}

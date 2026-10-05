@@ -1,0 +1,1810 @@
+{
+  "version": 1,
+  "target": "x86_64-w64-windows-gnu",
+  "libraries": {
+    "curl": {
+      "id": "curl",
+      "version": "8.22.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "curl/"
+      ],
+      "libraries": [
+        "curl"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "libidn2",
+        "libpsl",
+        "libssh2",
+        "libunistring",
+        "nghttp2",
+        "nghttp3",
+        "ngtcp2",
+        "openssl",
+        "zlib",
+        "zstd"
+      ],
+      "systemLibraries": [
+        "bcrypt",
+        "crypt32",
+        "iphlpapi",
+        "normaliz",
+        "wldap32",
+        "ws2_32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-curl"
+        ],
+        "versions": [
+          "8.22.0-1"
+        ],
+        "msys2Dependencies": [
+          "brotli",
+          "c-ares",
+          "ca-certificates",
+          "cc-libs",
+          "libidn2",
+          "libpsl",
+          "libssh2",
+          "nghttp2",
+          "openssl",
+          "zlib",
+          "zstd"
+        ],
+        "version": "8.22.0-1"
+      }
+    },
+    "openssl": {
+      "id": "openssl",
+      "version": "3.6.5-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "openssl/"
+      ],
+      "libraries": [
+        "ssl",
+        "crypto"
+      ],
+      "dependencies": [
+        "zlib"
+      ],
+      "systemLibraries": [
+        "crypt32",
+        "ws2_32",
+        "secur32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-openssl"
+        ],
+        "versions": [
+          "3.6.5-1"
+        ],
+        "msys2Dependencies": [
+          "zlib"
+        ],
+        "version": "3.6.5-1"
+      }
+    },
+    "zlib": {
+      "id": "zlib",
+      "version": "1.3.2-2",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "zconf.h",
+        "zlib.h"
+      ],
+      "libraries": [
+        "z"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-zlib"
+        ],
+        "versions": [
+          "1.3.2-2"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.3.2-2"
+      }
+    },
+    "zstd": {
+      "id": "zstd",
+      "version": "1.5.7-2",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "zdict.h",
+        "zstd.h",
+        "zstd_errors.h"
+      ],
+      "libraries": [
+        "zstd"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-zstd"
+        ],
+        "versions": [
+          "1.5.7-2"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "1.5.7-2"
+      }
+    },
+    "brotli": {
+      "id": "brotli",
+      "version": "1.2.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "brotli/"
+      ],
+      "libraries": [
+        "brotlidec",
+        "brotlienc",
+        "brotlicommon"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-brotli"
+        ],
+        "versions": [
+          "1.2.0-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.2.0-1"
+      }
+    },
+    "libunistring": {
+      "id": "libunistring",
+      "version": "1.4.2-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "unicase.h",
+        "uniconv.h",
+        "unictype.h",
+        "unigbrk.h",
+        "unilbrk.h",
+        "unimetadata.h",
+        "uniname.h",
+        "uninorm.h",
+        "unistdio.h",
+        "unistr.h",
+        "unistring/",
+        "unitypes.h",
+        "uniwbrk.h",
+        "uniwidth.h"
+      ],
+      "libraries": [
+        "unistring"
+      ],
+      "dependencies": [
+        "libiconv"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libunistring"
+        ],
+        "versions": [
+          "1.4.2-1"
+        ],
+        "msys2Dependencies": [
+          "libiconv"
+        ],
+        "version": "1.4.2-1"
+      }
+    },
+    "libidn2": {
+      "id": "libidn2",
+      "version": "2.3.8-4",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "idn2.h"
+      ],
+      "libraries": [
+        "idn2"
+      ],
+      "dependencies": [
+        "libunistring",
+        "libiconv"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libidn2"
+        ],
+        "versions": [
+          "2.3.8-4"
+        ],
+        "msys2Dependencies": [
+          "gettext-runtime",
+          "libiconv",
+          "libunistring"
+        ],
+        "version": "2.3.8-4"
+      }
+    },
+    "libpsl": {
+      "id": "libpsl",
+      "version": "0.21.5-3",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "libpsl.h"
+      ],
+      "libraries": [
+        "psl"
+      ],
+      "dependencies": [
+        "libidn2",
+        "libunistring",
+        "libiconv"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libpsl"
+        ],
+        "versions": [
+          "0.21.5-3"
+        ],
+        "msys2Dependencies": [
+          "gettext-runtime",
+          "libiconv",
+          "libidn2",
+          "libunistring"
+        ],
+        "version": "0.21.5-3"
+      }
+    },
+    "nghttp2": {
+      "id": "nghttp2",
+      "version": "1.70.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "nghttp2/"
+      ],
+      "libraries": [
+        "nghttp2"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-nghttp2"
+        ],
+        "versions": [
+          "1.70.0-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.70.0-1"
+      }
+    },
+    "libssh2": {
+      "id": "libssh2",
+      "version": "1.11.1-2",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "libssh2.h",
+        "libssh2_publickey.h",
+        "libssh2_sftp.h"
+      ],
+      "libraries": [
+        "ssh2"
+      ],
+      "dependencies": [
+        "openssl",
+        "zlib"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libssh2"
+        ],
+        "versions": [
+          "1.11.1-2"
+        ],
+        "msys2Dependencies": [
+          "openssl",
+          "zlib"
+        ],
+        "version": "1.11.1-2"
+      }
+    },
+    "c-ares": {
+      "id": "c-ares",
+      "version": "1.34.8-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "ares.h",
+        "ares_build.h",
+        "ares_dns.h",
+        "ares_dns_record.h",
+        "ares_nameser.h",
+        "ares_version.h"
+      ],
+      "libraries": [
+        "cares"
+      ],
+      "dependencies": [],
+      "systemLibraries": [
+        "ws2_32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-c-ares"
+        ],
+        "versions": [
+          "1.34.8-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "1.34.8-1"
+      }
+    },
+    "libiconv": {
+      "id": "libiconv",
+      "version": "1.19-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "iconv.h",
+        "libcharset.h",
+        "localcharset.h"
+      ],
+      "libraries": [
+        "iconv"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libiconv"
+        ],
+        "versions": [
+          "1.19-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.19-1"
+      }
+    },
+    "gettext-runtime": {
+      "id": "gettext-runtime",
+      "version": "1.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "autosprintf.h",
+        "libintl.h"
+      ],
+      "libraries": [
+        "intl"
+      ],
+      "dependencies": [
+        "libiconv"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-gettext-runtime"
+        ],
+        "versions": [
+          "1.0-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs",
+          "libiconv"
+        ],
+        "version": "1.0-1"
+      }
+    },
+    "sqlite3": {
+      "id": "sqlite3",
+      "version": "3.53.4-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "sqlite3.h",
+        "sqlite3ext.h"
+      ],
+      "libraries": [
+        "sqlite3"
+      ],
+      "dependencies": [
+        "zlib"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-sqlite3"
+        ],
+        "versions": [
+          "3.53.4-1"
+        ],
+        "msys2Dependencies": [
+          "tcl",
+          "zlib"
+        ],
+        "version": "3.53.4-1"
+      }
+    },
+    "tcl": {
+      "id": "tcl",
+      "version": "8.6.17-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "tcl.h",
+        "tclDecls.h",
+        "tclPlatDecls.h",
+        "tclTomMath.h",
+        "tclTomMathDecls.h"
+      ],
+      "libraries": [
+        "tcl86"
+      ],
+      "dependencies": [
+        "zlib"
+      ],
+      "systemLibraries": [
+        "ws2_32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-tcl"
+        ],
+        "versions": [
+          "8.6.17-1"
+        ],
+        "msys2Dependencies": [
+          "zlib"
+        ],
+        "version": "8.6.17-1"
+      }
+    },
+    "fmt": {
+      "id": "fmt",
+      "version": "12.2.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "fmt/"
+      ],
+      "libraries": [
+        "fmt"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-fmt"
+        ],
+        "versions": [
+          "12.2.0-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "12.2.0-1"
+      }
+    },
+    "ncurses": {
+      "id": "ncurses",
+      "version": "6.6-4",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "ncurses/",
+        "ncursesw/"
+      ],
+      "libraries": [
+        "ncurses",
+        "ncursesw",
+        "form",
+        "formw",
+        "menu",
+        "menuw",
+        "panel",
+        "panelw"
+      ],
+      "dependencies": [
+        "libsystre",
+        "pcre2"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-ncurses"
+        ],
+        "versions": [
+          "6.6-4"
+        ],
+        "msys2Dependencies": [
+          "cc-libs",
+          "libsystre",
+          "pcre2"
+        ],
+        "version": "6.6-4"
+      }
+    },
+    "libsystre": {
+      "id": "libsystre",
+      "version": "1.1.2-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "systre/",
+        "systre.h"
+      ],
+      "libraries": [
+        "systre"
+      ],
+      "dependencies": [
+        "pcre2"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libsystre"
+        ],
+        "versions": [
+          "1.1.2-1"
+        ],
+        "msys2Dependencies": [
+          "pcre2"
+        ],
+        "version": "1.1.2-1"
+      }
+    },
+    "pcre2": {
+      "id": "pcre2",
+      "version": "10.46-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "pcre2.h",
+        "pcre2posix.h"
+      ],
+      "libraries": [
+        "pcre2-8",
+        "pcre2-16",
+        "pcre2-32",
+        "pcre2-posix"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-pcre2"
+        ],
+        "versions": [
+          "10.46-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "10.46-1"
+      }
+    },
+    "cryptopp": {
+      "id": "cryptopp",
+      "version": "8.9.0-2",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "cryptopp/"
+      ],
+      "libraries": [
+        "cryptopp"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-crypto++"
+        ],
+        "versions": [
+          "8.9.0-2"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "8.9.0-2"
+      }
+    },
+    "asio": {
+      "id": "asio",
+      "version": "1.38.2-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "asio.hpp",
+        "asio/"
+      ],
+      "libraries": [],
+      "dependencies": [],
+      "systemLibraries": [
+        "ws2_32",
+        "mswsock"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-asio"
+        ],
+        "versions": [
+          "1.38.2-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.38.2-1"
+      }
+    },
+    "glfw": {
+      "id": "glfw",
+      "version": "3.5.1-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "GLFW/"
+      ],
+      "libraries": [
+        "glfw3"
+      ],
+      "dependencies": [],
+      "systemLibraries": [
+        "gdi32",
+        "opengl32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-glfw"
+        ],
+        "versions": [
+          "3.5.1-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "3.5.1-1"
+      }
+    },
+    "sdl2": {
+      "id": "sdl2",
+      "version": "2.32.10-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "SDL2/"
+      ],
+      "libraries": [
+        "SDL2"
+      ],
+      "dependencies": [
+        "libiconv",
+        "vulkan"
+      ],
+      "systemLibraries": [
+        "gdi32",
+        "imm32",
+        "ole32",
+        "oleaut32",
+        "setupapi",
+        "user32",
+        "version",
+        "winmm"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-SDL2"
+        ],
+        "versions": [
+          "2.32.10-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs",
+          "libiconv",
+          "vulkan"
+        ],
+        "version": "2.32.10-1"
+      }
+    },
+    "sfml": {
+      "id": "sfml",
+      "version": "3.0.2-3",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "SFML/"
+      ],
+      "libraries": [
+        "sfml-graphics",
+        "sfml-window",
+        "sfml-system",
+        "sfml-audio",
+        "sfml-network"
+      ],
+      "dependencies": [
+        "flac",
+        "freetype",
+        "libjpeg",
+        "libvorbis",
+        "openal"
+      ],
+      "systemLibraries": [
+        "gdi32",
+        "opengl32",
+        "winmm"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-sfml"
+        ],
+        "versions": [
+          "3.0.2-3"
+        ],
+        "msys2Dependencies": [
+          "flac",
+          "freetype",
+          "libjpeg",
+          "libvorbis",
+          "openal"
+        ],
+        "version": "3.0.2-3"
+      }
+    },
+    "flac": {
+      "id": "flac",
+      "version": "1.5.0-2",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "FLAC++/",
+        "FLAC/"
+      ],
+      "libraries": [
+        "FLAC",
+        "FLAC++"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-flac"
+        ],
+        "versions": [
+          "1.5.0-2"
+        ],
+        "msys2Dependencies": [
+          "cc-libs",
+          "libogg",
+          "libwinpthread"
+        ],
+        "version": "1.5.0-2"
+      }
+    },
+    "libogg": {
+      "id": "libogg",
+      "version": "1.3.6-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "ogg/"
+      ],
+      "libraries": [
+        "ogg"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libogg"
+        ],
+        "versions": [
+          "1.3.6-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.3.6-1"
+      }
+    },
+    "libvorbis": {
+      "id": "libvorbis",
+      "version": "1.3.7-3",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "vorbis/"
+      ],
+      "libraries": [
+        "vorbis",
+        "vorbisenc",
+        "vorbisfile"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libvorbis"
+        ],
+        "versions": [
+          "1.3.7-3"
+        ],
+        "msys2Dependencies": [
+          "libogg"
+        ],
+        "version": "1.3.7-3"
+      }
+    },
+    "freetype": {
+      "id": "freetype",
+      "version": "2.14.3-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "freetype2/"
+      ],
+      "libraries": [
+        "freetype"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-freetype"
+        ],
+        "versions": [
+          "2.14.3-1"
+        ],
+        "msys2Dependencies": [
+          "brotli",
+          "bzip2",
+          "cc-libs",
+          "harfbuzz",
+          "libpng",
+          "zlib"
+        ],
+        "version": "2.14.3-1"
+      }
+    },
+    "libpng": {
+      "id": "libpng",
+      "version": "1.6.59-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "libpng16/",
+        "png.h",
+        "pngconf.h",
+        "pnglibconf.h"
+      ],
+      "libraries": [
+        "png",
+        "png16"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libpng"
+        ],
+        "versions": [
+          "1.6.59-1"
+        ],
+        "msys2Dependencies": [
+          "zlib"
+        ],
+        "version": "1.6.59-1"
+      }
+    },
+    "libjpeg": {
+      "id": "libjpeg",
+      "version": "3.2.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "jconfig.h",
+        "jerror.h",
+        "jinclude.h",
+        "jmorecfg.h",
+        "jpeglib.h",
+        "transupp.h",
+        "turbojpeg.h"
+      ],
+      "libraries": [
+        "jpeg",
+        "turbojpeg"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libjpeg-turbo"
+        ],
+        "versions": [
+          "3.2.0-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "3.2.0-1"
+      }
+    },
+    "openal": {
+      "id": "openal",
+      "version": "1.24.3-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "AL/"
+      ],
+      "libraries": [
+        "OpenAL32"
+      ],
+      "dependencies": [],
+      "systemLibraries": [
+        "winmm",
+        "ole32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-openal"
+        ],
+        "versions": [
+          "1.24.3-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.24.3-1"
+      }
+    },
+    "vulkan": {
+      "id": "vulkan",
+      "version": "1.4.326.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "vulkan/"
+      ],
+      "libraries": [
+        "vulkan-1"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-vulkan-headers"
+        ],
+        "versions": [
+          "1.4.326.0-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.4.326.0-1"
+      }
+    },
+    "freeglut": {
+      "id": "freeglut",
+      "version": "3.8.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "GL/"
+      ],
+      "libraries": [
+        "freeglut"
+      ],
+      "dependencies": [],
+      "systemLibraries": [
+        "glu32",
+        "opengl32"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-freeglut"
+        ],
+        "versions": [
+          "3.8.0-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "3.8.0-1"
+      }
+    },
+    "jsoncpp": {
+      "id": "jsoncpp",
+      "version": "1.9.8-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "json/"
+      ],
+      "libraries": [
+        "jsoncpp"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-jsoncpp"
+        ],
+        "versions": [
+          "1.9.8-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "1.9.8-1"
+      }
+    },
+    "boost": {
+      "id": "boost",
+      "version": "1.92.0-3",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "boost/"
+      ],
+      "libraries": [],
+      "dependencies": [
+        "bzip2",
+        "icu",
+        "libiconv",
+        "zlib",
+        "zstd"
+      ],
+      "systemLibraries": [],
+      "includeRules": [
+        {
+          "prefix": "boost/filesystem/",
+          "libraries": [
+            "boost_filesystem-mt"
+          ]
+        },
+        {
+          "prefix": "boost/regex/",
+          "libraries": [
+            "boost_regex-mt"
+          ]
+        },
+        {
+          "prefix": "boost/thread/",
+          "libraries": [
+            "boost_thread-mt"
+          ]
+        },
+        {
+          "prefix": "boost/chrono/",
+          "libraries": [
+            "boost_chrono-mt"
+          ]
+        },
+        {
+          "prefix": "boost/atomic/",
+          "libraries": [
+            "boost_atomic-mt"
+          ]
+        },
+        {
+          "prefix": "boost/date_time/",
+          "libraries": [
+            "boost_date_time-mt"
+          ]
+        },
+        {
+          "prefix": "boost/container/",
+          "libraries": [
+            "boost_container-mt"
+          ]
+        },
+        {
+          "prefix": "boost/context/",
+          "libraries": [
+            "boost_context-mt"
+          ]
+        },
+        {
+          "prefix": "boost/coroutine/",
+          "libraries": [
+            "boost_coroutine-mt"
+          ]
+        },
+        {
+          "prefix": "boost/fiber/",
+          "libraries": [
+            "boost_fiber-mt"
+          ]
+        },
+        {
+          "prefix": "boost/graph/",
+          "libraries": [
+            "boost_graph-mt"
+          ]
+        },
+        {
+          "prefix": "boost/iostreams/",
+          "libraries": [
+            "boost_iostreams-mt"
+          ]
+        },
+        {
+          "prefix": "boost/json/",
+          "libraries": [
+            "boost_json-mt"
+          ]
+        },
+        {
+          "prefix": "boost/locale/",
+          "libraries": [
+            "boost_locale-mt"
+          ]
+        },
+        {
+          "prefix": "boost/log/",
+          "libraries": [
+            "boost_log-mt",
+            "boost_log_setup-mt",
+            "boost_thread-mt",
+            "boost_filesystem-mt"
+          ]
+        },
+        {
+          "prefix": "boost/program_options/",
+          "libraries": [
+            "boost_program_options-mt"
+          ]
+        },
+        {
+          "prefix": "boost/random/",
+          "libraries": [
+            "boost_random-mt"
+          ]
+        },
+        {
+          "prefix": "boost/serialization/",
+          "libraries": [
+            "boost_serialization-mt"
+          ]
+        },
+        {
+          "prefix": "boost/stacktrace/",
+          "libraries": [
+            "boost_stacktrace_basic-mt"
+          ]
+        },
+        {
+          "prefix": "boost/test/",
+          "libraries": [
+            "boost_unit_test_framework-mt"
+          ]
+        },
+        {
+          "prefix": "boost/timer/",
+          "libraries": [
+            "boost_timer-mt"
+          ]
+        },
+        {
+          "prefix": "boost/type_erasure/",
+          "libraries": [
+            "boost_type_erasure-mt"
+          ]
+        },
+        {
+          "prefix": "boost/url/",
+          "libraries": [
+            "boost_url-mt"
+          ]
+        },
+        {
+          "prefix": "boost/wave/",
+          "libraries": [
+            "boost_wave-mt"
+          ]
+        },
+        {
+          "prefix": "boost/process/",
+          "libraries": [
+            "boost_process-mt"
+          ]
+        },
+        {
+          "prefix": "boost/nowide/",
+          "libraries": [
+            "boost_nowide-mt"
+          ]
+        },
+        {
+          "prefix": "boost/cobalt/",
+          "libraries": [
+            "boost_cobalt-mt"
+          ]
+        },
+        {
+          "prefix": "boost/charconv/",
+          "libraries": [
+            "boost_charconv-mt"
+          ]
+        },
+        {
+          "prefix": "boost/asio/",
+          "libraries": [
+            "boost_cobalt-mt"
+          ]
+        },
+        {
+          "prefix": "boost/beast/",
+          "libraries": [
+            "boost_cobalt-mt"
+          ]
+        }
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-boost",
+          "mingw-w64-clang-x86_64-boost-libs"
+        ],
+        "versions": [
+          "1.92.0-3"
+        ],
+        "msys2Dependencies": [
+          "boost-libs"
+        ],
+        "version": "1.92.0-3"
+      }
+    },
+    "bzip2": {
+      "id": "bzip2",
+      "version": "1.0.8-4",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "bzlib.h"
+      ],
+      "libraries": [
+        "bz2"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-bzip2"
+        ],
+        "versions": [
+          "1.0.8-4"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.0.8-4"
+      }
+    },
+    "icu": {
+      "id": "icu",
+      "version": "78.3-4",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "unicode/"
+      ],
+      "libraries": [
+        "icudt",
+        "icuin",
+        "icuio",
+        "icutest",
+        "icutu",
+        "icuuc"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-icu"
+        ],
+        "versions": [
+          "78.3-4"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "78.3-4"
+      }
+    },
+    "nghttp3": {
+      "id": "nghttp3",
+      "version": "1.18.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "nghttp3/"
+      ],
+      "libraries": [
+        "nghttp3"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-nghttp3"
+        ],
+        "versions": [
+          "1.18.0-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "1.18.0-1"
+      }
+    },
+    "ngtcp2": {
+      "id": "ngtcp2",
+      "version": "1.25.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "ngtcp2/"
+      ],
+      "libraries": [
+        "ngtcp2",
+        "ngtcp2_crypto_ossl"
+      ],
+      "dependencies": [
+        "gnutls",
+        "nghttp3"
+      ],
+      "systemLibraries": [
+        "ncrypt"
+      ],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-ngtcp2"
+        ],
+        "versions": [
+          "1.25.0-1"
+        ],
+        "msys2Dependencies": [
+          "gnutls",
+          "openssl"
+        ],
+        "version": "1.25.0-1"
+      }
+    },
+    "gmp": {
+      "id": "gmp",
+      "version": "6.3.0-2",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "gmp.h",
+        "gmpxx.h"
+      ],
+      "libraries": [
+        "gmp"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-gmp"
+        ],
+        "versions": [
+          "6.3.0-2"
+        ],
+        "msys2Dependencies": [],
+        "version": "6.3.0-2"
+      }
+    },
+    "nettle": {
+      "id": "nettle",
+      "version": "4.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "nettle/"
+      ],
+      "libraries": [
+        "nettle",
+        "hogweed"
+      ],
+      "dependencies": [
+        "gmp"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-nettle"
+        ],
+        "versions": [
+          "4.0-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs",
+          "gmp"
+        ],
+        "version": "4.0-1"
+      }
+    },
+    "libtasn1": {
+      "id": "libtasn1",
+      "version": "4.21.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "libtasn1.h"
+      ],
+      "libraries": [
+        "tasn1"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libtasn1"
+        ],
+        "versions": [
+          "4.21.0-1"
+        ],
+        "msys2Dependencies": [
+          "cc-libs"
+        ],
+        "version": "4.21.0-1"
+      }
+    },
+    "libffi": {
+      "id": "libffi",
+      "version": "3.8.0-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "ffi.h",
+        "ffitarget.h"
+      ],
+      "libraries": [
+        "ffi"
+      ],
+      "dependencies": [],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-libffi"
+        ],
+        "versions": [
+          "3.8.0-1"
+        ],
+        "msys2Dependencies": [],
+        "version": "3.8.0-1"
+      }
+    },
+    "p11-kit": {
+      "id": "p11-kit",
+      "version": "0.26.5-1",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "p11-kit-1/"
+      ],
+      "libraries": [
+        "p11-kit"
+      ],
+      "dependencies": [
+        "libffi",
+        "libtasn1"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-p11-kit"
+        ],
+        "versions": [
+          "0.26.5-1"
+        ],
+        "msys2Dependencies": [
+          "gettext-runtime",
+          "libffi",
+          "libtasn1"
+        ],
+        "version": "0.26.5-1"
+      }
+    },
+    "gnutls": {
+      "id": "gnutls",
+      "version": "3.8.13-3",
+      "target": "x86_64-w64-windows-gnu",
+      "includePrefixes": [
+        "gnutls/"
+      ],
+      "libraries": [
+        "gnutls",
+        "gnutls-openssl",
+        "gnutlsxx"
+      ],
+      "dependencies": [
+        "brotli",
+        "gettext-runtime",
+        "gmp",
+        "libidn2",
+        "libtasn1",
+        "libunistring",
+        "nettle",
+        "p11-kit",
+        "zlib",
+        "zstd"
+      ],
+      "systemLibraries": [],
+      "packs": {
+        "include": "include.index.json",
+        "lib": "lib.index.json",
+        "bin": "bin.index.json"
+      },
+      "source": {
+        "provider": "msys2",
+        "repository": "clang64",
+        "packages": [
+          "mingw-w64-clang-x86_64-gnutls"
+        ],
+        "versions": [
+          "3.8.13-3"
+        ],
+        "msys2Dependencies": [
+          "brotli",
+          "cc-libs",
+          "gettext-runtime",
+          "gmp",
+          "libidn2",
+          "libtasn1",
+          "libunistring",
+          "libwinpthread",
+          "nettle",
+          "p11-kit",
+          "zlib",
+          "zstd"
+        ],
+        "version": "3.8.13-3"
+      }
+    }
+  }
+}

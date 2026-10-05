@@ -1,0 +1,31 @@
+{
+  "id": "gmp",
+  "version": "6.3.0-2",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "gmp.h",
+    "gmpxx.h"
+  ],
+  "libraries": [
+    "gmp"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-gmp"
+    ],
+    "versions": [
+      "6.3.0-2"
+    ],
+    "msys2Dependencies": [],
+    "version": "6.3.0-2"
+  }
+}

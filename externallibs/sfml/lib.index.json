@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/SFML/FindDRM.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 357,
+      "size": 576,
+      "sha256": "a30f16a24b2c6e40ec23a2607b5da91cfe6219cc6ebb7223c32dc22c594ee9f9"
+    },
+    "lib/cmake/SFML/FindEGL.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 357,
+      "compressedSize": 301,
+      "size": 490,
+      "sha256": "476d3ff091e6df59eaa41e73d7a1ab08629665a62b9c66d73e92351f8d72d09c"
+    },
+    "lib/cmake/SFML/FindFLAC.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 658,
+      "compressedSize": 399,
+      "size": 814,
+      "sha256": "49f33c58790305c8ccfd43e3bde016ce39b915594158c5e9d7148be84c3a9174"
+    },
+    "lib/cmake/SFML/FindFreetype.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1057,
+      "compressedSize": 1855,
+      "size": 5269,
+      "sha256": "5c36c853452d57419c43de63d138a1d900d766220a9a5c91ce57b758b9802239"
+    },
+    "lib/cmake/SFML/FindGBM.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 2912,
+      "compressedSize": 347,
+      "size": 562,
+      "sha256": "e2d531e6fce1123d68cd661b3589ae5dbbc41d5ca1b06780e210c18908ca4975"
+    },
+    "lib/cmake/SFML/FindGLES.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3259,
+      "compressedSize": 309,
+      "size": 511,
+      "sha256": "a341800d984e6a086360e998bec142ce008d85e3394552508e4cc7141a9ac380"
+    },
+    "lib/cmake/SFML/FindUDev.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 3568,
+      "compressedSize": 919,
+      "size": 2078,
+      "sha256": "d78b3edaf371c6be10ffd2a73683ac388a686b567996e5a52131597e3b2d7493"
+    },
+    "lib/cmake/SFML/FindVorbis.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 4487,
+      "compressedSize": 611,
+      "size": 2505,
+      "sha256": "0c1321ecae5e85edb9848f47e5758c18c5b78f876d0304a9bad873b3b54c70ce"
+    },
+    "lib/cmake/SFML/SFMLAudioDependencies.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 5098,
+      "compressedSize": 499,
+      "size": 1289,
+      "sha256": "3a091b2b819b615844c0cc0f8675e7f28b864c1dacd4485b3e9f107d5928e928"
+    },
+    "lib/cmake/SFML/SFMLAudioSharedTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 5597,
+      "compressedSize": 388,
+      "size": 927,
+      "sha256": "828e7c75d54e344d357d6f7e3bf14b821bdde6329f836a425815c7d635bcc25b"
+    },
+    "lib/cmake/SFML/SFMLAudioSharedTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 5985,
+      "compressedSize": 1541,
+      "size": 5108,
+      "sha256": "478e170a222c5678612688f7caccac775e55afd4b0dcbabe9d144ec170a7eaab"
+    },
+    "lib/cmake/SFML/SFMLAudioStaticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 7526,
+      "compressedSize": 389,
+      "size": 859,
+      "sha256": "e5244f29ef4e12b101b06cea7b8acbbb9ea2ba4de403191dc2c9522b4f312c20"
+    },
+    "lib/cmake/SFML/SFMLAudioStaticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 7915,
+      "compressedSize": 1604,
+      "size": 5305,
+      "sha256": "d6d4426519de0308067c100cf9965245e6c0e34fb79e5660fbf4cc22b9a87835"
+    },
+    "lib/cmake/SFML/SFMLConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 9519,
+      "compressedSize": 2710,
+      "size": 8399,
+      "sha256": "b6fdbb4d6206c9d22c1ab7a8b86826dd7148daaca76c850e584c40ccd5cbabfe"
+    },
+    "lib/cmake/SFML/SFMLConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 12229,
+      "compressedSize": 913,
+      "size": 2827,
+      "sha256": "d467e8a53742750dc849fedb1f58d3e56bebb7f57090d83c79b95440903cfef1"
+    },
+    "lib/cmake/SFML/SFMLGraphicsDependencies.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 13142,
+      "compressedSize": 349,
+      "size": 634,
+      "sha256": "eef8d0a6e32ba7bd14fffa1313c5277811cd5ab2faa78c5f1ba905c77c50b409"
+    },
+    "lib/cmake/SFML/SFMLGraphicsSharedTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 13491,
+      "compressedSize": 389,
+      "size": 954,
+      "sha256": "976cc100a7a21e56c2129f671e6bb95dce61f111920a1c7ffbd2da4bda0bd4bb"
+    },
+    "lib/cmake/SFML/SFMLGraphicsSharedTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 13880,
+      "compressedSize": 1544,
+      "size": 5123,
+      "sha256": "9dbe4afd5f29cdc06366ea8faa19bd538f779982433cdc9570ad7677808d28bf"
+    },
+    "lib/cmake/SFML/SFMLGraphicsStaticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 15424,
+      "compressedSize": 392,
+      "size": 880,
+      "sha256": "5a8864c12984070b670f02f7702dd0a7327de7c3ca654aa5c0b95195f7404f86"
+    },
+    "lib/cmake/SFML/SFMLGraphicsStaticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 15816,
+      "compressedSize": 1576,
+      "size": 5193,
+      "sha256": "223559323071c092983ddf809856c50d844341e0558ac08151656560a0174ac7"
+    },
+    "lib/cmake/SFML/SFMLMainSharedTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 17392,
+      "compressedSize": 386,
+      "size": 848,
+      "sha256": "2cc7d47423233d00f11e926e9a06680d1a1dac3f38eae8a0c0c4fc1e123d982b"
+    },
+    "lib/cmake/SFML/SFMLMainSharedTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 17778,
+      "compressedSize": 1396,
+      "size": 4256,
+      "sha256": "1b2bebcc9257076b78b909d3561995399d760b03bed5983e131d267c55d7f17f"
+    },
+    "lib/cmake/SFML/SFMLMainStaticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 19174,
+      "compressedSize": 386,
+      "size": 848,
+      "sha256": "2cc7d47423233d00f11e926e9a06680d1a1dac3f38eae8a0c0c4fc1e123d982b"
+    },
+    "lib/cmake/SFML/SFMLMainStaticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 19560,
+      "compressedSize": 1408,
+      "size": 4303,
+      "sha256": "43f9900e6b01e7ae8abe58f353b16f691b12643e1795963605f4b5e72fa6a245"
+    },
+    "lib/cmake/SFML/SFMLNetworkSharedTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 20968,
+      "compressedSize": 389,
+      "size": 945,
+      "sha256": "759dd4ce316d690a4bbdb53874f86e752d30c7121954ce688a3771ea653c4815"
+    },
+    "lib/cmake/SFML/SFMLNetworkSharedTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 21357,
+      "compressedSize": 1542,
+      "size": 5118,
+      "sha256": "57ca007220aff9805c0b3b2cd8a6bd15a16c7d6fea27b6fac970ac45e1d142a2"
+    },
+    "lib/cmake/SFML/SFMLNetworkStaticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 22899,
+      "compressedSize": 392,
+      "size": 873,
+      "sha256": "241c9bc91ea189d43c8517bbfccdcc841bc688cc591a1dd7f1a88fab21cd845e"
+    },
+    "lib/cmake/SFML/SFMLNetworkStaticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 23291,
+      "compressedSize": 1573,
+      "size": 5186,
+      "sha256": "38ba33e1d0cca6f71aab2329004a0f1108c82c9051c04a6019b4a80307dafbcf"
+    },
+    "lib/cmake/SFML/SFMLSystemDependencies.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 24864,
+      "compressedSize": 247,
+      "size": 381,
+      "sha256": "1edf2e563fa125d15c257a25e24987039b1afc4d7a071f77ca443d35c2b9dbb5"
+    },
+    "lib/cmake/SFML/SFMLSystemSharedTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 25111,
+      "compressedSize": 388,
+      "size": 936,
+      "sha256": "c8a7b139368aeed0287286cd28d34c26e7cf49aca5c601cb4983943b24da3b38"
+    },
+    "lib/cmake/SFML/SFMLSystemSharedTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 25499,
+      "compressedSize": 1399,
+      "size": 4266,
+      "sha256": "c00dd43172f0b8fe86e7202c5fbd9d1f9ae67645496e7a9c976a39ca1a313e0d"
+    },
+    "lib/cmake/SFML/SFMLSystemStaticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 26898,
+      "compressedSize": 389,
+      "size": 866,
+      "sha256": "a70aba203b916e77257ff1fc6e2c2b27a36ce97af75eb4fdf1121c70c936e68d"
+    },
+    "lib/cmake/SFML/SFMLSystemStaticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 27287,
+      "compressedSize": 1453,
+      "size": 4398,
+      "sha256": "938bf06e74b21ef7a0ad6e04f2371e687eaf71c4fc840d17be8f9be86e8fceff"
+    },
+    "lib/cmake/SFML/SFMLWindowDependencies.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 28740,
+      "compressedSize": 501,
+      "size": 1372,
+      "sha256": "194ae62511466c9e4af138deb357e1c60253ef7a8adce09181968db08820ac1c"
+    },
+    "lib/cmake/SFML/SFMLWindowSharedTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 29241,
+      "compressedSize": 389,
+      "size": 936,
+      "sha256": "158e8eef0ccb2107fd34cb04d10b69ff1176bca5d0b48a14dc37be88ede650d4"
+    },
+    "lib/cmake/SFML/SFMLWindowSharedTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 29630,
+      "compressedSize": 1543,
+      "size": 5113,
+      "sha256": "69a1ad486962ce0bb3d0ae5133e0d378cdad1f5a44371273f0b3c42f91576187"
+    },
+    "lib/cmake/SFML/SFMLWindowStaticTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 31173,
+      "compressedSize": 390,
+      "size": 866,
+      "sha256": "e8070bdbff290ccc454d334126e93b7bd732012f6270034e0f08cc6a0034e41c"
+    },
+    "lib/cmake/SFML/SFMLWindowStaticTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 31563,
+      "compressedSize": 1590,
+      "size": 5225,
+      "sha256": "dbd83302366c37062b4080fb7b6af093c360913ac6f6caf04e2c577608cfc07c"
+    },
+    "lib/libsfml-audio-s.a": {
+      "pack": "lib-000.pack",
+      "offset": 33153,
+      "compressedSize": 439873,
+      "size": 1422408,
+      "sha256": "53d0757d426118aff03284f5d2a2681fe8cf2d1c0c1497f7fd61022c7979fcb3"
+    },
+    "lib/libsfml-audio.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 473026,
+      "compressedSize": 7261,
+      "size": 70582,
+      "sha256": "6b89c649d93227d9eec6f9fbb7147007b280c56c38b1bb20c39ae0459283fa10"
+    },
+    "lib/libsfml-graphics-s.a": {
+      "pack": "lib-000.pack",
+      "offset": 480287,
+      "compressedSize": 345859,
+      "size": 1330662,
+      "sha256": "b0bb337127dccb04bad5c7002f110c5d4e9054ad9630d2d5d57b6fe944e3aa21"
+    },
+    "lib/libsfml-graphics.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 826146,
+      "compressedSize": 16485,
+      "size": 151652,
+      "sha256": "d5ec13dfc8dd6fed43b13a1bdac7a4c5f267c1ac5949c1b1d1fcb0788ec31cbc"
+    },
+    "lib/libsfml-main.a": {
+      "pack": "lib-000.pack",
+      "offset": 842631,
+      "compressedSize": 478,
+      "size": 1174,
+      "sha256": "2c3bd8856696335703ad3ef495baa249687d34e22b98ec2c7f703370413c6e67"
+    },
+    "lib/libsfml-network-s.a": {
+      "pack": "lib-000.pack",
+      "offset": 843109,
+      "compressedSize": 90441,
+      "size": 367528,
+      "sha256": "5112b9397c7f576ca70f9e8e8200d5f61f99f78bc1bf528d7e11c9696ad6404a"
+    },
+    "lib/libsfml-network.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 933550,
+      "compressedSize": 6081,
+      "size": 58610,
+      "sha256": "8f7283b4c5e4d0e532108964da34b94b4d3b77eba8f1d327eb02b0e78c496c64"
+    },
+    "lib/libsfml-system-s.a": {
+      "pack": "lib-000.pack",
+      "offset": 939631,
+      "compressedSize": 38526,
+      "size": 158778,
+      "sha256": "badcc004e749cf567665fe256476aaf32c9463b9c49d610c25e195276e8f490e"
+    },
+    "lib/libsfml-system.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 978157,
+      "compressedSize": 4442,
+      "size": 40526,
+      "sha256": "3439ede2bba6b222038a33cdeac7ab1350465ac159a36d4b2896870aa6279223"
+    },
+    "lib/libsfml-window-s.a": {
+      "pack": "lib-000.pack",
+      "offset": 982599,
+      "compressedSize": 135706,
+      "size": 511946,
+      "sha256": "b1169e3744de70fb1076d4df010bef14f70027caf6d31273277dafd73381cc8d"
+    },
+    "lib/libsfml-window.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 1118305,
+      "compressedSize": 5432,
+      "size": 48728,
+      "sha256": "40f6ca4a8896c815143f7412eebbf3550f80056dd55271a447c02dfadfb22822"
+    },
+    "lib/pkgconfig/sfml-all.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1123737,
+      "compressedSize": 232,
+      "size": 305,
+      "sha256": "520bc947fedfdad3ce4deb09e05433db53985757a936c52e2c1f2e642ecd3534"
+    },
+    "lib/pkgconfig/sfml-audio.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1123969,
+      "compressedSize": 269,
+      "size": 371,
+      "sha256": "86c9d5448bfff4b41cbe244b00e95d6c84e1679499c6f55477646ee378631534"
+    },
+    "lib/pkgconfig/sfml-graphics.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1124238,
+      "compressedSize": 296,
+      "size": 423,
+      "sha256": "5229787eb0e045a2c3fe2d8e91382d36c56a1a131f1bc8f0f47c48ea5559e2b6"
+    },
+    "lib/pkgconfig/sfml-network.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1124534,
+      "compressedSize": 243,
+      "size": 317,
+      "sha256": "10ec8bfd1e2dde05d93f95285f154ca1032bb5bb5c0c0f54577411e4ec29a1b4"
+    },
+    "lib/pkgconfig/sfml-system.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1124777,
+      "compressedSize": 227,
+      "size": 291,
+      "sha256": "cb292cc1574fa75278e5255a2ab18dd5eae3ebee564cc2fc00c9531363746556"
+    },
+    "lib/pkgconfig/sfml-window.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1125004,
+      "compressedSize": 271,
+      "size": 362,
+      "sha256": "6ec6f0c7c98346d153ef5342c43feefabecd0bf59ca9149205711db0cf9a8317"
+    }
+  }
+}

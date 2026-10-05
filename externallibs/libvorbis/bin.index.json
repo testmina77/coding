@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libvorbis-0.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 128861,
+      "size": 234496,
+      "sha256": "6e90721aeeed4402534c367f69f8dc4386e2c738499eac4c2141d3879a824d3c"
+    },
+    "bin/libvorbisenc-2.dll": {
+      "pack": "bin-000.pack",
+      "offset": 128861,
+      "compressedSize": 97170,
+      "size": 565248,
+      "sha256": "f1afd5819d38c40b0c792fd8bae96b38d9aee598f823007ef6125373c8cbac35"
+    },
+    "bin/libvorbisfile-3.dll": {
+      "pack": "bin-000.pack",
+      "offset": 226031,
+      "compressedSize": 19464,
+      "size": 44032,
+      "sha256": "9aa2fb4ae8c183987810f4d50b54b7d6346d71594bfed82e33874a4859f16d28"
+    }
+  }
+}

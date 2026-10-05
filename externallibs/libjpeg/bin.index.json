@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/cjpeg.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 141085,
+      "size": 304640,
+      "sha256": "2fff1288f1b764d9b5eeb1c137ac5c6eca8c992e9a5d4d34295092ee8331853a"
+    },
+    "bin/djpeg.exe": {
+      "pack": "bin-000.pack",
+      "offset": 141085,
+      "compressedSize": 133348,
+      "size": 270848,
+      "sha256": "904c40cf711b025e6e7712a32e67e3bb861e32ea01ddede91f52d963dd6b0e01"
+    },
+    "bin/jpegtran.exe": {
+      "pack": "bin-000.pack",
+      "offset": 274433,
+      "compressedSize": 63487,
+      "size": 133120,
+      "sha256": "b578d504867235f64149fe9d259b3ee9071dda04731802abea7534f798aa0e2f"
+    },
+    "bin/libjpeg-8.dll": {
+      "pack": "bin-000.pack",
+      "offset": 337920,
+      "compressedSize": 269512,
+      "size": 901120,
+      "sha256": "ebb46bec8bdba81537ccd3be595975a987812ce5d4087690d8cd61c4f25e428b"
+    },
+    "bin/libturbojpeg.dll": {
+      "pack": "bin-000.pack",
+      "offset": 607432,
+      "compressedSize": 426733,
+      "size": 1257472,
+      "sha256": "3020b7c5ba127cb3f7abc6ecc0315201a275b6cbd126ba11060391a372db8ff7"
+    },
+    "bin/rdjpgcom.exe": {
+      "pack": "bin-000.pack",
+      "offset": 1034165,
+      "compressedSize": 23061,
+      "size": 48640,
+      "sha256": "99cf8a6a0a6b280a6fde5a5d8d5bef945448cad4956e97bca196198a063be53e"
+    },
+    "bin/tjbench.exe": {
+      "pack": "bin-000.pack",
+      "offset": 1057226,
+      "compressedSize": 64450,
+      "size": 134656,
+      "sha256": "43c22471421811f36dcbd91877aa06f1a91a5818425e4656173d8ba31c942cf0"
+    },
+    "bin/wrjpgcom.exe": {
+      "pack": "bin-000.pack",
+      "offset": 1121676,
+      "compressedSize": 23675,
+      "size": 49152,
+      "sha256": "649c6444bbe7d0c4f2dfd64941027184d170a57475e1ba2738a48a1ce5b1b4dd"
+    }
+  }
+}

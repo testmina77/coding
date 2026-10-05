@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libpng.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 132803,
+      "size": 309778,
+      "sha256": "7ed226821b0ddde3849b5c5092494ad66a9a07baf68a725bff6300e52da6240c"
+    },
+    "lib/libpng.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 132803,
+      "compressedSize": 8168,
+      "size": 63264,
+      "sha256": "6b46602deb648f4fd043e5ed50ebc7661c9287eb050c88e9ac060180fecb6aaf"
+    },
+    "lib/libpng16.a": {
+      "pack": "lib-000.pack",
+      "offset": 140971,
+      "compressedSize": 132803,
+      "size": 309778,
+      "sha256": "7ed226821b0ddde3849b5c5092494ad66a9a07baf68a725bff6300e52da6240c"
+    },
+    "lib/libpng16.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 273774,
+      "compressedSize": 8168,
+      "size": 63264,
+      "sha256": "6b46602deb648f4fd043e5ed50ebc7661c9287eb050c88e9ac060180fecb6aaf"
+    },
+    "lib/pkgconfig/libpng.pc": {
+      "pack": "lib-000.pack",
+      "offset": 281942,
+      "compressedSize": 199,
+      "size": 267,
+      "sha256": "391e40eab9043838f67f6907d4782ac01dc7cbecfd684e591ebc9a1cdbbab7a8"
+    },
+    "lib/pkgconfig/libpng16.pc": {
+      "pack": "lib-000.pack",
+      "offset": 282141,
+      "compressedSize": 199,
+      "size": 267,
+      "sha256": "391e40eab9043838f67f6907d4782ac01dc7cbecfd684e591ebc9a1cdbbab7a8"
+    }
+  }
+}

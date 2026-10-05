@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/fmt/args.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 2375,
+      "size": 7192,
+      "sha256": "ce9705a22f68469891cba708b3c4ae459edb3f41c8a83f891e93013d485190f8"
+    },
+    "include/fmt/base.h": {
+      "pack": "include-000.pack",
+      "offset": 2375,
+      "compressedSize": 24511,
+      "size": 102347,
+      "sha256": "888315df369b34360880a89998ce24191e7c1b2b0606666ec8fddb31f0cae2fb"
+    },
+    "include/fmt/chrono.h": {
+      "pack": "include-000.pack",
+      "offset": 26886,
+      "compressedSize": 16241,
+      "size": 77401,
+      "sha256": "a2e569b0f671e89e7691cdd8653d4f695da25174d9c203a2434ce62ed34a2b40"
+    },
+    "include/fmt/color.h": {
+      "pack": "include-000.pack",
+      "offset": 43127,
+      "compressedSize": 6821,
+      "size": 25322,
+      "sha256": "80db3364b9f5b8247f4012d05d1353be1d0aed7c1b5bd65bdcd2817d50b64e7c"
+    },
+    "include/fmt/compile.h": {
+      "pack": "include-000.pack",
+      "offset": 49948,
+      "compressedSize": 4913,
+      "size": 21040,
+      "sha256": "91b48c183ab0d2e0f433bee1b690036d478f0ae1d6fa79259c24d3eed5fbc011"
+    },
+    "include/fmt/core.h": {
+      "pack": "include-000.pack",
+      "offset": 54861,
+      "compressedSize": 295,
+      "size": 389,
+      "sha256": "eb71f8be534cb6e0806dd583b8487d4160e5338c59ff3d76986ca08f16ce3e30"
+    },
+    "include/fmt/fmt-c.h": {
+      "pack": "include-000.pack",
+      "offset": 55156,
+      "compressedSize": 1745,
+      "size": 6912,
+      "sha256": "4f5dff96d81d9c0f861125b34ae03e55e4f392866384da0fb4670876377cf9a1"
+    },
+    "include/fmt/format-inl.h": {
+      "pack": "include-000.pack",
+      "offset": 56901,
+      "compressedSize": 28833,
+      "size": 82917,
+      "sha256": "1940025f2299de8df375fb16dd8963fb5ab7eeb447271dc33274d63f0d593414"
+    },
+    "include/fmt/format.h": {
+      "pack": "include-000.pack",
+      "offset": 85734,
+      "compressedSize": 40252,
+      "size": 163130,
+      "sha256": "89eaa8184572fad407f9117aafae929403c0a96137e261e58c15daf1e09babbc"
+    },
+    "include/fmt/os.h": {
+      "pack": "include-000.pack",
+      "offset": 125986,
+      "compressedSize": 4146,
+      "size": 12612,
+      "sha256": "b43e2f2e3683bcc930d8011199b811ecb6c4480d876ad453e15f6a58ec7ccc80"
+    },
+    "include/fmt/ostream.h": {
+      "pack": "include-000.pack",
+      "offset": 130132,
+      "compressedSize": 1920,
+      "size": 5046,
+      "sha256": "663ab18a9c1cf8e7687d61ceb1acdcecd8c6484621855453fe83bc467c1b44c5"
+    },
+    "include/fmt/printf.h": {
+      "pack": "include-000.pack",
+      "offset": 132052,
+      "compressedSize": 5632,
+      "size": 21172,
+      "sha256": "9c3421258aff344e27b36fe9f894b361d1865875aa781e4b392e60b2f1ebecc1"
+    },
+    "include/fmt/ranges.h": {
+      "pack": "include-000.pack",
+      "offset": 137684,
+      "compressedSize": 5986,
+      "size": 28782,
+      "sha256": "0a9297b2feb4443413807ff5bc03e82b4671c150fdfadc869b009ff90b6015a1"
+    },
+    "include/fmt/std.h": {
+      "pack": "include-000.pack",
+      "offset": 143670,
+      "compressedSize": 6001,
+      "size": 26191,
+      "sha256": "0aadd4893c93961a619d3bedbb8ac399dbbd5be18498df6933ea8eae88117d03"
+    },
+    "include/fmt/xchar.h": {
+      "pack": "include-000.pack",
+      "offset": 149671,
+      "compressedSize": 2919,
+      "size": 14224,
+      "sha256": "1d68c1ed984d18ea267f02583e91e8297be8d23ccd3659fc5c3145bc1cbf2f25"
+    }
+  }
+}

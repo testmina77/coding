@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/Ogg/OggConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 564,
+      "size": 1342,
+      "sha256": "239742193eff9debec89f4db6cf62ab2beb6c216cd7976662f3558118bd79ab3"
+    },
+    "lib/cmake/Ogg/OggConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 564,
+      "compressedSize": 912,
+      "size": 2827,
+      "sha256": "59e69599961d1dd8a4b8b62af1007f9b8b16d9c6c5863b4e8cfdad13bef15c30"
+    },
+    "lib/cmake/Ogg/OggTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1476,
+      "compressedSize": 379,
+      "size": 884,
+      "sha256": "056d3a9ebddddb4bcc23fe8706d32ca16c946dc465380f1dac48a822d2679614"
+    },
+    "lib/cmake/Ogg/OggTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1855,
+      "compressedSize": 1363,
+      "size": 4195,
+      "sha256": "cbd08890e134fe066585238562c60b265aa8343f33a48475bbb03dfb1ea6102c"
+    },
+    "lib/libogg.a": {
+      "pack": "lib-000.pack",
+      "offset": 3218,
+      "compressedSize": 17279,
+      "size": 28278,
+      "sha256": "48b221cb1d4fe7ad8bae9da27fcf804532430a615bd9981931650abfb51e9b03"
+    },
+    "lib/libogg.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 20497,
+      "compressedSize": 2204,
+      "size": 15608,
+      "sha256": "f775a1025d97805f793956dd12fb98b3169b51d4cf631938380ea284f9d778a0"
+    },
+    "lib/pkgconfig/ogg.pc": {
+      "pack": "lib-000.pack",
+      "offset": 22701,
+      "compressedSize": 212,
+      "size": 283,
+      "sha256": "1b464975feba2e5d770338af463535d894f25dcbe095436a3b717b32f8bc90ba"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libfreetype-6.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 433794,
+      "size": 844288,
+      "sha256": "fee9b0490e5217611436a4686fd75f341ce5e8c531cdf127fbdf3ecd9226f929"
+    }
+  }
+}

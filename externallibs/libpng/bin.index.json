@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libpng-config": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 854,
+      "size": 2321,
+      "sha256": "23475046ef8d6b0eea03969cad0d795897b92142b4e0f3e35083c21e6ec1c8a0"
+    },
+    "bin/libpng16-16.dll": {
+      "pack": "bin-000.pack",
+      "offset": 854,
+      "compressedSize": 131509,
+      "size": 262144,
+      "sha256": "e0acff8707fbd25e6bdd26478b2b6b447214146da92c874e9a2290c695982e08"
+    },
+    "bin/libpng16-config": {
+      "pack": "bin-000.pack",
+      "offset": 132363,
+      "compressedSize": 854,
+      "size": 2321,
+      "sha256": "23475046ef8d6b0eea03969cad0d795897b92142b4e0f3e35083c21e6ec1c8a0"
+    },
+    "bin/png-fix-itxt.exe": {
+      "pack": "bin-000.pack",
+      "offset": 133217,
+      "compressedSize": 6734,
+      "size": 17408,
+      "sha256": "ef7c78708e6dc5fb2f5cfe44df1b05e9de15b37d3b0ef55b385b556458ff39b1"
+    },
+    "bin/png2pnm-static.exe": {
+      "pack": "bin-000.pack",
+      "offset": 139951,
+      "compressedSize": 167380,
+      "size": 318464,
+      "sha256": "ad6ca8ef34fc436b85979fa2e378d92199b77ff12c00ba7bd6130c33e2f58809"
+    },
+    "bin/png2pnm.exe": {
+      "pack": "bin-000.pack",
+      "offset": 307331,
+      "compressedSize": 21888,
+      "size": 46080,
+      "sha256": "bc1ec77d9ea1e479205670e71847720914175cfef2265fe84027abda0ad5ed9d"
+    },
+    "bin/pngfix.exe": {
+      "pack": "bin-000.pack",
+      "offset": 329219,
+      "compressedSize": 41219,
+      "size": 82944,
+      "sha256": "716779e984d3b0c1bf932efcf0adadde162048a18e7ba2a6ea043cfb2a5b3de1"
+    },
+    "bin/pnm2png-static.exe": {
+      "pack": "bin-000.pack",
+      "offset": 370438,
+      "compressedSize": 187322,
+      "size": 358400,
+      "sha256": "a8a8271008196410a0792842e2be5158a96040db9d4404579133e5132f182358"
+    },
+    "bin/pnm2png.exe": {
+      "pack": "bin-000.pack",
+      "offset": 557760,
+      "compressedSize": 41906,
+      "size": 86016,
+      "sha256": "377e4c88c9c9a5d8f7bcc16555378f0bca52ef9f8e14e6318b5b171e6522163e"
+    }
+  }
+}

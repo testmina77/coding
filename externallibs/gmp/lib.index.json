@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libgmp.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 404764,
+      "size": 1257966,
+      "sha256": "50c6c0f596274b87a7dce9ab1fb7844c4ace58a1ae0bc9dadce860ec080d77f5"
+    },
+    "lib/libgmp.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 404764,
+      "compressedSize": 15185,
+      "size": 148444,
+      "sha256": "79cc2086ef35b292e8e5990826d63a3af6f68b2b4c75a8a88e32cc0b8d5eaa77"
+    },
+    "lib/libgmpxx.a": {
+      "pack": "lib-000.pack",
+      "offset": 419949,
+      "compressedSize": 6679,
+      "size": 34066,
+      "sha256": "a176456b9c8315de8742536fc03b8b4e9abd201d224cf981d8763c65ab549bd8"
+    },
+    "lib/libgmpxx.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 426628,
+      "compressedSize": 1798,
+      "size": 22772,
+      "sha256": "f8e4ce9767c1fc74b9e983be940228054d4a8b80a5cd43d7db5e6e215e80ffbc"
+    },
+    "lib/pkgconfig/gmp.pc": {
+      "pack": "lib-000.pack",
+      "offset": 428426,
+      "compressedSize": 215,
+      "size": 281,
+      "sha256": "0285c95f341acc4c659a12cb67aed2d3c13cb036072b05d3fa80499d17dee9ef"
+    },
+    "lib/pkgconfig/gmpxx.pc": {
+      "pack": "lib-000.pack",
+      "offset": 428641,
+      "compressedSize": 222,
+      "size": 284,
+      "sha256": "7593f774ab643a291330e294ccca4c3d8ebe5253508ce7c4194c067815577faa"
+    }
+  }
+}

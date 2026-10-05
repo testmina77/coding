@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/nghttp2/nghttp2Config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 109,
+      "size": 96,
+      "sha256": "fe3646311f701cd713cc5df6637263b5930db60a4c37afe591a31ea0df137791"
+    },
+    "lib/cmake/nghttp2/nghttp2ConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 109,
+      "compressedSize": 914,
+      "size": 2830,
+      "sha256": "41ccf3edeed93ef7542e2ebadde2c454d8c136b39bf3a08d91c659b570bb9079"
+    },
+    "lib/cmake/nghttp2/nghttp2Targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1023,
+      "compressedSize": 385,
+      "size": 942,
+      "sha256": "dee882c66d8f13566a974ecb90c5315e866b890b67d9214be265085904def8c3"
+    },
+    "lib/cmake/nghttp2/nghttp2Targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1408,
+      "compressedSize": 1366,
+      "size": 4230,
+      "sha256": "a94f730b10d82265f562a8826cb04028a397831b27e613334978171b322144f9"
+    },
+    "lib/libnghttp2.a": {
+      "pack": "lib-000.pack",
+      "offset": 2774,
+      "compressedSize": 93323,
+      "size": 266342,
+      "sha256": "5f4dc9b2ddfe66925196d1e27947e8d1415271746d4a6b7ea9e3b1bd2bd394a0"
+    },
+    "lib/libnghttp2.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 96097,
+      "compressedSize": 6074,
+      "size": 55986,
+      "sha256": "12fe3c4eddd18b381974e75c448bc50836cf9363583fd2bd53f5288b288f022b"
+    },
+    "lib/pkgconfig/libnghttp2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 102171,
+      "compressedSize": 860,
+      "size": 1456,
+      "sha256": "b0ad6b0403947b1ca26ac3bef3f6d7922d35ff7d2211555f8b9c8cd2b00c589e"
+    }
+  }
+}

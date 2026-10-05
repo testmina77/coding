@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libhogweed.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 210248,
+      "size": 435748,
+      "sha256": "20144eeeeab40f790c5f8e9d6b9f1e549dfae2546f7b6eb822d3142b90ac5a92"
+    },
+    "lib/libhogweed.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 210248,
+      "compressedSize": 7738,
+      "size": 68322,
+      "sha256": "b90c76b47d06c2b9f666337727614d0e7917a527b95caeff9546029328ad168d"
+    },
+    "lib/libnettle.a": {
+      "pack": "lib-000.pack",
+      "offset": 217986,
+      "compressedSize": 187185,
+      "size": 587124,
+      "sha256": "be2740cc984d1323b97bdf5e124a9e4cc268505e24ab1b24323bfe30a59dc86b"
+    },
+    "lib/libnettle.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 405171,
+      "compressedSize": 17210,
+      "size": 149168,
+      "sha256": "dc7976a185575d8d71814e843e4ab9163debafc4ca7c80d3ea21f2db9b94899c"
+    },
+    "lib/pkgconfig/hogweed.pc": {
+      "pack": "lib-000.pack",
+      "offset": 422381,
+      "compressedSize": 346,
+      "size": 537,
+      "sha256": "c76009fe2c9a96c0361a2f81f20b491b67ef61104e6d76b32caded9994d96c6c"
+    },
+    "lib/pkgconfig/nettle.pc": {
+      "pack": "lib-000.pack",
+      "offset": 422727,
+      "compressedSize": 221,
+      "size": 291,
+      "sha256": "a509dab4f9e92094147d9da416a27d78267c3046be93f60fdde0a7fdfbe39ac3"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libp11-kit-0.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 377170,
+      "size": 1541120,
+      "sha256": "b83a0d5141bf8c2fa5b58f94de9af55feee32a1edf9217a7bc2ed9616989be50"
+    },
+    "bin/p11-kit.exe": {
+      "pack": "bin-000.pack",
+      "offset": 377170,
+      "compressedSize": 94315,
+      "size": 255488,
+      "sha256": "857342664d46ec79e25bbf1cad828af3e8eb7a364ba791be88bc0b995adff617"
+    },
+    "bin/trust.exe": {
+      "pack": "bin-000.pack",
+      "offset": 471485,
+      "compressedSize": 107809,
+      "size": 277504,
+      "sha256": "70c38f2577931037372bfa1add65fb15e3324e2ef81c5490704b5e2ba0a06868"
+    }
+  }
+}

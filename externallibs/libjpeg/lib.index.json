@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/libjpeg-turbo/libjpeg-turboConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 499,
+      "size": 1009,
+      "sha256": "734460eee81c67f056149f9f28aac9a6f9d1674c8f554663918fdf477eaadf84"
+    },
+    "lib/cmake/libjpeg-turbo/libjpeg-turboConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 499,
+      "compressedSize": 703,
+      "size": 1904,
+      "sha256": "0842f57e9c6228260dfccac6a13bf0884edcd20195cef0db02cd71a5185ec388"
+    },
+    "lib/cmake/libjpeg-turbo/libjpeg-turboTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1202,
+      "compressedSize": 517,
+      "size": 2651,
+      "sha256": "c43bca6f0b34f7c079cb6b00a9d8829a740e053ae19b27c175d121b52df640a8"
+    },
+    "lib/cmake/libjpeg-turbo/libjpeg-turboTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1719,
+      "compressedSize": 1439,
+      "size": 5058,
+      "sha256": "f5a147df73005fd80b6f7641b1f4ae470a6b33a18a15edfbb3350480cae2b92c"
+    },
+    "lib/libjpeg.a": {
+      "pack": "lib-000.pack",
+      "offset": 3158,
+      "compressedSize": 280452,
+      "size": 1089974,
+      "sha256": "cf342f580cf16bf131a0c90d0f1b94c4a34388576e9e3267b878f2c29f385d80"
+    },
+    "lib/libjpeg.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 283610,
+      "compressedSize": 4574,
+      "size": 31414,
+      "sha256": "b18720eb8d283697b65145b785daffbbd938ec787f89211260995c51d6e29cad"
+    },
+    "lib/libturbojpeg.a": {
+      "pack": "lib-000.pack",
+      "offset": 288184,
+      "compressedSize": 458673,
+      "size": 1558130,
+      "sha256": "032119ce2b477fea3194f4d015b3ce17f668cfdfc262211d43c313580da3b5aa"
+    },
+    "lib/libturbojpeg.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 746857,
+      "compressedSize": 2539,
+      "size": 17628,
+      "sha256": "295ba42ee7294baf728ee5d553b917518786f6fbd3fdd7338e96e382b2c43531"
+    },
+    "lib/pkgconfig/libjpeg.pc": {
+      "pack": "lib-000.pack",
+      "offset": 749396,
+      "compressedSize": 192,
+      "size": 247,
+      "sha256": "10c73f98af10a9b45c9088a19ff3c106b0122211e4c8fda999a823b1c7eb7623"
+    },
+    "lib/pkgconfig/libturbojpeg.pc": {
+      "pack": "lib-000.pack",
+      "offset": 749588,
+      "compressedSize": 198,
+      "size": 259,
+      "sha256": "512bb3f58eafd04b105d952673c687688ab9e4ba12eda0e256f477b6ff55152f"
+    }
+  }
+}

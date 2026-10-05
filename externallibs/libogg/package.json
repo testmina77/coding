@@ -1,0 +1,30 @@
+{
+  "id": "libogg",
+  "version": "1.3.6-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "ogg/"
+  ],
+  "libraries": [
+    "ogg"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-libogg"
+    ],
+    "versions": [
+      "1.3.6-1"
+    ],
+    "msys2Dependencies": [],
+    "version": "1.3.6-1"
+  }
+}

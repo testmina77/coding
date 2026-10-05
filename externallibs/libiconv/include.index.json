@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/iconv.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 2992,
+      "size": 9685,
+      "sha256": "c81f2d18dc182725eb95ce60f8061f5c6bfc02c9500b275427bf811a0cc0a063"
+    },
+    "include/libcharset.h": {
+      "pack": "include-000.pack",
+      "offset": 2992,
+      "compressedSize": 764,
+      "size": 1510,
+      "sha256": "180d05ba6adb348e150c6973ab795fe422da0b05e09f8ba7c369746ed1901702"
+    },
+    "include/localcharset.h": {
+      "pack": "include-000.pack",
+      "offset": 3756,
+      "compressedSize": 1793,
+      "size": 6338,
+      "sha256": "67f01a81a41eab468313b34fb153aa11fe273b829c529e3a820a3877438d20e4"
+    }
+  }
+}

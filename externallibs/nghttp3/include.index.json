@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/nghttp3/nghttp3.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 21160,
+      "size": 119199,
+      "sha256": "4cf23df44bb91cda59eb72bd7e13a24eb9388cab8acc0b8e74cd85f2a2a5c72a"
+    },
+    "include/nghttp3/version.h": {
+      "pack": "include-000.pack",
+      "offset": 21160,
+      "compressedSize": 893,
+      "size": 1704,
+      "sha256": "d82ac74f8f90c38d9449c765cc625a83daf5bd8e29590efb09325119ba6dace5"
+    }
+  }
+}

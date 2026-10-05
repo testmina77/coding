@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libffi.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 17486,
+      "size": 42768,
+      "sha256": "e7d3765df8fe8b3e3ad529c32c953c088edcfcf2baae722d5339d4aed24ede7d"
+    },
+    "lib/libffi.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 17486,
+      "compressedSize": 2123,
+      "size": 14394,
+      "sha256": "3d0f4ec8e43bdd043e91efbfb9a06ee29f68ab36223121389836d227bf461cb6"
+    },
+    "lib/pkgconfig/libffi.pc": {
+      "pack": "lib-000.pack",
+      "offset": 19609,
+      "compressedSize": 189,
+      "size": 263,
+      "sha256": "1927a7f1c1f3afd699e7211798b6875aed1443d83c27a5ef7a8c232b77f39f1f"
+    }
+  }
+}

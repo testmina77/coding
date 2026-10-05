@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libssh2.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 139882,
+      "size": 375670,
+      "sha256": "6247cf98d061f64abda4c98d54e2abfe920ec2a40085d6db656f23a98427fba8"
+    },
+    "lib/libssh2.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 139882,
+      "compressedSize": 4505,
+      "size": 36458,
+      "sha256": "44c0c4fd3433f760b8a27004bfab4283ddea4e70362ecffc688369bdab06cd2d"
+    },
+    "lib/pkgconfig/libssh2.pc": {
+      "pack": "lib-000.pack",
+      "offset": 144387,
+      "compressedSize": 341,
+      "size": 665,
+      "sha256": "c4fc6ba9cca6e13b727f9e2dda749e9d35fa91b5fb3da21e475f5f880d6811ca"
+    }
+  }
+}

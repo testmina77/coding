@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/asn1Coding.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 50068,
+      "size": 102912,
+      "sha256": "aabaa7ac9b21337a9596574a26720ea8fb5a26d9f96a701f7d61bf1cd849a3b0"
+    },
+    "bin/asn1Decoding.exe": {
+      "pack": "bin-000.pack",
+      "offset": 50068,
+      "compressedSize": 33017,
+      "size": 69120,
+      "sha256": "bd580c7e82e83652aa233c7a823a151e23cd22d55028a345aad32248fb1075f4"
+    },
+    "bin/asn1Parser.exe": {
+      "pack": "bin-000.pack",
+      "offset": 83085,
+      "compressedSize": 26826,
+      "size": 55808,
+      "sha256": "fed58c3f698fc975a1c62a8d6152a4d79109d39f7526fd1046b23303bcf451b1"
+    },
+    "bin/libtasn1-6.dll": {
+      "pack": "bin-000.pack",
+      "offset": 109911,
+      "compressedSize": 56312,
+      "size": 111616,
+      "sha256": "1d5b5714a07a7d1d4d064fa90b74a2ed4f0594dafa163d6929da48718facee00"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libogg-0.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 22586,
+      "size": 40448,
+      "sha256": "48ab3e91aa01714522bc6dc277168bd5e45fecf06de024ebff28f073a0883f67"
+    }
+  }
+}

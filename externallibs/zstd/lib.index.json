@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/zstd/zstdConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 536,
+      "size": 1086,
+      "sha256": "c8b13fa0c852ab8a2ec1878e724aa36ee0c878051d74dcf90eb22cd5172b132f"
+    },
+    "lib/cmake/zstd/zstdConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 536,
+      "compressedSize": 913,
+      "size": 2827,
+      "sha256": "d17deaf5d1a66e670685dbe7ec59712e61723614c788285e202b848dcc7324b4"
+    },
+    "lib/cmake/zstd/zstdTargets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1449,
+      "compressedSize": 446,
+      "size": 1443,
+      "sha256": "ed8bbfe674f4f223047ff184c150a95d1d7c55598d7e48d4b61a5db004439b87"
+    },
+    "lib/cmake/zstd/zstdTargets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1895,
+      "compressedSize": 1434,
+      "size": 4753,
+      "sha256": "ed978dab9accf7e200b876ed056b304c7dd5e9fdadc8dbcffd2166c3085985be"
+    },
+    "lib/libzstd.a": {
+      "pack": "lib-000.pack",
+      "offset": 3329,
+      "compressedSize": 455777,
+      "size": 1142492,
+      "sha256": "40cd65d0a6444c75078b030dd905068b8dc8e4fbacc01455e26d50eacce9c772"
+    },
+    "lib/libzstd.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 459106,
+      "compressedSize": 18427,
+      "size": 144178,
+      "sha256": "1ee6d25afd3e86fa4d5d214743231fa4f89d479654cec3ee82563c9c259b0679"
+    },
+    "lib/pkgconfig/libzstd.pc": {
+      "pack": "lib-000.pack",
+      "offset": 477533,
+      "compressedSize": 328,
+      "size": 470,
+      "sha256": "4cdab43f17ea980b1888fba269ffe358823bc6c736c3dee8f2b20ea9ba2e6e81"
+    }
+  }
+}

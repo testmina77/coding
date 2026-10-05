@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libcharset.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 1311,
+      "size": 3284,
+      "sha256": "20fc299c8f6d297142a241ba95915b151b4299385d8449e1640fca9ea54e2934"
+    },
+    "lib/libcharset.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 1311,
+      "compressedSize": 473,
+      "size": 1776,
+      "sha256": "6e885da069be36b6231bc6a063b46bdc3ec955bcc2e1709155cd972d6f11912f"
+    },
+    "lib/libiconv.a": {
+      "pack": "lib-000.pack",
+      "offset": 1784,
+      "compressedSize": 755157,
+      "size": 1158202,
+      "sha256": "f5e2efd567c8e943a918bc5915cfa2e3eedffef3f1418f2c36161b1d2394437e"
+    },
+    "lib/libiconv.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 756941,
+      "compressedSize": 720,
+      "size": 3208,
+      "sha256": "bd20064608a48a081255777e4ce70727b5454fef0be988de39da2fbbed7ce87e"
+    },
+    "lib/pkgconfig/iconv.pc": {
+      "pack": "lib-000.pack",
+      "offset": 757661,
+      "compressedSize": 180,
+      "size": 235,
+      "sha256": "7482716bbd439663961eb14a0f4eb703171140a9f1ae8f8ce51e8bd547bd56e8"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "gnutls",
+  "version": "3.8.13-3",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "gnutls/"
+  ],
+  "libraries": [
+    "gnutls",
+    "gnutls-openssl",
+    "gnutlsxx"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json",
+    "bin": "bin.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-gnutls"
+    ],
+    "versions": [
+      "3.8.13-3"
+    ],
+    "msys2Dependencies": [
+      "brotli",
+      "cc-libs",
+      "gettext-runtime",
+      "gmp",
+      "libidn2",
+      "libtasn1",
+      "libunistring",
+      "libwinpthread",
+      "nettle",
+      "p11-kit",
+      "zlib",
+      "zstd"
+    ],
+    "version": "3.8.13-3"
+  }
+}

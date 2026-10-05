@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/envsubst.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 64997,
+      "size": 143360,
+      "sha256": "5ad1e8be6f6f6be18aaa6b8b53d1bed0f7d52bab7f053cfc7cd174572379c501"
+    },
+    "bin/gettext.exe": {
+      "pack": "bin-000.pack",
+      "offset": 64997,
+      "compressedSize": 62131,
+      "size": 137216,
+      "sha256": "12b7e5ed417241c4defefd197214daae3825acb539e72ef8acc9240870eadba3"
+    },
+    "bin/gettext.sh": {
+      "pack": "bin-000.pack",
+      "offset": 127128,
+      "compressedSize": 2124,
+      "size": 5199,
+      "sha256": "fd9b649b200cd3abcd2f09036d712a1bbd390cb7699983cdf38e7bc254f79998"
+    },
+    "bin/libasprintf-0.dll": {
+      "pack": "bin-000.pack",
+      "offset": 129252,
+      "compressedSize": 40659,
+      "size": 138752,
+      "sha256": "0c42d024808d1ae63cbaa4a3f70e48d04c388c61591489a0c628c5644e5c04a1"
+    },
+    "bin/libintl-8.dll": {
+      "pack": "bin-000.pack",
+      "offset": 169911,
+      "compressedSize": 114739,
+      "size": 302592,
+      "sha256": "b648dfd190711371bedd58f36cf7bf80cc60be0ff78e574e57f3bd81135eeff5"
+    },
+    "bin/ngettext.exe": {
+      "pack": "bin-000.pack",
+      "offset": 284650,
+      "compressedSize": 62030,
+      "size": 137216,
+      "sha256": "c2031fb2e1aa6f5d986b378d1e5abeadc4cd81615dbeb7556a8b04492c291f9e"
+    },
+    "bin/printf_gettext.exe": {
+      "pack": "bin-000.pack",
+      "offset": 346680,
+      "compressedSize": 103038,
+      "size": 222720,
+      "sha256": "ecc6804055fc912d44ac6b531be093bb67a050882e35f38c47a4699ba4998451"
+    },
+    "bin/printf_ngettext.exe": {
+      "pack": "bin-000.pack",
+      "offset": 449718,
+      "compressedSize": 103294,
+      "size": 223232,
+      "sha256": "2101e943fbe44e9fc1e0144b73876d91597eab8006e3826651c463aa8d721572"
+    }
+  }
+}

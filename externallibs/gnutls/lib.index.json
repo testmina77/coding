@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libgnutls-openssl.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 71635,
+      "size": 287118,
+      "sha256": "8a30f9aec41e358e9a24f27caff579e4bd566977e89176d953cbe6ca819fe86e"
+    },
+    "lib/libgnutls-openssl.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 71635,
+      "compressedSize": 2656,
+      "size": 17628,
+      "sha256": "1d4da89cf333e0601481c74a77bb6021d3211654c809a1ad6384418949a8d06c"
+    },
+    "lib/libgnutls.a": {
+      "pack": "lib-000.pack",
+      "offset": 74291,
+      "compressedSize": 1222899,
+      "size": 3433572,
+      "sha256": "289b08b553dbb7b109d0e2f41847f5566f1f17cb0572f5d810b7572ab55f7036"
+    },
+    "lib/libgnutls.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 1297190,
+      "compressedSize": 71923,
+      "size": 554574,
+      "sha256": "7eba9e0821db3f26b8937d2e9fb85fe950d6e116967161e272405f54d294274f"
+    },
+    "lib/libgnutlsxx.a": {
+      "pack": "lib-000.pack",
+      "offset": 1369113,
+      "compressedSize": 15727,
+      "size": 76530,
+      "sha256": "2e49f78d1a5a78d78a130a12533d0f1fd428cecda162653122c0c3fb58814d8f"
+    },
+    "lib/libgnutlsxx.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 1384840,
+      "compressedSize": 7803,
+      "size": 80716,
+      "sha256": "52ce04d07b4262734355cbf3c07ddaff848bba665e70da7d431572ca17108355"
+    },
+    "lib/pkgconfig/gnutls.pc": {
+      "pack": "lib-000.pack",
+      "offset": 1392643,
+      "compressedSize": 541,
+      "size": 884,
+      "sha256": "1d2a52fc33be53dd8098b66247fb0f79323091dbec414ab3e86b4da5a0bacb20"
+    }
+  }
+}

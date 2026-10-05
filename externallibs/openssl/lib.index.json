@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/OpenSSL/OpenSSLConfig.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 1546,
+      "size": 6247,
+      "sha256": "c5a5d11fc9639570e9c9cf416b50739e5fc32d5704bc972f5cf762a171f237cf"
+    },
+    "lib/cmake/OpenSSL/OpenSSLConfigVersion.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1546,
+      "compressedSize": 287,
+      "size": 523,
+      "sha256": "66a94952949da14f8ac08d2665e9cacbf1808aa06265e5c65202c967128553a0"
+    },
+    "lib/engines-3/capi.dll": {
+      "pack": "lib-000.pack",
+      "offset": 1833,
+      "compressedSize": 19338,
+      "size": 47104,
+      "sha256": "c164842d3e1cbcc1e9e99cc48247a268070f87bffdbcf50c059c1865552ee886"
+    },
+    "lib/engines-3/loader_attic.dll": {
+      "pack": "lib-000.pack",
+      "offset": 21171,
+      "compressedSize": 23008,
+      "size": 57344,
+      "sha256": "ed23f4c3c3e1618f310e370c8850dd6a52b87f8e6099ef64b8bff623d817ec27"
+    },
+    "lib/engines-3/padlock.dll": {
+      "pack": "lib-000.pack",
+      "offset": 44179,
+      "compressedSize": 12329,
+      "size": 30720,
+      "sha256": "a1d3f57c30382be614e7e5a1c1f641e4405f2a4da767d50d4f9fd1623d4ebe5c"
+    },
+    "lib/libcrypto.a": {
+      "pack": "lib-000.pack",
+      "offset": 56508,
+      "compressedSize": 2720791,
+      "size": 9096366,
+      "sha256": "aa144bcbacca175df43fcdea69b3b7ae0cde77d1915e4e5a118e9e999ae26f2d"
+    },
+    "lib/libcrypto.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 2777299,
+      "compressedSize": 178527,
+      "size": 1385322,
+      "sha256": "fc8c343de034b88e4d8a198bc06ae2aa973e63092bd1b2bc5dbc3afb9007137f"
+    },
+    "lib/libssl.a": {
+      "pack": "lib-000.pack",
+      "offset": 2955826,
+      "compressedSize": 547350,
+      "size": 1576882,
+      "sha256": "56aa443b88bb889d1363f06d34529508121e6fda337d66e291639728331ce8de"
+    },
+    "lib/libssl.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 3503176,
+      "compressedSize": 19209,
+      "size": 147002,
+      "sha256": "a1be80d175fb40dd503a6d415455cc9445676cca577b340885aceaa900e61b0e"
+    },
+    "lib/ossl-modules/legacy.dll": {
+      "pack": "lib-000.pack",
+      "offset": 3522385,
+      "compressedSize": 44643,
+      "size": 137216,
+      "sha256": "f426a3b204f2ca2fe9b2ec9b630a6628ad70359b6d59efdb3efcc11f0543f55c"
+    },
+    "lib/pkgconfig/libcrypto.pc": {
+      "pack": "lib-000.pack",
+      "offset": 3567028,
+      "compressedSize": 225,
+      "size": 353,
+      "sha256": "03ff4bfb594093edc53e8105cee70f1bccf59c85c99b0d6347da79d149f07e49"
+    },
+    "lib/pkgconfig/libssl.pc": {
+      "pack": "lib-000.pack",
+      "offset": 3567253,
+      "compressedSize": 212,
+      "size": 288,
+      "sha256": "60a41950d5040cebec47b9ebb9e7b186698a9bf0c6328ecdcdb5feae1d9e1b1f"
+    },
+    "lib/pkgconfig/openssl.pc": {
+      "pack": "lib-000.pack",
+      "offset": 3567465,
+      "compressedSize": 181,
+      "size": 242,
+      "sha256": "32dd8cea47a51784d5a324d8400d42ec5bb0e0f26b0c46cd90ca0b47d4abd365"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/libpng16/png.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 40711,
+      "size": 152118,
+      "sha256": "da03659aac24677eb1781d9dd4eafdddffc48fef9e7920adb2e0192689802705"
+    },
+    "include/libpng16/pngconf.h": {
+      "pack": "include-000.pack",
+      "offset": 40711,
+      "compressedSize": 7091,
+      "size": 22673,
+      "sha256": "3f1d9e8b05ec5165b65744f99af0ef3d0d10d77d6866551715b80ac884a0bf47"
+    },
+    "include/libpng16/pnglibconf.h": {
+      "pack": "include-000.pack",
+      "offset": 47802,
+      "compressedSize": 1659,
+      "size": 8081,
+      "sha256": "51846ae3695afd44f2b05ac2e8f7cc4c0d106edcc209b82e201a045c4a284830"
+    },
+    "include/png.h": {
+      "pack": "include-000.pack",
+      "offset": 49461,
+      "compressedSize": 40711,
+      "size": 152118,
+      "sha256": "da03659aac24677eb1781d9dd4eafdddffc48fef9e7920adb2e0192689802705"
+    },
+    "include/pngconf.h": {
+      "pack": "include-000.pack",
+      "offset": 90172,
+      "compressedSize": 7091,
+      "size": 22673,
+      "sha256": "3f1d9e8b05ec5165b65744f99af0ef3d0d10d77d6866551715b80ac884a0bf47"
+    },
+    "include/pnglibconf.h": {
+      "pack": "include-000.pack",
+      "offset": 97263,
+      "compressedSize": 1659,
+      "size": 8081,
+      "sha256": "51846ae3695afd44f2b05ac2e8f7cc4c0d106edcc209b82e201a045c4a284830"
+    }
+  }
+}

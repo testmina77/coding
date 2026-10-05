@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/certtool.exe": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 120026,
+      "size": 287744,
+      "sha256": "ed88ca2c97a5f91b1adb7076d9ca713c9eb9ddf435d4e4a05979a94617d60f99"
+    },
+    "bin/gnutls-cli-debug.exe": {
+      "pack": "bin-000.pack",
+      "offset": 120026,
+      "compressedSize": 88138,
+      "size": 205824,
+      "sha256": "75f8eff66f3df2968f50a1ed9f0e6a5165810414aba644dea4c1a095e97fa6bb"
+    },
+    "bin/gnutls-cli.exe": {
+      "pack": "bin-000.pack",
+      "offset": 208164,
+      "compressedSize": 106267,
+      "size": 233984,
+      "sha256": "cee9ec472937d455ace885c1077a2c3af35f0cf9cdb85a0b37414c9663a43ddc"
+    },
+    "bin/gnutls-serv.exe": {
+      "pack": "bin-000.pack",
+      "offset": 314431,
+      "compressedSize": 89806,
+      "size": 201728,
+      "sha256": "75f6d2f88f5f33e062eff6ea6c64144601caeb1140ae334be024e194e02e13da"
+    },
+    "bin/libgnutls-30.dll": {
+      "pack": "bin-000.pack",
+      "offset": 404237,
+      "compressedSize": 1084974,
+      "size": 2342912,
+      "sha256": "88d53e0c786758a76c06904ff2dff4728ed37ea832e6fcfafe47a4b7d4e479e9"
+    },
+    "bin/libgnutls-openssl-27.dll": {
+      "pack": "bin-000.pack",
+      "offset": 1489211,
+      "compressedSize": 71442,
+      "size": 207360,
+      "sha256": "59f133cc8052acb5d74a2ab222b344e95f4efe128a46f3960d5085d0b86acb19"
+    },
+    "bin/libgnutlsxx-30.dll": {
+      "pack": "bin-000.pack",
+      "offset": 1560653,
+      "compressedSize": 21230,
+      "size": 76800,
+      "sha256": "1447460999902098027dfef9880c3528ed0db315f3b088fab1426a70991d1953"
+    },
+    "bin/ocsptool.exe": {
+      "pack": "bin-000.pack",
+      "offset": 1581883,
+      "compressedSize": 92646,
+      "size": 209920,
+      "sha256": "8b4dde770eb38b8662351102ec44731288ed2870c94957e4f045ff322a1c970b"
+    },
+    "bin/p11tool.exe": {
+      "pack": "bin-000.pack",
+      "offset": 1674529,
+      "compressedSize": 113645,
+      "size": 400384,
+      "sha256": "718f49c569fa6b6fb7bee3908ae1150e05e3160794bda046cde22b20054d9040"
+    },
+    "bin/psktool.exe": {
+      "pack": "bin-000.pack",
+      "offset": 1788174,
+      "compressedSize": 39413,
+      "size": 81408,
+      "sha256": "f58a20d480d0f564f34c26077f95057346cd70cab534898378504c0f28e0cb8c"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libbrotlicommon.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 63036,
+      "size": 134098,
+      "sha256": "97cf7326ee2afc9a9e3ed6a3a7e3aefe1e5b6ac83d707daf643e32ae50a086c9"
+    },
+    "lib/libbrotlicommon.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 63036,
+      "compressedSize": 822,
+      "size": 4084,
+      "sha256": "3d26d40cdd773326f145653ecf244a4dcd5ac0659fc8e3eb394aaa97141609e0"
+    },
+    "lib/libbrotlidec.a": {
+      "pack": "lib-000.pack",
+      "offset": 63858,
+      "compressedSize": 25732,
+      "size": 56104,
+      "sha256": "be7eec18c0b234b2598c2ae5ecbbb029ec2d8bff4f886ebb6b2b954956b90a41"
+    },
+    "lib/libbrotlidec.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 89590,
+      "compressedSize": 912,
+      "size": 4886,
+      "sha256": "b14aa07dc4e16d4124809cce6100f1d20479d4463c64f23828ff6477d6f92351"
+    },
+    "lib/libbrotlienc.a": {
+      "pack": "lib-000.pack",
+      "offset": 90502,
+      "compressedSize": 358759,
+      "size": 829768,
+      "sha256": "aa5cef9bbb73ade875fe6320e5d3c28964893f8631c2247747bf01c38acb7872"
+    },
+    "lib/libbrotlienc.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 449261,
+      "compressedSize": 877,
+      "size": 4758,
+      "sha256": "f1ecd3fe6fc1dad72ccd647a99ae02c4507cc247e6760d5ce717ed5b973f22ae"
+    },
+    "lib/pkgconfig/libbrotlicommon.pc": {
+      "pack": "lib-000.pack",
+      "offset": 450138,
+      "compressedSize": 204,
+      "size": 278,
+      "sha256": "6f0b53c302e4beef7dd8f28925f75711937fb4beb2887d5967fe33467d06882f"
+    },
+    "lib/pkgconfig/libbrotlidec.pc": {
+      "pack": "lib-000.pack",
+      "offset": 450342,
+      "compressedSize": 222,
+      "size": 305,
+      "sha256": "ba5e4168c2ca5dce8df6e1c163504a30eff28d5e385161910352c6f30f845c3a"
+    },
+    "lib/pkgconfig/libbrotlienc.pc": {
+      "pack": "lib-000.pack",
+      "offset": 450564,
+      "compressedSize": 221,
+      "size": 305,
+      "sha256": "986bab611e87eef81ed69105510a7e86ff9470901043a480c79398a1e5eef08b"
+    }
+  }
+}

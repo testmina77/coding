@@ -1,0 +1,35 @@
+{
+  "id": "sqlite3",
+  "version": "3.53.4-1",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "sqlite3.h",
+    "sqlite3ext.h"
+  ],
+  "libraries": [
+    "sqlite3"
+  ],
+  "dependencies": [
+    "zlib"
+  ],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-sqlite3"
+    ],
+    "versions": [
+      "3.53.4-1"
+    ],
+    "msys2Dependencies": [
+      "tcl",
+      "zlib"
+    ],
+    "version": "3.53.4-1"
+  }
+}

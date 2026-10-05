@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/libpsl.a": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 53100,
+      "size": 67010,
+      "sha256": "7a6bf37d21e1f7964466df67dac35cef85134fe993173267445ba6b44151aa41"
+    },
+    "lib/libpsl.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 53100,
+      "compressedSize": 1134,
+      "size": 6004,
+      "sha256": "155ba93b3258bc2b01dbbe7d19dc48451b033275d94aa3cdc93e9c70fcfe2392"
+    },
+    "lib/pkgconfig/libpsl.pc": {
+      "pack": "lib-000.pack",
+      "offset": 54234,
+      "compressedSize": 211,
+      "size": 266,
+      "sha256": "2fa413348f1a4d69b8ea2d449bfe883a61477f6d7b71b75a6afbc0a2317e8a79"
+    }
+  }
+}

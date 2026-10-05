@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/GLFW/glfw3.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 43866,
+      "size": 243818,
+      "sha256": "95ecc16e4875bca18cff863232d5dbb623f3457b05f07efd26fe8bc8a06345b6"
+    },
+    "include/GLFW/glfw3native.h": {
+      "pack": "include-000.pack",
+      "offset": 43866,
+      "compressedSize": 3835,
+      "size": 22931,
+      "sha256": "d301085c2a998345c0f80127d8e67d4394f1c7b12ca9c2cf3b73b7fa15c804ae"
+    }
+  }
+}

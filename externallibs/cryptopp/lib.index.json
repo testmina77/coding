@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "lib",
+  "files": {
+    "lib/cmake/cryptopp/cryptopp-config-version.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 0,
+      "compressedSize": 912,
+      "size": 2827,
+      "sha256": "0d4ea8b4fa9da7a7b4f27407756a30b32ff3959a7ce85c0a7871b5410db6b9e9"
+    },
+    "lib/cmake/cryptopp/cryptopp-config.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 912,
+      "compressedSize": 80,
+      "size": 60,
+      "sha256": "c9356603bb5963224876a20d135a0a35192c65f7f4153374cee6e5953ff1a764"
+    },
+    "lib/cmake/cryptopp/cryptopp-targets-release.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 992,
+      "compressedSize": 445,
+      "size": 1419,
+      "sha256": "00227a3201edcc151a3413f6d4f15bcaf07c20747d99cdeb26a5682f54a25a3b"
+    },
+    "lib/cmake/cryptopp/cryptopp-targets.cmake": {
+      "pack": "lib-000.pack",
+      "offset": 1437,
+      "compressedSize": 1424,
+      "size": 4552,
+      "sha256": "8636a9e266895ae9efa6fef27d9c8d941dd3aa4ae3884b8eda3d43e2e84f688f"
+    },
+    "lib/libcryptopp.a": {
+      "pack": "lib-000.pack",
+      "offset": 2861,
+      "compressedSize": 2960780,
+      "size": 13159128,
+      "sha256": "9483e6540690f4e70597cd2853ed8f9d1d165ac8c4788c9cc189c05e11f5c91c"
+    },
+    "lib/libcryptopp.dll.a": {
+      "pack": "lib-000.pack",
+      "offset": 2963641,
+      "compressedSize": 459371,
+      "size": 5008438,
+      "sha256": "79c32e2346a6f71e6dc02f9d6c209e6d516e3b2b4c70ec8c879a3ed6e9d0487d"
+    },
+    "lib/pkgconfig/libcrypto++.pc": {
+      "pack": "lib-000.pack",
+      "offset": 3423012,
+      "compressedSize": 222,
+      "size": 290,
+      "sha256": "b57de4f5b157d7536b0afa50d24883e8c99785b8d4ce9720e17b8729aca7c6c3"
+    }
+  }
+}

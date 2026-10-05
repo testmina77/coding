@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/nghttp2/nghttp2.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 39596,
+      "size": 242356,
+      "sha256": "0bd0ee37b1b08fa38f9b773de201fe431846fda2bd0bed44f642c6c332e2e342"
+    },
+    "include/nghttp2/nghttp2ver.h": {
+      "pack": "include-000.pack",
+      "offset": 39596,
+      "compressedSize": 900,
+      "size": 1647,
+      "sha256": "32f69c1aed67a65254f5cf86f8a9a1b1f8b1458b9b2af731100e9e6c44d617d4"
+    }
+  }
+}

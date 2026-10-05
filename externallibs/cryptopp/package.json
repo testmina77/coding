@@ -1,0 +1,31 @@
+{
+  "id": "cryptopp",
+  "version": "8.9.0-2",
+  "target": "x86_64-w64-windows-gnu",
+  "includePrefixes": [
+    "cryptopp/"
+  ],
+  "libraries": [
+    "cryptopp"
+  ],
+  "dependencies": [],
+  "systemLibraries": [],
+  "packs": {
+    "include": "include.index.json",
+    "lib": "lib.index.json"
+  },
+  "source": {
+    "provider": "msys2",
+    "repository": "clang64",
+    "packages": [
+      "mingw-w64-clang-x86_64-crypto++"
+    ],
+    "versions": [
+      "8.9.0-2"
+    ],
+    "msys2Dependencies": [
+      "cc-libs"
+    ],
+    "version": "8.9.0-2"
+  }
+}

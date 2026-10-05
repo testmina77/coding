@@ -1,0 +1,1443 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "include",
+  "files": {
+    "include/unicode/alphaindex.h": {
+      "pack": "include-000.pack",
+      "offset": 0,
+      "compressedSize": 7185,
+      "size": 27067,
+      "sha256": "a3fb15e34131d5c43c8db86005a639b8b6e0ced9f2458410d8e94d61c100338a"
+    },
+    "include/unicode/appendable.h": {
+      "pack": "include-000.pack",
+      "offset": 7185,
+      "compressedSize": 2260,
+      "size": 8745,
+      "sha256": "fe3468123be9d08fd4bf3d7673cd8c1721c3271cf7752139ba7d719c9f002f89"
+    },
+    "include/unicode/basictz.h": {
+      "pack": "include-000.pack",
+      "offset": 9445,
+      "compressedSize": 2907,
+      "size": 10228,
+      "sha256": "c2bbbdbd0e332099aab50c8f6461a7c279b0394480a5b0548fb7c2a73d45b713"
+    },
+    "include/unicode/brkiter.h": {
+      "pack": "include-000.pack",
+      "offset": 12352,
+      "compressedSize": 7122,
+      "size": 29191,
+      "sha256": "ffbb886177b2611058e796d68487dc4550aad2cea7e3f95878d47def20f3adf7"
+    },
+    "include/unicode/bytestream.h": {
+      "pack": "include-000.pack",
+      "offset": 19474,
+      "compressedSize": 3435,
+      "size": 12073,
+      "sha256": "f0a0bcc1c5517cc16286cfd1e9b3772c72456bd75e70639e87d0cf940211fdef"
+    },
+    "include/unicode/bytestrie.h": {
+      "pack": "include-000.pack",
+      "offset": 22909,
+      "compressedSize": 5719,
+      "size": 21327,
+      "sha256": "7065d64e47f4629bd6593bacebf8a4f9f5618cfd176d70f8c0151251bdd5ad22"
+    },
+    "include/unicode/bytestriebuilder.h": {
+      "pack": "include-000.pack",
+      "offset": 28628,
+      "compressedSize": 2158,
+      "size": 7615,
+      "sha256": "60b6a1bf94a1818b6bafec5b1c1344a905a00e3578ca399554b7f0a131a5ac5a"
+    },
+    "include/unicode/calendar.h": {
+      "pack": "include-000.pack",
+      "offset": 30786,
+      "compressedSize": 22723,
+      "size": 113033,
+      "sha256": "b8082faf7ebc9b4143380885b0b1ec81ad6a6e3768e343e45c36046fe96042f0"
+    },
+    "include/unicode/caniter.h": {
+      "pack": "include-000.pack",
+      "offset": 53509,
+      "compressedSize": 2335,
+      "size": 7652,
+      "sha256": "5385d099e69b791f28daa2b2dbe03ec2e88d5611de21dca7389d9a07a2b77f1f"
+    },
+    "include/unicode/casemap.h": {
+      "pack": "include-000.pack",
+      "offset": 55844,
+      "compressedSize": 2215,
+      "size": 26027,
+      "sha256": "ce15018c74f49bed22f8d6d599a14f265f29e6331728142f993b0413d3c71f29"
+    },
+    "include/unicode/char16ptr.h": {
+      "pack": "include-000.pack",
+      "offset": 58059,
+      "compressedSize": 2245,
+      "size": 11045,
+      "sha256": "0720982a9554282d15326e3818e3985da2effa76b402a0ed46a2468da87fd738"
+    },
+    "include/unicode/chariter.h": {
+      "pack": "include-000.pack",
+      "offset": 60304,
+      "compressedSize": 5263,
+      "size": 24362,
+      "sha256": "7d6483c56995dc51f73cfcdd75b21a17f8442387bc1f050441cac3c3f2676e00"
+    },
+    "include/unicode/choicfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 65567,
+      "compressedSize": 6216,
+      "size": 24563,
+      "sha256": "e3668a9fb58f87106aec28647b76438ce46c078cb509a2877de72ffd60bc8715"
+    },
+    "include/unicode/coleitr.h": {
+      "pack": "include-000.pack",
+      "offset": 71783,
+      "compressedSize": 3937,
+      "size": 14114,
+      "sha256": "fac24d0dd7a7bae2eabe5b9583f461726c7a6b99ea2f5fe8cfefec17a23985de"
+    },
+    "include/unicode/coll.h": {
+      "pack": "include-000.pack",
+      "offset": 75720,
+      "compressedSize": 13672,
+      "size": 60928,
+      "sha256": "e55d66b72729447ceacaa72a6342d721ef8c1437a0b8d5e9cdf98d1c02741f55"
+    },
+    "include/unicode/compactdecimalformat.h": {
+      "pack": "include-000.pack",
+      "offset": 89392,
+      "compressedSize": 2539,
+      "size": 7041,
+      "sha256": "d8c2ea41c5ebdf4ad0a0d012f05b6953c655e4f9f1305a93e51cbb704b7f8b50"
+    },
+    "include/unicode/curramt.h": {
+      "pack": "include-000.pack",
+      "offset": 91931,
+      "compressedSize": 1226,
+      "size": 3756,
+      "sha256": "4f87f7cfec440d1df4756134a81d0fe72908f1dbf75e307c4af2548e4b43ae5e"
+    },
+    "include/unicode/currpinf.h": {
+      "pack": "include-000.pack",
+      "offset": 93157,
+      "compressedSize": 2016,
+      "size": 7479,
+      "sha256": "6bdf1611b4bdaa1914ac92a7cd926702da85f06f277f54f09c2bba237ee9fd9f"
+    },
+    "include/unicode/currunit.h": {
+      "pack": "include-000.pack",
+      "offset": 95173,
+      "compressedSize": 1410,
+      "size": 4115,
+      "sha256": "f33eee7431555b5f92115d9e29a2bdf729da1766d990d3919a52ccd082270787"
+    },
+    "include/unicode/datefmt.h": {
+      "pack": "include-000.pack",
+      "offset": 96583,
+      "compressedSize": 8970,
+      "size": 42284,
+      "sha256": "b246c310fe5bfa60f4f0a566c0295cf5a5dc7006f6a887f478b3e22ee1baa0e2"
+    },
+    "include/unicode/dbbi.h": {
+      "pack": "include-000.pack",
+      "offset": 105553,
+      "compressedSize": 589,
+      "size": 1223,
+      "sha256": "e581695e25e5eb36d29444d67efe125a5c59b96d80b69fc590673a4edbc90d82"
+    },
+    "include/unicode/dcfmtsym.h": {
+      "pack": "include-000.pack",
+      "offset": 106142,
+      "compressedSize": 5651,
+      "size": 21771,
+      "sha256": "d52ad8bbc83f8cb5b8bb2173804b9002942dffd168c95d97e45d3e05ffd1c183"
+    },
+    "include/unicode/decimfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 111793,
+      "compressedSize": 18905,
+      "size": 89552,
+      "sha256": "65ebed77dc174a258ac6a0141e7e2d5552e70b4f5c8adbf5b6b6c8d6d9a9ddc8"
+    },
+    "include/unicode/displayoptions.h": {
+      "pack": "include-000.pack",
+      "offset": 130698,
+      "compressedSize": 1570,
+      "size": 7252,
+      "sha256": "f5cd643267e806718c20546d9216e79f7b8ee612c2c68971d0d8e9fe1830a96d"
+    },
+    "include/unicode/docmain.h": {
+      "pack": "include-000.pack",
+      "offset": 132268,
+      "compressedSize": 2385,
+      "size": 7839,
+      "sha256": "2c7027e1ca22e1de782202f4762027adeddf14ea70f7f04312d80690d456cb18"
+    },
+    "include/unicode/dtfmtsym.h": {
+      "pack": "include-000.pack",
+      "offset": 134653,
+      "compressedSize": 7966,
+      "size": 42010,
+      "sha256": "1a9f08da810bddbf46c26e1a66f11e3e8e0aef95ec26ee013a2f46aa609916cc"
+    },
+    "include/unicode/dtintrv.h": {
+      "pack": "include-000.pack",
+      "offset": 142619,
+      "compressedSize": 1309,
+      "size": 3931,
+      "sha256": "e218dcba30f80b369dcf6b875fbfc1096a4938a56d9ec9c861f6830db553cfad"
+    },
+    "include/unicode/dtitvfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 143928,
+      "compressedSize": 10672,
+      "size": 50384,
+      "sha256": "ecb81beab08f0d6c9f8397b278f5f852e91ccacd1ac9e5469869069f3c479f85"
+    },
+    "include/unicode/dtitvinf.h": {
+      "pack": "include-000.pack",
+      "offset": 154600,
+      "compressedSize": 4782,
+      "size": 18981,
+      "sha256": "8339f482aa51b74c6d72048f601f8e648c31f2b055a3b2206b0751b036363991"
+    },
+    "include/unicode/dtptngen.h": {
+      "pack": "include-000.pack",
+      "offset": 159382,
+      "compressedSize": 6348,
+      "size": 29983,
+      "sha256": "7d09a4b3bbb17b05b205b741d641b891aa1ec65bf6b66662d244196cc1b23a35"
+    },
+    "include/unicode/dtrule.h": {
+      "pack": "include-000.pack",
+      "offset": 165730,
+      "compressedSize": 2134,
+      "size": 8864,
+      "sha256": "55ed2079e84912b88ea304afa10080630a52abbc1283c66f28612b07c80f679c"
+    },
+    "include/unicode/edits.h": {
+      "pack": "include-000.pack",
+      "offset": 167864,
+      "compressedSize": 5051,
+      "size": 21236,
+      "sha256": "183ce7b5104ad0e24638a71f82fc6b3a25472322f9a72cb9f55a15644b4d9f72"
+    },
+    "include/unicode/enumset.h": {
+      "pack": "include-000.pack",
+      "offset": 172915,
+      "compressedSize": 876,
+      "size": 2130,
+      "sha256": "714e52368f8c204a118440c04587c6ed953a3000e2243004631ec5522bfaef04"
+    },
+    "include/unicode/errorcode.h": {
+      "pack": "include-000.pack",
+      "offset": 173791,
+      "compressedSize": 1856,
+      "size": 4956,
+      "sha256": "e299e97e2f11f8ead9c3e7cfe24a785a98bab94ef86500a97f0b1df55efc5d1d"
+    },
+    "include/unicode/fieldpos.h": {
+      "pack": "include-000.pack",
+      "offset": 175647,
+      "compressedSize": 2702,
+      "size": 8896,
+      "sha256": "1cb1abc1d60ab4240157b7aff64301c0ad8ab282db1585ef5d5b0a7c0b6dd2b0"
+    },
+    "include/unicode/filteredbrk.h": {
+      "pack": "include-000.pack",
+      "offset": 178349,
+      "compressedSize": 1711,
+      "size": 5501,
+      "sha256": "945a4366e5a11fd17ff77a4c325dd26df4fb02eb4c3b71d67b468843271938fc"
+    },
+    "include/unicode/fmtable.h": {
+      "pack": "include-000.pack",
+      "offset": 180060,
+      "compressedSize": 5344,
+      "size": 24945,
+      "sha256": "bcdece58e392f298f069bfe189fe31dbce9d987ff87c31b9ad3f15e250ab3be9"
+    },
+    "include/unicode/format.h": {
+      "pack": "include-000.pack",
+      "offset": 185404,
+      "compressedSize": 3725,
+      "size": 13072,
+      "sha256": "b20259e4944cd37659af8f8048ddffab06ff92e3cd023a5f135c9c9156748f4b"
+    },
+    "include/unicode/formattednumber.h": {
+      "pack": "include-000.pack",
+      "offset": 189129,
+      "compressedSize": 2178,
+      "size": 6403,
+      "sha256": "737661765917c8434b6a186c00290a87897b7ad11682d8edf77ba0923ecff557"
+    },
+    "include/unicode/formattedvalue.h": {
+      "pack": "include-000.pack",
+      "offset": 191307,
+      "compressedSize": 2579,
+      "size": 9987,
+      "sha256": "33c0e70172c87d3e1dcb3d656c08f23efd927d96d19d1c4f7264a757f0a5e238"
+    },
+    "include/unicode/fpositer.h": {
+      "pack": "include-000.pack",
+      "offset": 193886,
+      "compressedSize": 1217,
+      "size": 3103,
+      "sha256": "d6d7ad9ac5cce345c5f611bad6807eca4b622bf88109b3fb81c26c42a5b02d25"
+    },
+    "include/unicode/gender.h": {
+      "pack": "include-000.pack",
+      "offset": 195103,
+      "compressedSize": 1192,
+      "size": 3426,
+      "sha256": "60023d302e5204cbd934e216730278e91468bd20694045c5136d5d7f2420d519"
+    },
+    "include/unicode/gregocal.h": {
+      "pack": "include-000.pack",
+      "offset": 196295,
+      "compressedSize": 6833,
+      "size": 30770,
+      "sha256": "57fd2c3d5146530c9e36f0d85df4da7d8e236ccde0afe1172a39d65a09c56219"
+    },
+    "include/unicode/icudataver.h": {
+      "pack": "include-000.pack",
+      "offset": 203128,
+      "compressedSize": 515,
+      "size": 1049,
+      "sha256": "5b127ee0c08b297cc97db14da06f9f52ab119e54c6fcc8732c89ff50d0e69ae8"
+    },
+    "include/unicode/icuplug.h": {
+      "pack": "include-000.pack",
+      "offset": 203643,
+      "compressedSize": 3744,
+      "size": 12392,
+      "sha256": "b44cfed0aa6f238de470936a5a133e6764c77c36b92927a911c188daec56175e"
+    },
+    "include/unicode/idna.h": {
+      "pack": "include-000.pack",
+      "offset": 207387,
+      "compressedSize": 2718,
+      "size": 13239,
+      "sha256": "fd763ab6b40370412aca8a96ba31736422bd657ebc58e9949465eac4c2249cd0"
+    },
+    "include/unicode/listformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 210105,
+      "compressedSize": 2468,
+      "size": 8799,
+      "sha256": "0c4d621f5f7b30b38f5d932f404305f55668836b89372a2d5664aafc004a48d1"
+    },
+    "include/unicode/localebuilder.h": {
+      "pack": "include-000.pack",
+      "offset": 212573,
+      "compressedSize": 3144,
+      "size": 11356,
+      "sha256": "005253dfa6df1251bbdad62939b3d7d2a239aeea43f1af0ffc677e1c8335c440"
+    },
+    "include/unicode/localematcher.h": {
+      "pack": "include-000.pack",
+      "offset": 215717,
+      "compressedSize": 6300,
+      "size": 27504,
+      "sha256": "c8331dbbc8ce5aaf5bf8b020b0fb196842a1be80a1c6a90be80512d1a7b4034d"
+    },
+    "include/unicode/localpointer.h": {
+      "pack": "include-000.pack",
+      "offset": 222017,
+      "compressedSize": 4004,
+      "size": 19985,
+      "sha256": "3bdafd3a1dc02f54d265684c5cfb9264811f95bf840918f8f1fd2b98a23270a4"
+    },
+    "include/unicode/locdspnm.h": {
+      "pack": "include-000.pack",
+      "offset": 226021,
+      "compressedSize": 1519,
+      "size": 7292,
+      "sha256": "823ddebeaea6229b9d9cf85e8cf3ced7afb53476c8bbccd5bcf3c15c0d967e2c"
+    },
+    "include/unicode/locid.h": {
+      "pack": "include-000.pack",
+      "offset": 227540,
+      "compressedSize": 11258,
+      "size": 55262,
+      "sha256": "9664c9f64901d47083d31b8dba12bace2a4941d7ccb1022debeb0777aeb43218"
+    },
+    "include/unicode/measfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 238798,
+      "compressedSize": 3248,
+      "size": 11688,
+      "sha256": "57cd5e67808ae3c762b8232a84dc14d6dfb49a0acaa1562e7df0d0b306df971a"
+    },
+    "include/unicode/measunit.h": {
+      "pack": "include-000.pack",
+      "offset": 242046,
+      "compressedSize": 13369,
+      "size": 136316,
+      "sha256": "594309ff98c7a3f436cc3c688262a77fb7cdda4297300e0aee3bf91bbe567e0a"
+    },
+    "include/unicode/measure.h": {
+      "pack": "include-000.pack",
+      "offset": 255415,
+      "compressedSize": 1661,
+      "size": 4738,
+      "sha256": "6c757cfb6896d88844a133aa2f438dcb0ce74c91b0cd4092afb196e2862886b6"
+    },
+    "include/unicode/messageformat2.h": {
+      "pack": "include-000.pack",
+      "offset": 257076,
+      "compressedSize": 4712,
+      "size": 22073,
+      "sha256": "53ad7850bd18cd6f4773ca3891e4173777d9a1f6eabe278aab8571ccd7600eb4"
+    },
+    "include/unicode/messageformat2_arguments.h": {
+      "pack": "include-000.pack",
+      "offset": 261788,
+      "compressedSize": 1375,
+      "size": 3914,
+      "sha256": "d1dd629c2b46e4e62dd06fb8c0ef7b957e3dc6305b7bbc2d98586056de7e8f4d"
+    },
+    "include/unicode/messageformat2_data_model.h": {
+      "pack": "include-000.pack",
+      "offset": 263163,
+      "compressedSize": 12809,
+      "size": 98654,
+      "sha256": "1f8d562b8d5959e0cd0ef87b802aa8f52a4155c908a621872e498178c02b3a57"
+    },
+    "include/unicode/messageformat2_data_model_names.h": {
+      "pack": "include-000.pack",
+      "offset": 275972,
+      "compressedSize": 382,
+      "size": 784,
+      "sha256": "bb0a47f78c1561ba3613556b32e11ce3fb922109cc20a2ab5598588e0edcf3f7"
+    },
+    "include/unicode/messageformat2_formattable.h": {
+      "pack": "include-000.pack",
+      "offset": 276354,
+      "compressedSize": 6939,
+      "size": 39947,
+      "sha256": "6d0602cc412b8f554826a214b4edc8589bde6ca81d71e1d46e8a87cb4263709e"
+    },
+    "include/unicode/messageformat2_function_registry.h": {
+      "pack": "include-000.pack",
+      "offset": 283293,
+      "compressedSize": 3848,
+      "size": 18504,
+      "sha256": "fd4caa2dbad919dd7c92422341c87cede05a1e6b430c7984c6285853cfc37f84"
+    },
+    "include/unicode/messagepattern.h": {
+      "pack": "include-000.pack",
+      "offset": 287141,
+      "compressedSize": 7455,
+      "size": 34600,
+      "sha256": "29a1d825fc142989795abda83bbf51cef8364ad82fe2948bf398f7fcbeb2026d"
+    },
+    "include/unicode/msgfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 294596,
+      "compressedSize": 10516,
+      "size": 46005,
+      "sha256": "c088ec24f54ff1a789e940aab2c43aa35778c0d1a37f645c91b89302b29427d5"
+    },
+    "include/unicode/normalizer2.h": {
+      "pack": "include-000.pack",
+      "offset": 305112,
+      "compressedSize": 5455,
+      "size": 35516,
+      "sha256": "ed4a4585f6b7077c999faae5f5f186f500031a2018e1856341397b5c9f0165a7"
+    },
+    "include/unicode/normlzr.h": {
+      "pack": "include-000.pack",
+      "offset": 310567,
+      "compressedSize": 7359,
+      "size": 31532,
+      "sha256": "89a2cad849536ce51a6b7940c5b2ea369b0f7f0c481aa5339f2ed2118eeba0e1"
+    },
+    "include/unicode/nounit.h": {
+      "pack": "include-000.pack",
+      "offset": 317926,
+      "compressedSize": 722,
+      "size": 2294,
+      "sha256": "1451bb22dd6e00ee945dc26740cf2714672f04563077c5cb8560d33d40ce57bf"
+    },
+    "include/unicode/numberformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 318648,
+      "compressedSize": 18952,
+      "size": 92887,
+      "sha256": "cd101132ace360f1cc8d594bbf62ff7123b9a8db2d561d178edeb252036d27ce"
+    },
+    "include/unicode/numberrangeformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 337600,
+      "compressedSize": 5246,
+      "size": 26283,
+      "sha256": "e39e9741cbc241f77b3673499aaad135f4dd522dcc99bde295e6628a24bb195b"
+    },
+    "include/unicode/numfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 342846,
+      "compressedSize": 10059,
+      "size": 51359,
+      "sha256": "1c38f10d7747ffee9bbb97d6c1a494aa636fc2433d8a319de448517e18402c98"
+    },
+    "include/unicode/numsys.h": {
+      "pack": "include-000.pack",
+      "offset": 352905,
+      "compressedSize": 2482,
+      "size": 7397,
+      "sha256": "1ddf0e494c432adb08576763769d6771ae222312455e2c5f1b82f856d6aa4a76"
+    },
+    "include/unicode/parseerr.h": {
+      "pack": "include-000.pack",
+      "offset": 355387,
+      "compressedSize": 1238,
+      "size": 3155,
+      "sha256": "85336d61449740ae90a0c2c36cfd671e0aa3200c92d94e07afc3e82aacb19b35"
+    },
+    "include/unicode/parsepos.h": {
+      "pack": "include-000.pack",
+      "offset": 356625,
+      "compressedSize": 1871,
+      "size": 5694,
+      "sha256": "5113e87ac6365e7bf4b061c76ee62d2d7243a0953463ac5fe0e89682a9551b70"
+    },
+    "include/unicode/platform.h": {
+      "pack": "include-000.pack",
+      "offset": 358496,
+      "compressedSize": 8179,
+      "size": 28091,
+      "sha256": "752987eee4c7444143b6bcdcba8489dd4a60dde579c93919c53a92e5a05f76d6"
+    },
+    "include/unicode/plurfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 366675,
+      "compressedSize": 5479,
+      "size": 26073,
+      "sha256": "ecd63a90eff92989a0bf68fd7f128aab1da8b2b224cbae743fbcf2392cb8e066"
+    },
+    "include/unicode/plurrule.h": {
+      "pack": "include-000.pack",
+      "offset": 372154,
+      "compressedSize": 5222,
+      "size": 21128,
+      "sha256": "cdfa432b21be9e868e0c253f9ce738b3fcaf70f35e2841fa972095562ae094f9"
+    },
+    "include/unicode/ptypes.h": {
+      "pack": "include-000.pack",
+      "offset": 377376,
+      "compressedSize": 984,
+      "size": 2211,
+      "sha256": "38d6cb8bfd4fa9a86ed741e373a1a4198521183bac55329a518ff1e28ab91be7"
+    },
+    "include/unicode/putil.h": {
+      "pack": "include-000.pack",
+      "offset": 378360,
+      "compressedSize": 2095,
+      "size": 6471,
+      "sha256": "2583f4ea86136be8366527c79121721d4f917ed4b21137667333249ff83b1fad"
+    },
+    "include/unicode/rbbi.h": {
+      "pack": "include-000.pack",
+      "offset": 380455,
+      "compressedSize": 8938,
+      "size": 32487,
+      "sha256": "ff5c26d03db88777ed9a05d0276455baa5faf0bd282d8316710c7e2598eb91c3"
+    },
+    "include/unicode/rbnf.h": {
+      "pack": "include-000.pack",
+      "offset": 389393,
+      "compressedSize": 13055,
+      "size": 58565,
+      "sha256": "90bf65ad67e247de42e3df711bd33655bd9688aac66bfa180df3ee5c8bbcccea"
+    },
+    "include/unicode/rbtz.h": {
+      "pack": "include-000.pack",
+      "offset": 402448,
+      "compressedSize": 4121,
+      "size": 16123,
+      "sha256": "372ac26952b8cb3aa5b5733d4dcb3fa53b89a11cc6c6ac9317eeab9d409e14fe"
+    },
+    "include/unicode/regex.h": {
+      "pack": "include-000.pack",
+      "offset": 406569,
+      "compressedSize": 14814,
+      "size": 85847,
+      "sha256": "0684d6723b84ca8fd44bb35329a28b73e4919006d56155a77408d7ba00abdd25"
+    },
+    "include/unicode/region.h": {
+      "pack": "include-000.pack",
+      "offset": 421383,
+      "compressedSize": 3244,
+      "size": 9417,
+      "sha256": "49caadba94d869ce3cc78e6a47d5270ab2751d95088aeea2522d136796e02465"
+    },
+    "include/unicode/reldatefmt.h": {
+      "pack": "include-000.pack",
+      "offset": 424627,
+      "compressedSize": 4544,
+      "size": 23231,
+      "sha256": "e64a8bc6a0569f834fb568e3ec22bcb7c8e0b4bf1973b884ca132ad14cc9fd5c"
+    },
+    "include/unicode/rep.h": {
+      "pack": "include-000.pack",
+      "offset": 429171,
+      "compressedSize": 3176,
+      "size": 9602,
+      "sha256": "bb52f48eefd0855baf716002f2792162fc4d5d22f90c9409e8d5db3b6cb279b0"
+    },
+    "include/unicode/resbund.h": {
+      "pack": "include-000.pack",
+      "offset": 432347,
+      "compressedSize": 4404,
+      "size": 18453,
+      "sha256": "7e9102a5d67183f3ead769cd00c6b97fc47379a33da6627114b4e6daa2e9c596"
+    },
+    "include/unicode/schriter.h": {
+      "pack": "include-000.pack",
+      "offset": 436751,
+      "compressedSize": 1719,
+      "size": 6233,
+      "sha256": "d236cceb9784ea301ecf0b14ca6fa7f9d4f338d398c47dcfdc60265ea3726bd2"
+    },
+    "include/unicode/scientificnumberformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 438470,
+      "compressedSize": 1466,
+      "size": 6598,
+      "sha256": "72b42cde8149d05439510be75ceaa74f71c37a6d07d847fc0561b392bf51864f"
+    },
+    "include/unicode/search.h": {
+      "pack": "include-000.pack",
+      "offset": 439936,
+      "compressedSize": 4794,
+      "size": 22741,
+      "sha256": "9bb0c0ed49d53732f3b6914914588be3db224f7ec81873e50e3d892198c7937f"
+    },
+    "include/unicode/selfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 444730,
+      "compressedSize": 4680,
+      "size": 14691,
+      "sha256": "be0ec4c9c2008be01b0e735c1d9dcc37ffa6874752c108e79bced0b1fcf4b432"
+    },
+    "include/unicode/simpleformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 449410,
+      "compressedSize": 2603,
+      "size": 12898,
+      "sha256": "92ac5b590ad0947ab0d5d95d8fcb60dfa6ad0b2fe1bf7b504f340b3102ae9227"
+    },
+    "include/unicode/simplenumberformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 452013,
+      "compressedSize": 2372,
+      "size": 9083,
+      "sha256": "5989ac246508781328c21c265abf895add71fd641572a99f0cd3652bb206ee8c"
+    },
+    "include/unicode/simpletz.h": {
+      "pack": "include-000.pack",
+      "offset": 454385,
+      "compressedSize": 7544,
+      "size": 46716,
+      "sha256": "48caca80de435fd3057409495fe11e7c00cbd732b6ca90ca72bd7fc17c9754ec"
+    },
+    "include/unicode/smpdtfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 461929,
+      "compressedSize": 13184,
+      "size": 58955,
+      "sha256": "63593cadb8709ab8b0d7c3209d97403335411dbe0e1af3e5877a54889b947a9b"
+    },
+    "include/unicode/sortkey.h": {
+      "pack": "include-000.pack",
+      "offset": 475113,
+      "compressedSize": 3666,
+      "size": 11396,
+      "sha256": "bc5f5fb8a5d9900f0026c6b6025ec46cee3bf3744dd2c300463e0fcf195ed87f"
+    },
+    "include/unicode/std_string.h": {
+      "pack": "include-000.pack",
+      "offset": 478779,
+      "compressedSize": 578,
+      "size": 1076,
+      "sha256": "2f5197b3e654925b3aeddae520a362f2544dd95242c140d3cf32b67ca83f6489"
+    },
+    "include/unicode/strenum.h": {
+      "pack": "include-000.pack",
+      "offset": 479357,
+      "compressedSize": 2722,
+      "size": 10202,
+      "sha256": "d1ae793b03bf22e92e748a2e8271dc5bb6e3a679f08ee7e2bf53c1bb2400e5b5"
+    },
+    "include/unicode/stringoptions.h": {
+      "pack": "include-000.pack",
+      "offset": 482079,
+      "compressedSize": 1981,
+      "size": 5926,
+      "sha256": "931533a849801ebb07e324f877f9e5d65c16b782d708d678f4918bf7fa206908"
+    },
+    "include/unicode/stringpiece.h": {
+      "pack": "include-000.pack",
+      "offset": 484060,
+      "compressedSize": 3080,
+      "size": 10532,
+      "sha256": "a57e1856b0487c87b598077171d7012db9bcadb9e2cf2526350813d811ea2e27"
+    },
+    "include/unicode/stringtriebuilder.h": {
+      "pack": "include-000.pack",
+      "offset": 487140,
+      "compressedSize": 4069,
+      "size": 15902,
+      "sha256": "19aed2d8a5f80aee3b3544c41c62b75302c6fd18ed4a312f4d1da7ed37b82d46"
+    },
+    "include/unicode/stsearch.h": {
+      "pack": "include-000.pack",
+      "offset": 491209,
+      "compressedSize": 5137,
+      "size": 21946,
+      "sha256": "fd4e6b793ddd33e103e1faed5716456e295026cc7abc69c91ec20df8458d2d62"
+    },
+    "include/unicode/symtable.h": {
+      "pack": "include-000.pack",
+      "offset": 496346,
+      "compressedSize": 1669,
+      "size": 4386,
+      "sha256": "c73d4df7d8975ff4eeafe3a44ec6e8f7d72d0233fdedc3a7c505580bba9256b2"
+    },
+    "include/unicode/tblcoll.h": {
+      "pack": "include-000.pack",
+      "offset": 498015,
+      "compressedSize": 8804,
+      "size": 39728,
+      "sha256": "2a094069be8308e032388f801a5e203a6988cc7ea11dd9da0b969eb615146950"
+    },
+    "include/unicode/timezone.h": {
+      "pack": "include-000.pack",
+      "offset": 506819,
+      "compressedSize": 10977,
+      "size": 46682,
+      "sha256": "87be735d4ad55bec161cb05c00bcc57c005de3f8bb7878b7688ed5c7c0cc9797"
+    },
+    "include/unicode/tmunit.h": {
+      "pack": "include-000.pack",
+      "offset": 517796,
+      "compressedSize": 1234,
+      "size": 3452,
+      "sha256": "8d8c7928483fdcdd49f4c36df408f92c0f0619e6f09797277f1f3c16d03ba1b7"
+    },
+    "include/unicode/tmutamt.h": {
+      "pack": "include-000.pack",
+      "offset": 519030,
+      "compressedSize": 1514,
+      "size": 5019,
+      "sha256": "6b5e608c55395618ffa4d715af802d73a53af7db88103aa2e575f16041c53cc4"
+    },
+    "include/unicode/tmutfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 520544,
+      "compressedSize": 2384,
+      "size": 7594,
+      "sha256": "b6505fa5bc73679994da3a8cc0a56f2d2214674ace9f3495ddf547fc2b5fce12"
+    },
+    "include/unicode/translit.h": {
+      "pack": "include-000.pack",
+      "offset": 522928,
+      "compressedSize": 16249,
+      "size": 67388,
+      "sha256": "03e1796bdaa59e70a0edb59c84d1cad46411075fc0608f9cd4cce166d278a875"
+    },
+    "include/unicode/tzfmt.h": {
+      "pack": "include-000.pack",
+      "offset": 539177,
+      "compressedSize": 8343,
+      "size": 45831,
+      "sha256": "ee035b5920b29fab0b2c546cfb8395c393dac21ae207e61d225ea186786668a4"
+    },
+    "include/unicode/tznames.h": {
+      "pack": "include-000.pack",
+      "offset": 547520,
+      "compressedSize": 4309,
+      "size": 17254,
+      "sha256": "3be9176a172bf987cbaa282a9278808f1c01a7b3076656c8ef6ee54ee673293d"
+    },
+    "include/unicode/tzrule.h": {
+      "pack": "include-000.pack",
+      "offset": 551829,
+      "compressedSize": 3769,
+      "size": 35646,
+      "sha256": "999747ab299f959603c295f8a6708c1f6b39906ad9631a5b7d8e2afdd7dcd38d"
+    },
+    "include/unicode/tztrans.h": {
+      "pack": "include-000.pack",
+      "offset": 555598,
+      "compressedSize": 1623,
+      "size": 6258,
+      "sha256": "dfc1367805e62e85a13494b3ca77d0d899f332e5d739f020b482dd64f023c92a"
+    },
+    "include/unicode/ubidi.h": {
+      "pack": "include-000.pack",
+      "offset": 557221,
+      "compressedSize": 20276,
+      "size": 91759,
+      "sha256": "6582eaa35054fea17fbcc756d1ce8ce9765b6b934fd2347cd46ef861c24cc01b"
+    },
+    "include/unicode/ubiditransform.h": {
+      "pack": "include-000.pack",
+      "offset": 577497,
+      "compressedSize": 3642,
+      "size": 13010,
+      "sha256": "a447338adc4b448fc6a6daa7a771d646b4dea95aff5c10f2711aacaa21587533"
+    },
+    "include/unicode/ubrk.h": {
+      "pack": "include-000.pack",
+      "offset": 581139,
+      "compressedSize": 6958,
+      "size": 25021,
+      "sha256": "6462fbec833cab11c23e3230c7b875986b478d1298c2b34fe347ce577cd7aaab"
+    },
+    "include/unicode/ucal.h": {
+      "pack": "include-000.pack",
+      "offset": 588097,
+      "compressedSize": 15119,
+      "size": 65489,
+      "sha256": "25ad4c36daf9a0eceedce5085ec5ca738abd993cecd43a0c6d0477973d35330a"
+    },
+    "include/unicode/ucasemap.h": {
+      "pack": "include-000.pack",
+      "offset": 603216,
+      "compressedSize": 3003,
+      "size": 15633,
+      "sha256": "0419ae48e74674e3d84464f35413c1a1ab195702fa9f959a0a1d6a6627fd7e5a"
+    },
+    "include/unicode/ucat.h": {
+      "pack": "include-000.pack",
+      "offset": 606219,
+      "compressedSize": 2199,
+      "size": 5478,
+      "sha256": "0a1990e56a7384fad3114fe0abc88561087a516acabdbfe9a30ed4c1619d4ec6"
+    },
+    "include/unicode/uchar.h": {
+      "pack": "include-000.pack",
+      "offset": 608418,
+      "compressedSize": 31993,
+      "size": 155983,
+      "sha256": "911b76cdee1723f681fcee98994bc09b8f32a4b8f4d00461ad0bed810ec86cea"
+    },
+    "include/unicode/ucharstrie.h": {
+      "pack": "include-000.pack",
+      "offset": 640411,
+      "compressedSize": 5895,
+      "size": 23128,
+      "sha256": "0b86db254b334d9771df14343adc4eb008e0fcb63d2c707f55351eedc710d9b3"
+    },
+    "include/unicode/ucharstriebuilder.h": {
+      "pack": "include-000.pack",
+      "offset": 646306,
+      "compressedSize": 2123,
+      "size": 7663,
+      "sha256": "f9dc4e91a2a68f3eb425fcc6e0bd02ac0b8f747aadd1a945bb1013673e7ca86f"
+    },
+    "include/unicode/uchriter.h": {
+      "pack": "include-000.pack",
+      "offset": 648429,
+      "compressedSize": 2686,
+      "size": 13558,
+      "sha256": "7855cec3242bf70d9d1fcfb194f72a02fb532807fd4c7343457aec202941c609"
+    },
+    "include/unicode/uclean.h": {
+      "pack": "include-000.pack",
+      "offset": 651115,
+      "compressedSize": 3326,
+      "size": 11475,
+      "sha256": "288a65c760f66ab4a00780ecf898923c38890f63e7528cd51afa8c6dd7e6f784"
+    },
+    "include/unicode/ucnv.h": {
+      "pack": "include-000.pack",
+      "offset": 654441,
+      "compressedSize": 19530,
+      "size": 85343,
+      "sha256": "c980b0b06839e96ec80b0c081097424e8fc649b8cb97a7de0fa58a0a8c887d53"
+    },
+    "include/unicode/ucnv_cb.h": {
+      "pack": "include-000.pack",
+      "offset": 673971,
+      "compressedSize": 2015,
+      "size": 6742,
+      "sha256": "ecac71191cbd4574ddcc7e7fb88f514af6ccc0271524819eff57bfc3ce082ea7"
+    },
+    "include/unicode/ucnv_err.h": {
+      "pack": "include-000.pack",
+      "offset": 675986,
+      "compressedSize": 3852,
+      "size": 21486,
+      "sha256": "b9b5001cfdd9cde9df391b7ec350816c8d266a325ee8423a45a0266b5030181d"
+    },
+    "include/unicode/ucnvsel.h": {
+      "pack": "include-000.pack",
+      "offset": 679838,
+      "compressedSize": 2051,
+      "size": 6391,
+      "sha256": "05b117f548a535ae125ef2e3851eba3f8db1baa9cf1bae064cc13e64d4e7b9c4"
+    },
+    "include/unicode/ucol.h": {
+      "pack": "include-000.pack",
+      "offset": 681889,
+      "compressedSize": 16905,
+      "size": 68969,
+      "sha256": "a6b696625c2f0dba2f08c642fca49ddfe005698f7a36b51e38c615157afa175a"
+    },
+    "include/unicode/ucoleitr.h": {
+      "pack": "include-000.pack",
+      "offset": 698794,
+      "compressedSize": 2787,
+      "size": 10056,
+      "sha256": "c9636f96e2a04d5b59ec89d805151e46524fe150c32ef0a871561514e477520a"
+    },
+    "include/unicode/uconfig.h": {
+      "pack": "include-000.pack",
+      "offset": 701581,
+      "compressedSize": 3934,
+      "size": 12859,
+      "sha256": "12708680c633e73fa2cbdaec82bf30f0fc104cd135f46354d39e9e9002a92514"
+    },
+    "include/unicode/ucpmap.h": {
+      "pack": "include-000.pack",
+      "offset": 705515,
+      "compressedSize": 1839,
+      "size": 5674,
+      "sha256": "e29a3d648799fbd8d756768a080e580dfe61a5da55cf2bdb9f45e8a03b78c80b"
+    },
+    "include/unicode/ucptrie.h": {
+      "pack": "include-000.pack",
+      "offset": 707354,
+      "compressedSize": 5417,
+      "size": 23055,
+      "sha256": "186e73fc293da8e6583cd6ea06d17afab51a823cf7b453ff5daf576e650eef7c"
+    },
+    "include/unicode/ucsdet.h": {
+      "pack": "include-000.pack",
+      "offset": 712771,
+      "compressedSize": 4483,
+      "size": 15043,
+      "sha256": "927f80ff49d9997edcbfef9b5a77e972b5f77df7c6ab8045a53b4b0bb2cf3317"
+    },
+    "include/unicode/ucurr.h": {
+      "pack": "include-000.pack",
+      "offset": 717254,
+      "compressedSize": 4320,
+      "size": 17122,
+      "sha256": "2b41a7cbc53896b256080a386703523601218dc196276dc1bfc74e7af132e355"
+    },
+    "include/unicode/udat.h": {
+      "pack": "include-000.pack",
+      "offset": 721574,
+      "compressedSize": 12060,
+      "size": 64159,
+      "sha256": "dcc1549dcda254e0a8fda095c7f600501a383b7f37aa4ba342b9a715c93d3b90"
+    },
+    "include/unicode/udata.h": {
+      "pack": "include-000.pack",
+      "offset": 733634,
+      "compressedSize": 4967,
+      "size": 16006,
+      "sha256": "010c67952762696bd3eeb3e568cc0371aa2511724b4134fb3f976dc36d11906b"
+    },
+    "include/unicode/udateintervalformat.h": {
+      "pack": "include-000.pack",
+      "offset": 738601,
+      "compressedSize": 3565,
+      "size": 12218,
+      "sha256": "d77cf70386e72c9b935950e6ef7dc2935f4dc424253a00ce66259aa775e0ed01"
+    },
+    "include/unicode/udatpg.h": {
+      "pack": "include-000.pack",
+      "offset": 742166,
+      "compressedSize": 6252,
+      "size": 30851,
+      "sha256": "ff17ebb6ba814b81619d9bb7ae51f6d41b86b84da50f27aea3af09501e58377f"
+    },
+    "include/unicode/udisplaycontext.h": {
+      "pack": "include-000.pack",
+      "offset": 748418,
+      "compressedSize": 1408,
+      "size": 6084,
+      "sha256": "e93cb0753e3a73e0c3115aa94302ac24639d2ab8be3589823dcafeb7be1189a6"
+    },
+    "include/unicode/udisplayoptions.h": {
+      "pack": "include-000.pack",
+      "offset": 749826,
+      "compressedSize": 1917,
+      "size": 9073,
+      "sha256": "c02c968355e45bd0182c939ab2c415cfc12ff95fe5cd5680ecf53781ea49f7bf"
+    },
+    "include/unicode/uenum.h": {
+      "pack": "include-000.pack",
+      "offset": 751743,
+      "compressedSize": 2177,
+      "size": 7981,
+      "sha256": "a27a3bcba0fe695d96647bdb0982e15e8cca0d55df01d544fbb287e4944029e2"
+    },
+    "include/unicode/ufieldpositer.h": {
+      "pack": "include-000.pack",
+      "offset": 753920,
+      "compressedSize": 1495,
+      "size": 4513,
+      "sha256": "8d11d66f9798b20e81921fa44278ab66345a45945aad83cebd9a501563daac58"
+    },
+    "include/unicode/uformattable.h": {
+      "pack": "include-000.pack",
+      "offset": 755415,
+      "compressedSize": 3104,
+      "size": 11233,
+      "sha256": "29ab86f391609a1026ef6ec4753605d3dae754fa9ad453a1cf9fa7d78bcf2dbf"
+    },
+    "include/unicode/uformattednumber.h": {
+      "pack": "include-000.pack",
+      "offset": 758519,
+      "compressedSize": 2811,
+      "size": 8281,
+      "sha256": "7b0c30394bdc621e55ea822c2c499300e6e0871c7c0a1cb8cbcc8854d2b314be"
+    },
+    "include/unicode/uformattedvalue.h": {
+      "pack": "include-000.pack",
+      "offset": 761330,
+      "compressedSize": 3040,
+      "size": 12549,
+      "sha256": "dd20bb3e987f42107b64b8d5a287f7a2cd61e8b964696a40fe036df97c714af3"
+    },
+    "include/unicode/ugender.h": {
+      "pack": "include-000.pack",
+      "offset": 764370,
+      "compressedSize": 817,
+      "size": 2106,
+      "sha256": "58248eb398ac7e3985927b19eccd29d541afa684f2cd6e462d821a8ff0ac0c5a"
+    },
+    "include/unicode/uidna.h": {
+      "pack": "include-000.pack",
+      "offset": 765187,
+      "compressedSize": 6047,
+      "size": 34936,
+      "sha256": "4c99120063c20d8f4fd920c80e13c5d8527c2efae57c21e3086ec3ae3fff8b81"
+    },
+    "include/unicode/uiter.h": {
+      "pack": "include-000.pack",
+      "offset": 771234,
+      "compressedSize": 5097,
+      "size": 23299,
+      "sha256": "79177406907ab5ecd861cf729238d1da884f84f0db0e3e3ea48b4e0b8601e901"
+    },
+    "include/unicode/uldnames.h": {
+      "pack": "include-000.pack",
+      "offset": 776331,
+      "compressedSize": 1965,
+      "size": 10733,
+      "sha256": "32ae18a86a1427ca4aac01ec13c96d28f7cd7b8fd02bd9bbd2bfe83a3b2939fa"
+    },
+    "include/unicode/ulistformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 778296,
+      "compressedSize": 2860,
+      "size": 11043,
+      "sha256": "64f1a741a64210c6e7f44dad23a2a97b864b5f58e6f6af3286c7f227d4ac7f7b"
+    },
+    "include/unicode/uloc.h": {
+      "pack": "include-000.pack",
+      "offset": 781156,
+      "compressedSize": 12026,
+      "size": 56706,
+      "sha256": "1523822fb76d61ab009a331e375586e5832a88ef893b3b5e76975e270c9d078d"
+    },
+    "include/unicode/ulocale.h": {
+      "pack": "include-000.pack",
+      "offset": 793182,
+      "compressedSize": 1607,
+      "size": 6466,
+      "sha256": "8bd8a93fd2381ce3051f199b8ef8452287d7c3df84fc2ba084ad477eab162e1a"
+    },
+    "include/unicode/ulocbuilder.h": {
+      "pack": "include-000.pack",
+      "offset": 794789,
+      "compressedSize": 3738,
+      "size": 17094,
+      "sha256": "d3b3d57c98c72bdb3c485907bd73e56dc834b2c10dc21af43239d74be3082395"
+    },
+    "include/unicode/ulocdata.h": {
+      "pack": "include-000.pack",
+      "offset": 798527,
+      "compressedSize": 3030,
+      "size": 11568,
+      "sha256": "a2fb165abd7b51d325ff6b763f2ddbc9a482a92a177b1d04af5ea728f35be562"
+    },
+    "include/unicode/umachine.h": {
+      "pack": "include-000.pack",
+      "offset": 801557,
+      "compressedSize": 4884,
+      "size": 15615,
+      "sha256": "a66233f12532fe25dbdbeaff4816e8a13511a37af224f598264903059d63c4b6"
+    },
+    "include/unicode/umisc.h": {
+      "pack": "include-000.pack",
+      "offset": 806441,
+      "compressedSize": 659,
+      "size": 1372,
+      "sha256": "d473d64e27ebff77b4f582d2d11ef3a0fd505e6b7d147f5e0c32f76a9e6e2322"
+    },
+    "include/unicode/umsg.h": {
+      "pack": "include-000.pack",
+      "offset": 807100,
+      "compressedSize": 4558,
+      "size": 24832,
+      "sha256": "afcdc924e1de120678c0f688e769a76c24925a1d79b2dc5c991f2e1e3a7d730d"
+    },
+    "include/unicode/umutablecptrie.h": {
+      "pack": "include-000.pack",
+      "offset": 811658,
+      "compressedSize": 2643,
+      "size": 8501,
+      "sha256": "d7aafce91d4497b5fc0dc50cedce20780510c65d63efa18df1badd2b8f7cd795"
+    },
+    "include/unicode/unifilt.h": {
+      "pack": "include-000.pack",
+      "offset": 814301,
+      "compressedSize": 1685,
+      "size": 4091,
+      "sha256": "d9dd3ea20f64d17fdfa3f0fc668368d7c66678c5e7a9c38ad82aff77bc2814d9"
+    },
+    "include/unicode/unifunct.h": {
+      "pack": "include-000.pack",
+      "offset": 815986,
+      "compressedSize": 1486,
+      "size": 4143,
+      "sha256": "3af306c8dc156b4a8768fa3881629c75fd934e4808402ddcf296f9d558c60099"
+    },
+    "include/unicode/unimatch.h": {
+      "pack": "include-000.pack",
+      "offset": 817472,
+      "compressedSize": 2160,
+      "size": 6244,
+      "sha256": "fc795abfa0bafa028cc14ebefb1f6726ddfecbaf28786fc9416a560d2dd7a040"
+    },
+    "include/unicode/unirepl.h": {
+      "pack": "include-000.pack",
+      "offset": 819632,
+      "compressedSize": 1388,
+      "size": 3464,
+      "sha256": "69f5cf697cbff3cc1e097bff33f3c2fe089ee3f33128aa897f007050a37aa604"
+    },
+    "include/unicode/uniset.h": {
+      "pack": "include-000.pack",
+      "offset": 821020,
+      "compressedSize": 15325,
+      "size": 71860,
+      "sha256": "51dd4f8d0dc62ea14aaa86f0dc859c22b2ec3438a9639d968bf9340b3d8a2753"
+    },
+    "include/unicode/unistr.h": {
+      "pack": "include-000.pack",
+      "offset": 836345,
+      "compressedSize": 29997,
+      "size": 188939,
+      "sha256": "c8ecaf1b48c20f83a20e1f3ed39c2a713d7939e59ed584791f93ea0ced3dd40a"
+    },
+    "include/unicode/unorm.h": {
+      "pack": "include-000.pack",
+      "offset": 866342,
+      "compressedSize": 5809,
+      "size": 21042,
+      "sha256": "3c4e6918c77b1a857953a646d2a17bc19300b41298ed428e6e20e771a1aa63ab"
+    },
+    "include/unicode/unorm2.h": {
+      "pack": "include-000.pack",
+      "offset": 872151,
+      "compressedSize": 5453,
+      "size": 26278,
+      "sha256": "63b999232e50b0e69faf58aeb0e64a5bc92c5a3da2f7631bec5f9554b5627be9"
+    },
+    "include/unicode/unum.h": {
+      "pack": "include-000.pack",
+      "offset": 877604,
+      "compressedSize": 12077,
+      "size": 56486,
+      "sha256": "140c398fe2f59a2cdd27edb78f517eaebfadd075b51203950d4b73c6aba87699"
+    },
+    "include/unicode/unumberformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 889681,
+      "compressedSize": 5214,
+      "size": 20153,
+      "sha256": "916709fd918ab8b0dc36f9ff805a58f61535b9b72010b62e3b0b443ef9cd3069"
+    },
+    "include/unicode/unumberoptions.h": {
+      "pack": "include-000.pack",
+      "offset": 894895,
+      "compressedSize": 1860,
+      "size": 5360,
+      "sha256": "695da5215f3950ccc969c812cd1143f77ce880b72cdef716c96c18d907efec03"
+    },
+    "include/unicode/unumberrangeformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 896755,
+      "compressedSize": 3876,
+      "size": 15722,
+      "sha256": "833d43cb997eb1bf8507eac342fdde8eeec42a46c4ae3a65223d8aaa861b9997"
+    },
+    "include/unicode/unumsys.h": {
+      "pack": "include-000.pack",
+      "offset": 900631,
+      "compressedSize": 2353,
+      "size": 7430,
+      "sha256": "a3ac9ab2207b898873781380498d0f371e4a99b3bf10f64aea47c0a45f329644"
+    },
+    "include/unicode/uobject.h": {
+      "pack": "include-000.pack",
+      "offset": 902984,
+      "compressedSize": 3330,
+      "size": 10859,
+      "sha256": "be4ffdc514e780c91cfe0d6fdb5c109b329c8a4c632df9f45c0f2dcce9d94ce7"
+    },
+    "include/unicode/upluralrules.h": {
+      "pack": "include-000.pack",
+      "offset": 906314,
+      "compressedSize": 2521,
+      "size": 8997,
+      "sha256": "25ca023eaef36e25fdeeac27de073a33f20f94db1f231496cd4725c46c970f06"
+    },
+    "include/unicode/uregex.h": {
+      "pack": "include-000.pack",
+      "offset": 908835,
+      "compressedSize": 12231,
+      "size": 73719,
+      "sha256": "cb069fb56ec8807cab04560ba64ef3fde37d535e67f74b4d33b4f32be13e9b4b"
+    },
+    "include/unicode/uregion.h": {
+      "pack": "include-000.pack",
+      "offset": 921066,
+      "compressedSize": 3101,
+      "size": 10047,
+      "sha256": "38e3fad54db2129215b3d88342b0e83a554eb19509469970ac24af9d3e122507"
+    },
+    "include/unicode/ureldatefmt.h": {
+      "pack": "include-000.pack",
+      "offset": 924167,
+      "compressedSize": 3701,
+      "size": 17386,
+      "sha256": "c1deef931fb267eaa93cb1c39a4862221e53b2583d68549ce321b9f021cd30a0"
+    },
+    "include/unicode/urename.h": {
+      "pack": "include-000.pack",
+      "offset": 927868,
+      "compressedSize": 18158,
+      "size": 145634,
+      "sha256": "e147332f874ffcd839bd510daff8a50c4d944a988586abd7740a7bc5997ade20"
+    },
+    "include/unicode/urep.h": {
+      "pack": "include-000.pack",
+      "offset": 946026,
+      "compressedSize": 1543,
+      "size": 5507,
+      "sha256": "45327525a9a08ac044f401d7edcf60c7574a7cdbc29d2930d533987d6a214a48"
+    },
+    "include/unicode/ures.h": {
+      "pack": "include-000.pack",
+      "offset": 947569,
+      "compressedSize": 6958,
+      "size": 37525,
+      "sha256": "0b3b89478bb87d4b48c16231a0af531ed0b08989b40f991de925334cd51ab313"
+    },
+    "include/unicode/uscript.h": {
+      "pack": "include-000.pack",
+      "offset": 954527,
+      "compressedSize": 7117,
+      "size": 29643,
+      "sha256": "293adf40390583c1c5394d3dc1794ed1669e8356cdf292ca5eaac145a2a5d1e0"
+    },
+    "include/unicode/usearch.h": {
+      "pack": "include-000.pack",
+      "offset": 961644,
+      "compressedSize": 8389,
+      "size": 40153,
+      "sha256": "42209f2378dcfb8824a5488efb4dead91549d2399ed91fc3a9be2dc1571dd9a9"
+    },
+    "include/unicode/uset.h": {
+      "pack": "include-000.pack",
+      "offset": 970033,
+      "compressedSize": 13570,
+      "size": 64545,
+      "sha256": "6316da5a6fd0f36813a2d38353de2a0d2862f8b05a9c2330f7c23907441fb576"
+    },
+    "include/unicode/usetiter.h": {
+      "pack": "include-000.pack",
+      "offset": 983603,
+      "compressedSize": 2766,
+      "size": 9856,
+      "sha256": "7e4aa843700673ac87d73e1003395f6fe99c4bf53f32d6e04f5292f9b7351bb0"
+    },
+    "include/unicode/ushape.h": {
+      "pack": "include-000.pack",
+      "offset": 986369,
+      "compressedSize": 4668,
+      "size": 18430,
+      "sha256": "f81bb11d208a5dd0f44925ad0b2220e8bc0ad5ccd03285e9d59e0d87433c409c"
+    },
+    "include/unicode/usimplenumberformatter.h": {
+      "pack": "include-000.pack",
+      "offset": 991037,
+      "compressedSize": 2102,
+      "size": 7481,
+      "sha256": "735ba473e6a346814b7dfdaf0b3763f14ef6e9a21bdbd95cf9c0d73a1cee9d51"
+    },
+    "include/unicode/uspoof.h": {
+      "pack": "include-000.pack",
+      "offset": 993139,
+      "compressedSize": 14525,
+      "size": 81921,
+      "sha256": "68c035bdeeeae564e10517aa355b5de05a6bb4b2ff609bdfc7368ad68718c84b"
+    },
+    "include/unicode/usprep.h": {
+      "pack": "include-000.pack",
+      "offset": 1007664,
+      "compressedSize": 2664,
+      "size": 8382,
+      "sha256": "999242c7048f3fc5da8f7b552df180182bab482cbdf1185541907a2a6c29c627"
+    },
+    "include/unicode/ustdio.h": {
+      "pack": "include-000.pack",
+      "offset": 1010328,
+      "compressedSize": 8031,
+      "size": 39502,
+      "sha256": "695e299313d3eeacf3e1fcabf2e06f3c8346a5e0a337d5fc51784b9187173027"
+    },
+    "include/unicode/ustream.h": {
+      "pack": "include-000.pack",
+      "offset": 1018359,
+      "compressedSize": 855,
+      "size": 1934,
+      "sha256": "7843c061c7b88335e8afe4e719577444ba69de8a6d23873060f722b69dca3c5a"
+    },
+    "include/unicode/ustring.h": {
+      "pack": "include-000.pack",
+      "offset": 1019214,
+      "compressedSize": 10954,
+      "size": 73890,
+      "sha256": "df37f16b046e32105ce3845eea1af70a159fd02c32576d35a713361c5fcb8758"
+    },
+    "include/unicode/ustringtrie.h": {
+      "pack": "include-000.pack",
+      "offset": 1030168,
+      "compressedSize": 1001,
+      "size": 3224,
+      "sha256": "5c9caacdad2a74a72890e24071fa6b1a96cd0ebb774452afba79e1d1ff7aa4eb"
+    },
+    "include/unicode/utext.h": {
+      "pack": "include-000.pack",
+      "offset": 1031169,
+      "compressedSize": 13340,
+      "size": 59495,
+      "sha256": "3cb8aff2ac169bff208cd0cd4f962a73371e6c3ab591fe0861622b1bcc68168f"
+    },
+    "include/unicode/utf.h": {
+      "pack": "include-000.pack",
+      "offset": 1044509,
+      "compressedSize": 3132,
+      "size": 8860,
+      "sha256": "2ffaf48902db98fa656ed94a54dd2eadd71faf94d829816a11ea4dc930450955"
+    },
+    "include/unicode/utf16.h": {
+      "pack": "include-000.pack",
+      "offset": 1047641,
+      "compressedSize": 3452,
+      "size": 23910,
+      "sha256": "020083494bab47cb5d1cfd9b626bd6214a445d3d12fa0742ae38889faad27972"
+    },
+    "include/unicode/utf32.h": {
+      "pack": "include-000.pack",
+      "offset": 1051093,
+      "compressedSize": 417,
+      "size": 763,
+      "sha256": "5d011b08161a4ad3cbe0d31bfeb0c76fffb6c6fe832eb9c76f4d2fde1e00b1c6"
+    },
+    "include/unicode/utf8.h": {
+      "pack": "include-000.pack",
+      "offset": 1051510,
+      "compressedSize": 5588,
+      "size": 32412,
+      "sha256": "114be262bddb1385e1287ebc0dd93e51413069b39fc98f704a9f5c22c990ed43"
+    },
+    "include/unicode/utf_old.h": {
+      "pack": "include-000.pack",
+      "offset": 1057098,
+      "compressedSize": 9549,
+      "size": 46954,
+      "sha256": "812e249c68d3a45846428a1b6284250077fcd9aa3a418ecbfa9f6448b00a45f7"
+    },
+    "include/unicode/utfiterator.h": {
+      "pack": "include-000.pack",
+      "offset": 1066647,
+      "compressedSize": 12346,
+      "size": 97298,
+      "sha256": "5f5d5f6cab98aa37bfd7edf0f6c8d6ae9ee205dd6ad593a1b0d28a15fae19fe8"
+    },
+    "include/unicode/utfstring.h": {
+      "pack": "include-000.pack",
+      "offset": 1078993,
+      "compressedSize": 1440,
+      "size": 5011,
+      "sha256": "72feead7894aa00108f0efe0384c890c93c78de9fd18e00c2e73404e78053d18"
+    },
+    "include/unicode/utmscale.h": {
+      "pack": "include-000.pack",
+      "offset": 1080433,
+      "compressedSize": 3661,
+      "size": 14107,
+      "sha256": "fe47d8d7ec43b5b753d4a0b75fa59dad351e15a9755c2f861a5b91f52466e8f4"
+    },
+    "include/unicode/utrace.h": {
+      "pack": "include-000.pack",
+      "offset": 1084094,
+      "compressedSize": 4881,
+      "size": 17595,
+      "sha256": "7961fc39b7cc8dfacd408e1c902e8367e76a79ecf55251484c44a4da51e77991"
+    },
+    "include/unicode/utrans.h": {
+      "pack": "include-000.pack",
+      "offset": 1088975,
+      "compressedSize": 6235,
+      "size": 26157,
+      "sha256": "344ed6e76086019e72e30ffd68fd6e49333439fc30972e1b8b6d1d11a2d9b7b1"
+    },
+    "include/unicode/utypes.h": {
+      "pack": "include-000.pack",
+      "offset": 1095210,
+      "compressedSize": 10099,
+      "size": 37610,
+      "sha256": "065f3c26156af0f4b7374e07b1a772a2ed1a9cb5231c3566ec54ed37095fc7a7"
+    },
+    "include/unicode/uvernum.h": {
+      "pack": "include-000.pack",
+      "offset": 1105309,
+      "compressedSize": 2043,
+      "size": 6480,
+      "sha256": "13cd24940babf5c6c1016131c9917742fc6cf198228689904d88116bb7d04118"
+    },
+    "include/unicode/uversion.h": {
+      "pack": "include-000.pack",
+      "offset": 1107352,
+      "compressedSize": 2351,
+      "size": 8412,
+      "sha256": "ff9d0a8d4725cc9ff16c43ddbe2e32e320207922aca3c28b6445c37b1a76c79a"
+    },
+    "include/unicode/vtzone.h": {
+      "pack": "include-000.pack",
+      "offset": 1109703,
+      "compressedSize": 4836,
+      "size": 21172,
+      "sha256": "8eac48f18fd22ad041242a9d87c706d4329cd4b8b24816c38b26d379f21c185b"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "compression": "gzip",
+  "maxPackSize": 47185920,
+  "prefix": "bin",
+  "files": {
+    "bin/libngtcp2-16.dll": {
+      "pack": "bin-000.pack",
+      "offset": 0,
+      "compressedSize": 170267,
+      "size": 386048,
+      "sha256": "f7ef6a5cf5f1382a6ebf6bdb4bc1b75bd0de209e087efdec750b95c0c020daac"
+    },
+    "bin/libngtcp2_crypto_gnutls-8.dll": {
+      "pack": "bin-000.pack",
+      "offset": 170267,
+      "compressedSize": 19070,
+      "size": 51200,
+      "sha256": "9f5dee9f73c8bb3158ac4f20b8559c673654a93eb18002ea9163892466a9f8aa"
+    },
+    "bin/libngtcp2_crypto_ossl-0.dll": {
+      "pack": "bin-000.pack",
+      "offset": 189337,
+      "compressedSize": 21501,
+      "size": 57344,
+      "sha256": "f2dbc30b15be78e65474369167c73095dc05c7d5767b8efb0d4f9d2c6724ac40"
+    }
+  }
+}
